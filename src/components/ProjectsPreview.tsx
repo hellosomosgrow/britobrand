@@ -1,7 +1,8 @@
 import React from "react";
 import { useState } from "react";
-import { sedel,  casanuna, factor,  pintalopro, botanico, labsantaelena, emamodels, sierraatlantica, mss, lachacra } from "@/assets/images/index"
-import { coverbotanico, covercasanuna, covercota, covercycling, coverdudu, coverideamania, coverinvolvere, coveremamodels } from "@/assets/images/index";
+import { sedel, casanuna, factor, pintalopro, botanico, labsantaelena, emamodels, sierraatlantica, mss, lachacra } from "@/assets/images";
+import { coverbotanico, covercasanuna, covercota, covercycling, coverdudu, coverideamania, coverinvolvere, coveremamodels } from "@/assets/images";
+
 const projectsPreview = [
   { title: "Ema Models", image: emamodels, type: "Identidad visual" },
   { title: "Botánico", image: botanico, type: "Identidad visual" },
