@@ -7,7 +7,7 @@ function App() {
   
 
   return (
-    <div className="mx-3 my-4 space-y-2 flex flex-col flex-grow">
+    <div className="my-4 space-y-2 flex flex-col flex-grow px-3">
       <Header />
       <Banner />
       <MainLayout />
