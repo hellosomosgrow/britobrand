@@ -6,17 +6,13 @@ export const InfoCard = ({ title, content, subtitle, image }: { title: string; c
   const toggleExpand = () => {
     setIsExpanded(!isExpanded);
   };
-  const handleLinkClick = () => {
-    if (link) {
-      window.open(link, "_blank");
-    }
-  };
+  
     return (
     <div className="bg-[#E9E9E9] text-[14px] text-[#1E1E1E] rounded-lg shadow py-4 px-2">
       <div className="flex justify-between mb-3">
         <h2>{title}</h2>
         {title === "Instagram" ? (
-          <button onClick={handleLinkClick}>
+          <button>
             Ir al link
           </button>
         ) : (
