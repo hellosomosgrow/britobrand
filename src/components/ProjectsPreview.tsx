@@ -66,7 +66,7 @@ const ProjectPreviewCard = ({ project }: { project: { title: string; image?: str
       <div className="flex justify-between space-y-3 items-start">
         <h2 className="text-[14px]">Proyectos</h2>
         <button onClick={toggleExpand} className="text-[14px]">
-            {isExpanded ? "Ver menos" : "Ver más"}
+            {isExpanded ? "Ver Menos" : "Ver Más"}
         </button>
     </div>
     <div className="flex space-x-4">

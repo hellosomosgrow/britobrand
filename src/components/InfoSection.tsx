@@ -20,11 +20,11 @@ const InfoCard = ({ title, content, subtitle, image }: { title: string; content:
     setIsExpanded(!isExpanded);
   };
     return (
-    <div className="bg-[#E9E9E9] text-[#1E1E1E] rounded-lg shadow py-4 px-2">
-      <div className="flex justify-between">
-        <h2 className="font-semibold">{title}</h2>
+    <div className="bg-[#E9E9E9] text-[14px] text-[#1E1E1E] rounded-lg shadow py-4 px-2">
+      <div className="flex justify-between mb-3">
+        <h2>{title}</h2>
         <button onClick={toggleExpand}>
-            {isExpanded ? "Ver menos" : "Ver más"}
+            {isExpanded ? "Ver Menos" : "Ver Más"}
         </button>
       </div>
    

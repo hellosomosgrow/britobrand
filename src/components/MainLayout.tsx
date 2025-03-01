@@ -4,7 +4,7 @@ import ProjectsPreview from "./ProjectsPreview";
 
 const MainLayout = () => {
   return (
-    <div className="flex flex-col md:flex-row w-full">
+    <div className="flex flex-col md:flex-row w-full space-y-4">
       {/* Sección Izquierda - No sticky en móviles */}
       <div className="w-full md:w-1/3">
         <InfoSection />
