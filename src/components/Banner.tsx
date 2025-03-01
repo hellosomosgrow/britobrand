@@ -28,7 +28,7 @@ const Banner = () => {
   }, [mobileImages.length]);
 
   return (
-    <div className="relative w-full h-screen">
+    <div className="relative w-full h-85vh">
       <img
         src={isMobile ? mobileImages[current] : desktopImages[current]}
         alt="Banner"
