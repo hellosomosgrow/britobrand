@@ -8,7 +8,7 @@ export default function Header() {
         <h1 className="hidden md:block text-2xl font-cuteFont">BRITO BRAND</h1>
 
         {/* Menú (Mobile & Desktop) */}
-        <nav className="flex w-full md:w-auto justify-between md:justify-end items-center text-lg font-funnelSans">
+        <nav className="flex w-full md:w-auto justify-between items-center text-lg font-funnelSans">
           <a href="/servicios" className="px-4 md:px-2">
             Servicios 
           </a>

@@ -1,19 +1,19 @@
 import React from "react";
 import InfoSection from "./InfoSection";
 import ProjectsPreview from "./ProjectsPreview";
+import InfoCard  from "./InfoCard";
+import InfoSocials  from "./InfoSocials";
 
 const MainLayout = () => {
   return (
-    <div className="flex flex-col md:flex-row w-full space-y-4">
-      {/* Sección Izquierda - No sticky en móviles */}
-      <div className="w-full md:w-1/3">
+    <div className="flex flex-col w-full space-y-4 over-flow-y-auto">
+    {/* Sección Izquierda - No sticky en móviles */}
         <InfoSection />
-      </div>
-
-      {/* Sección Derecha - Masonry Grid */}
-      <div className="w-full md:w-2/3">
+    {/* Sección Derecha - Masonry Grid */}
         <ProjectsPreview />
-      </div>
+        <InfoCard title="Experiencia" subtitle="Resume" content="Lorem ipsum dolor sit amet..." />
+        <InfoCard title="Contacto" subtitle="¿Tienes un proyecto en mente?" content="britobrand@gmail.com" />
+        <InfoSocials />
     </div>
   );
 };

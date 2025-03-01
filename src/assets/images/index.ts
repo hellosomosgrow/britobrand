@@ -25,6 +25,11 @@ import coverdudu from "@/assets/images/projects-cover/coverdudu.webp";
 import coverideamania from "@/assets/images/projects-cover/coverideamania.png";
 import coverinvolvere from "@/assets/images/projects-cover/coverinvolvere.webp";
 import coveremamodels from "@/assets/images/projects-cover/coveremamodels.webp";
+import behance from "@/assets/images/social/behance.png";
+import instagram from "@/assets/images/social/instagram.png";
+import linkedin from "@/assets/images/social/linkedin.png";
+import spotify from "@/assets/images/social/spotify.png";
+import whatsapp from "@/assets/images/social/whatsapp.png";
 export {
     cota,
     cyclingstore,
@@ -53,4 +58,9 @@ export {
     coverideamania,
     coverinvolvere,
     coveremamodels,
+    behance,
+    instagram,
+    linkedin,
+    spotify,
+    whatsapp,
 }
