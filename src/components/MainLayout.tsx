@@ -3,7 +3,7 @@ import InfoSection from "./InfoSection";
 import ProjectsPreview from "./ProjectsPreview";
 import InfoCard from "./InfoCard";
 import InfoSocials from "./InfoSocials";
-import adobefonts from "@/assets/images";
+import { adobefonts } from "@/assets/images";
 
 
 const MainLayout = () => {
