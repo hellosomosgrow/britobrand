@@ -1,6 +1,5 @@
 import React from "react";
-import { useState } from "react";
-import { felixbrito } from "@/assets/images/index"
+import { felixbrito } from "@/assets/images";
 import InfoCard from "./InfoCard";
 
 const InfoSection = () => {

@@ -30,6 +30,7 @@ import instagram from "@/assets/images/social/instagram.png";
 import linkedin from "@/assets/images/social/linkedin.png";
 import spotify from "@/assets/images/social/spotify.png";
 import whatsapp from "@/assets/images/social/whatsapp.png";
+import adobefonts from "@/assets/images/info/adobefonts.png";
 export {
     cota,
     cyclingstore,
@@ -63,4 +64,5 @@ export {
     linkedin,
     spotify,
     whatsapp,
-}
+    adobefonts,
+};
