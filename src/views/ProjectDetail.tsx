@@ -1,6 +1,6 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
-import { projectsPreview, projectsLarge } from '@/data/projectsData';
+import { projectsPreview, projectsLarge, type Project } from '@/data/projectsData';
 import ProjectPreviewCard from '@/components/ProjectPreviewCard';
 import InfoProjects from '@/components/InfoProjects';
 
@@ -13,7 +13,6 @@ const ProjectDetail = () => {
 if (!project) {
   return <div>Proyecto no encontrado</div>;
 }
-
   return (
     <div className="container mx-auto py-4">
       <ProjectPreviewCard project={project} />

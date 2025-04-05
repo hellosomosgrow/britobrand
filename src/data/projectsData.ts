@@ -24,7 +24,7 @@ import {
   figmaLogo,
 } from '@/assets/images';
 
-type Project = {
+export type Project = {
   title: string;
   image: string;
   type: string;

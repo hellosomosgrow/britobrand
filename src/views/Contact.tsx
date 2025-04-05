@@ -1,5 +1,5 @@
 import React from 'react';
-import { useForm } from 'react-hook-form';
+import { useForm, SubmitHandler } from 'react-hook-form';
 import { BsDot } from 'react-icons/bs';
 import { MdArrowDropDown } from 'react-icons/md';
 import Banner from '@/components/Banner';
