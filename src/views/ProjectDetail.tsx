@@ -24,10 +24,10 @@ if (!project) {
         <InfoProjects
           projectTitle={project.title}
           projectType={project.type}
-          projectDescription={project.description}
-          projectLocationDescription={project.location}
-          projectColaborators={project.colaborators}
-          projectTools={project.tools}
+          projectDescription={project.description || 'Descripción no disponible'}
+          projectLocationDescription={project.location || 'Ubicación no disponible'}
+          projectColaborators={project.colaborators || []}
+          projectTools={project.tools || []}
         />
       </div>
       <div className="mt-4">

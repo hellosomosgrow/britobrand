@@ -24,14 +24,14 @@ import {
   figmaLogo,
 } from '@/assets/images';
 
-export type Project = {
+type Project = {
   title: string;
   image: string;
   type: string;
-  description: string;
-  location: string;
-  colaborators: string[];
-  tools: string[];
+  description?: string;
+  location?: string;
+  colaborators?: string[];
+  tools?: string[];
 };
 
 export const projectsPreview: Project[] = [
