@@ -1,13 +1,13 @@
 import { useState } from "react";
 
 export const InfoCard = ({ title, content, subtitle, image }: { title: string; content: string, subtitle?: string, image?: string}) => {
-    const [isExpanded, setIsExpanded] = useState(false);
+  const [isExpanded, setIsExpanded] = useState(false);
 
   const toggleExpand = () => {
     setIsExpanded(!isExpanded);
   };
-  
-    return (
+
+  return (
     <div className="bg-[#E9E9E9] text-[14px] text-[#1E1E1E] rounded-lg shadow py-4 px-2">
       <div className="flex justify-between mb-3">
         <h2>{title}</h2>
@@ -21,11 +21,9 @@ export const InfoCard = ({ title, content, subtitle, image }: { title: string; c
           </button>
         )}
       </div>
-   
-      <h3 className="font-semibold">{subtitle}</h3>
+      {subtitle && <h3 className="font-semibold">{subtitle}</h3>}
       <p className="text-sm">{content}</p>
-      {isExpanded || image && <img src={image} alt={title} className="w-full h-auto mt-2 rounded-lg" />}
-      
+      {isExpanded && image && <img src={image} alt={title} className="w-full h-auto mt-2 rounded-lg" />}
     </div>
   );
 };
