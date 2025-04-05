@@ -60,7 +60,7 @@ const InfoProjects = ({
             {expandedSections.location ? 'Ver Menos' : 'Ver Más'}
           </button>
         </div>
-        <h3 className="text-[15px] font-semibold">Ubicación</h3>
+        <h3 className="text-[15px] font-semibold">Resume</h3>
         <div className={expandedSections.location ? '' : 'hidden'}>
           <p className="mt-2 text-sm text-[#767575]">
             {projectLocationDescription}

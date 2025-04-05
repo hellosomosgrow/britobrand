@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { projectsPreview, projectsLarge, type Project } from '@/data/projectsData';
 import ProjectPreviewCard from '@/components/ProjectPreviewCard';
@@ -10,15 +10,42 @@ const ProjectDetail = () => {
   projectsPreview.find((p) => p.title === projectId) ||
   projectsLarge.find((p) => p.title === projectId);
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
 if (!project) {
   return <div>Proyecto no encontrado</div>;
 }
   return (
-    <div className="container mx-auto py-4">
+    <div className="container mx-auto py-2">
       <ProjectPreviewCard project={project} />
-      <div className="mt-4">
-        <h2 className="text-2xl font-bold mb-4">Fotos del Proyecto</h2>
+      <div>
         {/* Aquí puedes agregar un carrusel o una galería de fotos del proyecto */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-2">
+        {/* Tarjetas simuladas */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {/* Primera fila: Una imagen */}
+            <div className="bg-[#E9E9E9] rounded-lg h-40 flex items-center justify-center col-span-1 sm:col-span-2 lg:col-span-3">
+            </div>
+
+            {/* Segunda fila: Dos imágenes */}
+            <div className="bg-[#E9E9E9] rounded-lg h-40 flex items-center justify-center">
+            </div>
+            <div className="bg-[#E9E9E9] rounded-lg h-40 flex items-center justify-center">
+            </div>
+
+            {/* Tercera fila: Una imagen */}
+            <div className="bg-[#E9E9E9] rounded-lg h-40 flex items-center justify-center col-span-1 sm:col-span-2 lg:col-span-3">
+            </div>
+
+            {/* Cuarta fila: Dos imágenes */}
+            <div className="bg-[#E9E9E9] rounded-lg h-40 flex items-center justify-center">
+            </div>
+            <div className="bg-[#E9E9E9] rounded-lg h-40 flex items-center justify-center">
+            </div>
+          </div>
+        </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mt-4">
         <InfoProjects
