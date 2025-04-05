@@ -27,22 +27,28 @@ if (!project) {
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
             {/* Primera fila: Una imagen */}
             <div className="bg-[#E9E9E9] rounded-lg h-40 flex items-center justify-center col-span-1 sm:col-span-2 lg:col-span-3">
+            <span>Imagen 1</span>
             </div>
 
             {/* Segunda fila: Dos imágenes */}
             <div className="bg-[#E9E9E9] rounded-lg h-40 flex items-center justify-center">
+            <span>Imagen 2</span>
             </div>
             <div className="bg-[#E9E9E9] rounded-lg h-40 flex items-center justify-center">
+            <span>Imagen 3</span>
             </div>
 
             {/* Tercera fila: Una imagen */}
             <div className="bg-[#E9E9E9] rounded-lg h-40 flex items-center justify-center col-span-1 sm:col-span-2 lg:col-span-3">
+            <span>Imagen 4</span>
             </div>
 
             {/* Cuarta fila: Dos imágenes */}
             <div className="bg-[#E9E9E9] rounded-lg h-40 flex items-center justify-center">
+            <span>Imagen 5</span>
             </div>
             <div className="bg-[#E9E9E9] rounded-lg h-40 flex items-center justify-center">
+            <span>Imagen 6</span>
             </div>
           </div>
         </div>
