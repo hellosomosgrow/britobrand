@@ -6,13 +6,13 @@ import InfoProjects from '@/components/InfoProjects';
 
 const ProjectDetail = () => {
   const { projectId } = useParams<{ projectId: string }>();
-  const project =
-    projectsPreview.find((p) => p.title === projectId) ||
-    projectsLarge.find((p) => p.title === projectId);
+  const project: Project | undefined =
+  projectsPreview.find((p) => p.title === projectId) ||
+  projectsLarge.find((p) => p.title === projectId);
 
-  if (!project) {
-    return <div>Proyecto no encontrado</div>;
-  }
+if (!project) {
+  return <div>Proyecto no encontrado</div>;
+}
 
   return (
     <div className="container mx-auto py-4">

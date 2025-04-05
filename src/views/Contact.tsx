@@ -7,7 +7,7 @@ import InfoSocials from '@/components/InfoSocials';
 import { location } from '@/assets/images';
 
 const Contact = () => {
-  const { register, handleSubmit, reset } = useForm();
+  const { register, handleSubmit, reset } = useForm<FormData>();
 
   interface FormData {
     name: string;
@@ -20,7 +20,7 @@ const Contact = () => {
     description?: string;
   }
 
-  const onSubmit = (data: FormData) => {
+  const onSubmit: SubmitHandler<FormData> = (data) => {
     console.log(data);
     reset();
   };

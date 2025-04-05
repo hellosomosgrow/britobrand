@@ -24,7 +24,17 @@ import {
   figmaLogo,
 } from '@/assets/images';
 
-export const projectsPreview = [
+type Project = {
+  title: string;
+  image: string;
+  type: string;
+  description: string;
+  location: string;
+  colaborators: string[];
+  tools: string[];
+};
+
+export const projectsPreview: Project[] = [
   {
     title: 'EMA MODELS',
     image: emamodels,

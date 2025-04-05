@@ -22,7 +22,7 @@ const InfoProjects = ({
     tools: true,
   });
 
-  const toggleExpand = (section: string) => {
+  const toggleExpand = (section: 'info' | 'location' | 'featured' | 'tools') => {
     setExpandedSections((prev) => ({
       ...prev,
       [section]: !prev[section],
