@@ -18,7 +18,7 @@ if (!project) {
   return <div>Proyecto no encontrado</div>;
 }
   return (
-    <div className="container mx-auto py-2">
+    <div className="container mx-auto">
       <ProjectPreviewCard project={project} />
       <div>
         {/* Aquí puedes agregar un carrusel o una galería de fotos del proyecto */}

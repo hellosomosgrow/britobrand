@@ -3,7 +3,7 @@ import ProjectsPreview from '../components/ProjectsPreview';
 
 const Projects = () => {
   return (
-    <div className="container mx-auto py-4">
+    <div className="container mx-auto">
       <ProjectsPreview />
     </div>
   );
