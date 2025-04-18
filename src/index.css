@@ -1,10 +1,25 @@
-@import "tailwindcss";
-
+@import url('https://fonts.googleapis.com/css2?family=Cute+Font&display=swap');
+@import 'tailwindcss';
 
 body {
   background-color: white;
   margin: 0;
-  padding: 0; 
+  padding: 0;
   font-family: 'Funnel Sans', sans-serif;
 }
 
+@layer utilities {
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+.text-cute-font {
+  font-family: 'Cute Font', sans-serif;
+}

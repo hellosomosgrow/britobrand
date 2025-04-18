@@ -1,13 +1,13 @@
-import React from "react";
-import ProjectPreviewCard from "./ProjectPreviewCard";
-import { projectsPreview, projectsLarge } from "@/data/projectsData";
-import { useNavigate } from "react-router-dom";
+import React from 'react';
+import ProjectPreviewCard from './ProjectPreviewCard';
+import { projectsPreview, projectsLarge } from '@/data/projectsData';
+import { useNavigate } from 'react-router-dom';
 
 const ProjectsPreview = () => {
   return (
     <div className="w-full grid grid-cols-1 gap-4">
       {/* Solo se muestran las versiones 'Large' en escritorio (3 columnas) */}
-      <div className="md:grid md:grid-cols-3 gap-2">
+      <div className="md:grid md:grid-cols-3 gap-3">
         {projectsLarge.map((project, index) => (
           <ProjectPreviewLargeCard key={index} project={project} />
         ))}
@@ -23,7 +23,11 @@ const ProjectsPreview = () => {
   );
 };
 
-const ProjectPreviewLargeCard = ({ project }: { project: { title: string; image: string; type: string } }) => {
+const ProjectPreviewLargeCard = ({
+  project,
+}: {
+  project: { title: string; image: string; type: string };
+}) => {
   const navigate = useNavigate();
 
   const handleViewMore = () => {
@@ -31,7 +35,10 @@ const ProjectPreviewLargeCard = ({ project }: { project: { title: string; image:
   };
 
   return (
-    <div className="text-[#1E1E1E] rounded-lg cursor-pointer" onClick={handleViewMore}>
+    <div
+      className="text-[#1E1E1E] rounded-lg cursor-pointer"
+      onClick={handleViewMore}
+    >
       <img
         src={project.image}
         alt={project.title}
