@@ -45,7 +45,9 @@ const ProjectPreviewLargeCard = ({
         className="w-full h-auto object-cover rounded-[10px]"
       />
       <div className="flex justify-between p-1">
-        <h3 className="text-lg font-semibold">{project.title}</h3>
+        <h3 className="text-lg font-semibold max-w-[180px] truncate">
+          {project.title}
+        </h3>
         <p>{project.type}</p>
       </div>
     </div>
