@@ -101,7 +101,7 @@ const InfoProjects = ({
           <span className="text-sm font-semibold">Herramientas</span>
           <button
             onClick={() => toggleExpand('tools')}
-            className="text-sm hover:underline"
+            className="text-xs hover:underline"
           >
             {expandedSections.tools ? 'Ver Menos' : 'Ver Más'}
           </button>
