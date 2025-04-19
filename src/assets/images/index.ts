@@ -25,6 +25,14 @@ import coverdudu from '@/assets/images/projects-cover/coverdudu.webp';
 import coverideamania from '@/assets/images/projects-cover/coverideamania.png';
 import coverinvolvere from '@/assets/images/projects-cover/coverinvolvere.webp';
 import coveremamodels from '@/assets/images/projects-cover/coveremamodels.webp';
+import coverespacio2040 from '@/assets/images/projects-cover/coverespacio2024.png';
+import coverfactor from '@/assets/images/projects-cover/coverfactor.png';
+import coverlachacra from '@/assets/images/projects-cover/coverlacha.png';
+import coverminingSuppliesSolutions from '@/assets/images/projects-cover/coverminingSuppliesSolutions.png';
+import coverpintaloPro from '@/assets/images/projects-cover/coverpintaloPro.png';
+import coversantaElena from '@/assets/images/projects-cover/coversantaElena.png';
+import coversedel from '@/assets/images/projects-cover/coversedel.png';
+import coversierraAtlantica from '@/assets/images/projects-cover/coversierraAtlantica.png';
 import behance from '@/assets/images/social/behance.png';
 import instagram from '@/assets/images/social/instagram.png';
 import linkedin from '@/assets/images/social/linkedin.png';
@@ -35,6 +43,8 @@ import location from '@/assets/images/info/location.png';
 import psLogo from '@/assets/images/tools/psLogo.png';
 import aiLogo from '@/assets/images/tools/aiLogo.png';
 import figmaLogo from '@/assets/images/tools/figmaLogo.png';
+import imagecontact from '@/assets/images/info/imagecontact.png';
+
 export {
   cota,
   cyclingstore,
@@ -73,4 +83,13 @@ export {
   psLogo,
   aiLogo,
   figmaLogo,
+  coverespacio2040,
+  coverfactor,
+  coverlachacra,
+  coverminingSuppliesSolutions,
+  coverpintaloPro,
+  coversantaElena,
+  coversedel,
+  coversierraAtlantica,
+  imagecontact,
 };
