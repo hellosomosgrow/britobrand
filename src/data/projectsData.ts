@@ -21,7 +21,7 @@ import {
   coveremamodels,
   coverespacio2040,
   coverfactor,
-  coverlaChacra,
+  coverlachacra,
   coverminingSuppliesSolutions,
   coverpintaloPro,
   coversantaElena,
@@ -193,7 +193,7 @@ export const projectsLarge = [
   },
   { title: 'PINTALO PRO', image: coverpintaloPro, type: 'Identidad Visual' },
   { title: 'ESPACIO 2024', image: coverespacio2040, type: 'Identidad Visual' },
-  { title: 'LA CHACRA', image: coverlaChacra, type: 'Identidad Visual' },
+  { title: 'LA CHACRA', image: coverlachacra, type: 'Identidad Visual' },
   { title: 'SANTA ELENA', image: coversantaElena, type: 'Identidad Visual' },
   {
     title: 'MINING SUPPLIES SOLUTIONS',
