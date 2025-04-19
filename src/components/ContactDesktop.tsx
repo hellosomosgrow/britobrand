@@ -1,4 +1,5 @@
 import React from 'react';
+import { useEffect } from 'react';
 import Banner from '@/components/Banner';
 import InfoSocials from './InfoSocials';
 import InfoSection from './InfoSection';
@@ -9,6 +10,10 @@ import imagecontact from '@/assets/images/info/imagecontact.png';
 import TestimonialCard from './TestimonialCard';
 
 const ContactDesktop = () => {
+  useEffect(() => {
+    // Desplaza la página al inicio al cargar la vista
+    window.scrollTo(0, 0);
+  }, []);
   const testimonials = [
     '"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."',
     '"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."',
