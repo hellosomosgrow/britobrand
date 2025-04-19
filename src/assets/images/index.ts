@@ -27,7 +27,7 @@ import coverinvolvere from '@/assets/images/projects-cover/coverinvolvere.webp';
 import coveremamodels from '@/assets/images/projects-cover/coveremamodels.webp';
 import coverespacio2040 from '@/assets/images/projects-cover/coverespacio2024.png';
 import coverfactor from '@/assets/images/projects-cover/coverfactor.png';
-import coverlachacra from '@/assets/images/projects-cover/coverlachacra.png';
+import coverlachacra from '@/assets/images/projects-cover/coverlacha.png';
 import coverminingSuppliesSolutions from '@/assets/images/projects-cover/coverminingSuppliesSolutions.png';
 import coverpintaloPro from '@/assets/images/projects-cover/coverpintaloPro.png';
 import coversantaElena from '@/assets/images/projects-cover/coversantaElena.png';
