@@ -16,12 +16,15 @@ export default function Header() {
         {/* Logo o Home */}
         <div>
           {isMobile ? (
-            <Link
-              to="/"
-              className={`px-2 py-1 rounded ${isActive('/') ? 'bg-custom-dark' : ''}`}
-            >
-              Home
-            </Link>
+            <div className="flex items-center gap-x-2">
+              <Link
+                to="/"
+                className={`px-2 py-1 rounded ${isActive('/') ? 'bg-custom-dark' : ''}`}
+              >
+                Home
+              </Link>
+              <span className="font-extralight text-xs text-[#767575]">|</span>
+            </div>
           ) : (
             <Link
               to="/"
@@ -35,7 +38,7 @@ export default function Header() {
         </div>
 
         {/* Links de navegación */}
-        <div className="flex items-center gap-x-6 md:pr-8">
+        <div className="flex items-center gap-x-3 md:pr-8">
           <Link
             to="/servicios"
             className={`px-2 py-1 rounded md:text-lg ${isActive('/servicios') ? 'bg-custom-dark' : ''}`}

@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 
 export const InfoCard = ({
   title,
@@ -12,9 +13,14 @@ export const InfoCard = ({
   image?: string;
 }) => {
   const [isExpanded, setIsExpanded] = useState(false);
+  const navigate = useNavigate();
 
   const toggleExpand = () => {
     setIsExpanded(!isExpanded);
+  };
+
+  const handleRedirect = () => {
+    navigate('/contacto');
   };
 
   return (
@@ -23,6 +29,8 @@ export const InfoCard = ({
         <h2>{title}</h2>
         {title === 'Instagram' ? (
           <button>Ir al link</button>
+        ) : title === 'Contacto' ? (
+          <button onClick={handleRedirect}>Ver Más</button>
         ) : (
           <button onClick={toggleExpand}>
             {isExpanded ? 'Ver Menos' : 'Ver Más'}

@@ -1,30 +1,35 @@
 import React from 'react';
-import { useForm, SubmitHandler } from 'react-hook-form';
-import { BsDot } from 'react-icons/bs';
-import { MdArrowDropDown } from 'react-icons/md';
+import { useEffect } from 'react';
+//import { useForm, SubmitHandler } from 'react-hook-form';
+//import { BsDot } from 'react-icons/bs';
+//import { MdArrowDropDown } from 'react-icons/md';
 import Banner from '@/components/Banner';
 import InfoSocials from '@/components/InfoSocials';
 import { location } from '@/assets/images';
 import ContactForm from '@/components/ContactForm';
 
 const ContactMobile = () => {
-  const { register, handleSubmit, reset } = useForm<FormData>();
+  useEffect(() => {
+    // Desplaza la página al inicio al cargar la vista
+    window.scrollTo(0, 0);
+  }, []);
+  //const { register, handleSubmit, reset } = useForm<FormData>();
 
-  interface FormData {
-    name: string;
-    email: string;
-    company?: string;
-    service: string;
-    estimatedTime?: string;
-    budget?: string;
-    source?: string;
-    description?: string;
-  }
+  // interface FormData {
+  //   name: string;
+  //   email: string;
+  //   company?: string;
+  //   service: string;
+  //   estimatedTime?: string;
+  //   budget?: string;
+  //   source?: string;
+  //   description?: string;
+  // }
 
-  const onSubmit: SubmitHandler<FormData> = (data) => {
-    console.log(data);
-    reset();
-  };
+  // const onSubmit: SubmitHandler<FormData> = (data) => {
+  //   console.log(data);
+  //   reset();
+  // };
 
   return (
     <div className="container mx-auto space-y-2">
