@@ -6,8 +6,8 @@ import { useNavigate } from 'react-router-dom';
 const ProjectsPreview = () => {
   return (
     <div className="w-full grid grid-cols-1 gap-4">
-      {/* Solo se muestran las versiones 'Large' en escritorio (3 columnas) */}
-      <div className="md:grid md:grid-cols-3 gap-3">
+      {/* Solo se muestran las versiones 'Large' en escritorio (4 columnas) */}
+      <div className="md:grid md:grid-cols-4 gap-3">
         {projectsLarge.map((project, index) => (
           <ProjectPreviewLargeCard key={index} project={project} />
         ))}
