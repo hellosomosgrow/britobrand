@@ -1,65 +1,45 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import useIsMobile from '@/hooks/useIsMobile';
 
 export default function Header() {
   const location = useLocation();
   const isActive = (path: string) => location.pathname === path;
-  const isMobile = useIsMobile(768);
+  const links = [
+    { label: 'Home', path: '/' },
+    { label: 'Proyectos', path: '/proyectos' },
+    { label: 'Contacto', path: '/contacto' },
+  ];
 
   return (
-    <header className="w-full bg-black text-white py-2 rounded-[10px] font-light">
+    <header className="w-full bg-black text-white font-light rounded-[10px] flex justify-center md:justify-end">
       <nav
-        className="text-[14px] font-funnelSans flex w-full items-center px-4 
-                   justify-around md:justify-between"
+        className="bg-black rounded-[10px] flex md:gap-x-1 gap-x-0 md:w-auto w-full 
+                   justify-between md:justify-end items-center"
       >
-        {/* Logo o Home */}
-        <div>
-          {isMobile ? (
-            <div className="flex items-center gap-x-2">
-              <Link
-                to="/"
-                className={`px-2 py-1 rounded ${isActive('/') ? 'bg-custom-dark' : ''}`}
-              >
-                Home
-              </Link>
-              <span className="font-extralight text-xs text-[#767575]">|</span>
-            </div>
-          ) : (
-            <Link
-              to="/"
-              className={`px-2 py-1 rounded text-[30px] text-cute-font ${
-                isActive('/') ? 'bg-custom-dark' : ''
-              }`}
-            >
-              BRITO BRAND
-            </Link>
-          )}
-        </div>
+        {links.map(({ label, path }, idx) => {
+          const currentIsActive = isActive(path);
+          const nextIsActive = links[idx + 1] && isActive(links[idx + 1].path);
 
-        {/* Links de navegación */}
-        <div className="flex items-center gap-x-3 md:pr-8">
-          <Link
-            to="/servicios"
-            className={`px-2 py-1 rounded md:text-lg ${isActive('/servicios') ? 'bg-custom-dark' : ''}`}
-          >
-            Servicios
-          </Link>
-          <span className="font-extralight text-xs text-[#767575]">|</span>
-          <Link
-            to="/proyectos"
-            className={`px-2 py-1 rounded md:text-lg ${isActive('/proyectos') ? 'bg-custom-dark' : ''}`}
-          >
-            Proyectos
-          </Link>
-          <span className="font-extralight text-xs text-[#767575]">|</span>
-          <Link
-            to="/contacto"
-            className={`px-2 py-1 rounded md:text-lg ${isActive('/contacto') ? 'bg-custom-dark' : ''}`}
-          >
-            Contacto
-          </Link>
-        </div>
+          return (
+            <React.Fragment key={label}>
+              <Link
+                to={path}
+                className={`py-2 md:px-6 px-3 text-center transition-colors duration-300 rounded-[10px]
+                ${currentIsActive ? 'bg-[#1d1d1d] text-white' : 'hover:bg-[#333]'}
+                w-full md:w-32`}
+              >
+                {label}
+              </Link>
+
+              {/* Separador solo si ni este ni el siguiente están activos */}
+              {idx < links.length - 1 && !currentIsActive && !nextIsActive && (
+                <span className="hidden md:inline self-center text-[#767575] font-light text-sm mx-1">
+                  |
+                </span>
+              )}
+            </React.Fragment>
+          );
+        })}
       </nav>
     </header>
   );

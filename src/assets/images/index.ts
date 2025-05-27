@@ -38,6 +38,7 @@ import instagram from '@/assets/images/social/instagram.png';
 import linkedin from '@/assets/images/social/linkedin.png';
 import spotify from '@/assets/images/social/spotify.png';
 import whatsapp from '@/assets/images/social/whatsapp.png';
+import chat from '@/assets/images/social/chat.png';
 import adobefonts from '@/assets/images/info/adobefonts.png';
 import location from '@/assets/images/info/location.png';
 import psLogo from '@/assets/images/tools/psLogo.png';
@@ -92,4 +93,5 @@ export {
   coversedel,
   coversierraAtlantica,
   imagecontact,
+  chat,
 };

@@ -1,10 +1,11 @@
-import { useState, useEffect } from "react";
-import banner1 from "../assets/images/banner/banner1.webp";
-import banner2 from "../assets/images/banner/banner2.webp";
-import banner3 from "../assets/images/banner/banner3.webp";
-import bannerDesktop1 from "../assets/images/banner/bannerDesktop1.png";
-import bannerDesktop2 from "../assets/images/banner/bannerDesktop2.png";
-import bannerDesktop3 from "../assets/images/banner/bannerDesktop3.png";
+import { useState, useEffect } from 'react';
+import banner1 from '../assets/images/banner/banner1.webp';
+import banner2 from '../assets/images/banner/banner2.webp';
+import banner3 from '../assets/images/banner/banner3.webp';
+import bannerDesktop1 from '../assets/images/banner/bannerDesktop1.png';
+import bannerDesktop2 from '../assets/images/banner/bannerDesktop2.png';
+import bannerDesktop3 from '../assets/images/banner/bannerDesktop3.png';
+import chat from '../assets/images/social/chat.png';
 
 const Banner = () => {
   const mobileImages = [banner1, banner2, banner3];
@@ -15,14 +16,14 @@ const Banner = () => {
 
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth < 640);
-    window.addEventListener("resize", handleResize);
+    window.addEventListener('resize', handleResize);
 
     const interval = setInterval(() => {
       setCurrent((prev) => (prev + 1) % mobileImages.length);
     }, 5000);
 
     return () => {
-      window.removeEventListener("resize", handleResize);
+      window.removeEventListener('resize', handleResize);
       clearInterval(interval);
     };
   }, [mobileImages.length]);
@@ -39,11 +40,16 @@ const Banner = () => {
           <div
             key={index}
             className={`w-3 h-3 rounded-full transition-all duration-300 ${
-              current === index ? "bg-black scale-110" : "bg-[#767575]"
+              current === index ? 'bg-black scale-110' : 'bg-[#767575]'
             }`}
           />
         ))}
       </div>
+      <img
+        src={chat}
+        alt="Chat Icon"
+        className="absolute bottom-8 right-8 w-16 h-16 p-2 bg-white rounded-full shadow-lg cursor-pointer z-10 hover:scale-105 transition-transform"
+      />
     </div>
   );
 };
