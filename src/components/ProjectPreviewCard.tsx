@@ -36,7 +36,7 @@ const ProjectPreviewCard = ({
         />
         <div className="mb-2">
           <h3 className="text-[15px] font-semibold">{project.title}</h3>
-          <p>{project.type}</p>
+          <p>{project?.type}</p>
         </div>
       </div>
     </div>

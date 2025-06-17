@@ -28,18 +28,27 @@ export const InfoCard = ({
       <div className="flex justify-between mb-3">
         <h2>{title}</h2>
         {title === 'Instagram' ? (
-          <button>Ir al link</button>
+          <a
+            href="https://instagram.com/britobrand_"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="no-underline no-decoration"
+          >
+            Ir al link
+          </a>
         ) : title === 'Contacto' ? (
-          <button onClick={handleRedirect}>Ver Más</button>
+          <button onClick={handleRedirect} className="text-xs">
+            Ver Más
+          </button>
         ) : (
-          <button onClick={toggleExpand}>
+          <button onClick={toggleExpand} className="text-xs">
             {isExpanded ? 'Ver Menos' : 'Ver Más'}
           </button>
         )}
       </div>
       {subtitle && <h3 className="font-semibold">{subtitle}</h3>}
       <p className="text-sm">{content}</p>
-      {isExpanded && image && (
+      {(title === 'Instagram' || isExpanded) && image && (
         <img
           src={image}
           alt={title}

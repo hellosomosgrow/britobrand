@@ -30,6 +30,13 @@ import {
   psLogo,
   aiLogo,
   figmaLogo,
+  dudulogo,
+  dudu1,
+  dudu2,
+  duduprincipal,
+  imgrecthorizontal,
+  imgrectvertical,
+  imgrectvertical2,
 } from '@/assets/images';
 
 export type Project = {
@@ -40,9 +47,33 @@ export type Project = {
   location?: string;
   colaborators?: string[];
   tools?: string[];
+  previewImage?: string;
+  images?: string[];
 };
 
 export const projectsPreview: Project[] = [
+  {
+    title: 'DUDÚ',
+    type: 'Identidad visual',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. ',
+    location:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi.',
+    colaborators: [
+      'Shalma Suarez - Consultora de Marcas (UY)',
+      'Arquetipo - Estudio de Diseño (USA)',
+    ],
+    tools: [psLogo, aiLogo, figmaLogo],
+    image: dudulogo,
+    images: [
+      duduprincipal,
+      dudu1,
+      dudu2,
+      imgrecthorizontal,
+      imgrectvertical,
+      imgrectvertical2,
+    ],
+  },
   {
     title: 'EMA MODELS',
     image: emamodels,

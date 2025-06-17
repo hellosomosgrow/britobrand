@@ -54,7 +54,7 @@ const MainLayout = () => {
       {/* Columna de la derecha: Para escritorio */}
       <div className="md:w-2/3 md:h-screen md:overflow-y-auto no-scrollbar">
         {/* ProjectsPreview: Visible tanto en mobile como en desktop */}
-        <ProjectsPreview />
+        <ProjectsPreview columnsDesktop={3} />
       </div>
 
       {/* InfoCards y InfoSocials para móvil */}

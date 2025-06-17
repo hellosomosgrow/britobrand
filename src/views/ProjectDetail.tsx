@@ -7,12 +7,16 @@ import {
 } from '@/data/projectsData';
 import ProjectPreviewCard from '@/components/ProjectPreviewCard';
 import InfoProjects from '@/components/InfoProjects';
+//import { projectsDetailData } from '@/data/projectsDetailData';
 
 const ProjectDetail = () => {
   const { projectId } = useParams<{ projectId: string }>();
+
   const project: Project | undefined =
     projectsPreview.find((p) => p.title === projectId) ||
     projectsLarge.find((p) => p.title === projectId);
+
+  //const images = projectId ? projectsDetailData[projectId] || [] : [];
 
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -23,45 +27,47 @@ const ProjectDetail = () => {
   }
 
   return (
-    <div className="container mx-auto flex flex-col md:flex-row md:space-x-4">
+    <div className="w-full mx-auto flex flex-col md:flex-row md:space-x-4">
       {/* Columna izquierda: ProjectPreviewCard e InfoProjects */}
       <div className="flex flex-col space-y-4 md:w-1/3 md:sticky md:top-0 md:h-screen md:overflow-y-auto no-scrollbar">
-        <ProjectPreviewCard project={project} />
+        {/* <ProjectPreviewCard project={project} /> */}
         <InfoProjects
           projectTitle={project.title}
           projectType={project.type}
-          projectDescription={
-            project.description || 'Descripción no disponible'
-          }
-          projectLocationDescription={
-            project.location || 'Ubicación no disponible'
-          }
+          projectDescription={project.description}
+          projectLocationDescription={project.location}
           projectColaborators={project.colaborators || []}
           projectTools={project.tools || []}
+          project={project}
         />
+        {projectsPreview
+          .filter((p) => p.title !== project.title)
+          .map((project, index) => (
+            <ProjectPreviewCard key={index} project={project} />
+          ))}
       </div>
 
       {/* Columna derecha: Imágenes */}
-      <div className="flex-1 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
-        {/* Aquí puedes agregar un carrusel o una galería de fotos del proyecto */}
-        <div className="bg-[#E9E9E9] rounded-lg h-40 flex items-center justify-center col-span-1 sm:col-span-2 lg:col-span-3">
-          <span className="text-gray-500">Imagen principal</span>
-        </div>
-        <div className="bg-[#E9E9E9] rounded-lg h-40 flex items-center justify-center">
-          <span className="text-gray-500">Imagen secundaria 1</span>
-        </div>
-        <div className="bg-[#E9E9E9] rounded-lg h-40 flex items-center justify-center">
-          <span className="text-gray-500">Imagen secundaria 2</span>
-        </div>
-        <div className="bg-[#E9E9E9] rounded-lg h-40 flex items-center justify-center col-span-1 sm:col-span-2 lg:col-span-3">
-          <span className="text-gray-500">Imagen adicional</span>
-        </div>
-        <div className="bg-[#E9E9E9] rounded-lg h-40 flex items-center justify-center">
-          <span className="text-gray-500">Imagen adicional 1</span>
-        </div>
-        <div className="bg-[#E9E9E9] rounded-lg h-40 flex items-center justify-center">
-          <span className="text-gray-500">Imagen adicional 2</span>
-        </div>
+      <div className="flex-1 grid grid-cols-1 md:grid-cols-2 gap-4">
+        {project.images && project.images.length > 0 ? (
+          project.images.map((img, idx) => (
+            <div
+              key={idx}
+              className={`bg-[#E9E9E9] rounded-lg overflow-hidden 
+          ${idx === 0 ? 'col-span-1 md:col-span-2' : 'col-span-1'}`}
+            >
+              <img
+                src={img}
+                alt={`Imagen ${idx + 1}`}
+                className="w-full h-auto object-cover"
+              />
+            </div>
+          ))
+        ) : (
+          <div className="col-span-2 text-center text-gray-400">
+            No hay imágenes para este proyecto.
+          </div>
+        )}
       </div>
     </div>
   );

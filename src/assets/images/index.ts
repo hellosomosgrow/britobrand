@@ -45,6 +45,13 @@ import psLogo from '@/assets/images/tools/psLogo.png';
 import aiLogo from '@/assets/images/tools/aiLogo.png';
 import figmaLogo from '@/assets/images/tools/figmaLogo.png';
 import imagecontact from '@/assets/images/info/imagecontact.png';
+import dudu1 from '@/assets/images/projects-details/dudu/dudu-1.jpg';
+import dudu2 from '@/assets/images/projects-details/dudu/dudu-2.jpg';
+import dudulogo from '@/assets/images/projects-details/dudu/dudu-logo.png';
+import duduprincipal from '@/assets/images/projects-details/dudu/dudu-principal.jpg';
+import imgrecthorizontal from '@/assets/images/projects-details/dudu/img-rectangle-horizontal.png';
+import imgrectvertical from '@/assets/images/projects-details/dudu/img-rectangle-vertical.png';
+import imgrectvertical2 from '@/assets/images/projects-details/dudu/img-rectangle-vertical-2.png';
 
 export {
   cota,
@@ -94,4 +101,11 @@ export {
   coversierraAtlantica,
   imagecontact,
   chat,
+  dudu1,
+  dudu2,
+  dudulogo,
+  duduprincipal,
+  imgrecthorizontal,
+  imgrectvertical,
+  imgrectvertical2,
 };
