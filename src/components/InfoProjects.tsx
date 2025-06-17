@@ -51,10 +51,10 @@ const InfoProjects = ({
         <div className="flex justify-between items-center mb-2">
           <h2 className="text-[14px]">Proyectos</h2>
           <button
-            onClick={expandedSections ? toggleExpand : handleViewMore}
+            onClick={handleViewMore}
             className="bg-[#CAC8C8] text-gray-800 px-2 py-1 rounded-[14px] text-xs hover:bg-gray-300 transition duration-200"
           >
-            {expandedSections ? 'Ver Menos' : 'Ver Más'}
+            {'Ver Más'}
           </button>
         </div>
         <div className="flex space-x-4">
