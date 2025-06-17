@@ -32,10 +32,10 @@ const ProjectDetail = () => {
       <div className="flex flex-col space-y-4 md:w-1/3 md:sticky md:top-0 md:h-screen md:overflow-y-auto no-scrollbar">
         {/* <ProjectPreviewCard project={project} /> */}
         <InfoProjects
-          projectTitle={project.title}
-          projectType={project.type}
-          projectDescription={project.description}
-          projectLocationDescription={project.location}
+          projectTitle={project.title || ''}
+          projectType={project.type || ''}
+          projectDescription={project.description || ''}
+          projectLocationDescription={project.location || ''}
           projectColaborators={project.colaborators || []}
           projectTools={project.tools || []}
           project={project}
