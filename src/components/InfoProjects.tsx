@@ -37,7 +37,7 @@ const InfoProjects = ({
 
       {/* Sección Info */}
       <div className="border-b border-[#767575] pb-4 px-4 mb-4 last:border-b-0">
-        <p className="mt-2 text-sm text-[#767575] whitespace-pre-line">
+        <p className="mt-2 text-sm text-[#4A4949] font-light whitespace-pre-line">
           {projectDescription}
         </p>
       </div>

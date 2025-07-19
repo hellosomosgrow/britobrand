@@ -76,7 +76,7 @@ export type Project = {
   colaborators?: string[];
   tools?: string[];
   previewImage?: string;
-  images?: string[];
+  images?: { url: string; layout: string }[];
 };
 
 export const projectsPreview: Project[] = [
