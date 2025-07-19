@@ -34,7 +34,7 @@ const ContactMobile = () => {
   return (
     <div className="container mx-auto space-y-2">
       <Banner />
-      <div className="bg-[#E9E9E9] text-[14px] text-[#1E1E1E] rounded-lg shadow py-3 px-3">
+      <div className="bg-[#E9E9E9] text-[14px] text-[#1E1E1E] rounded-lg py-3 px-3">
         <h3 className="font-semibold">Contacto</h3>
         <h4 className="font-semibold mt-2">Lo que hago</h4>
         <p className="mb-2">
@@ -59,7 +59,7 @@ const ContactMobile = () => {
       </div>
 
       {/* Ubicación */}
-      <div className="mt-8 bg-[#E9E9E9] text-[#1E1E1E] rounded-lg shadow p-4">
+      <div className="mt-8 bg-[#E9E9E9] text-[#1E1E1E] rounded-lg p-4">
         <h3 className="font-semibold">Ubicación</h3>
         <p className="font-semibold">Buenos Aires, Argentina</p>
         <p>Ciudad Autónoma de Buenos Aires, Argentina (GMT-3)</p>

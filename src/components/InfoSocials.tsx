@@ -25,7 +25,7 @@ const social = [
   {
     id: 4,
     icon: whatsapp,
-    url: 'https://www.whatsapp.com/',
+    url: 'https://www.wa.me/+5491139070821',
   },
   {
     id: 5,
@@ -36,9 +36,9 @@ const social = [
 
 const InfoSocials = () => {
   return (
-    <div className="bg-[#E9E9E9] text-[14px] text-[#1E1E1E] rounded-lg shadow py-4 px-3 w-full">
+    <div className="bg-[#E9E9E9] text-[14px] text-[#1E1E1E] rounded-lg py-4 px-3 w-full">
       <h2 className="font-semibold">Social</h2>
-      <div className="flex space-x-2 mt-2">
+      <div className="flex gap-2 px-1 mt-2">
         {social.map((item) => (
           <a
             key={item.id}
@@ -48,7 +48,7 @@ const InfoSocials = () => {
           >
             <img
               src={item.icon}
-              className="object-cover rounded-lg"
+              className="object-cover rounded-lg w-16 h-16"
               alt="social-icon"
             />
           </a>

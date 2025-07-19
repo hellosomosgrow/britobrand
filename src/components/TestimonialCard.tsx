@@ -1,14 +1,40 @@
-const TestimonialCard = ({ testimonial }: { testimonial: string }) => (
-  <div className="bg-black shadow rounded-lg p-4 h-56 flex flex-col justify-between">
-    <p className="text-[15px] text-white max-w-[300px] line-clamp-3">
-      {testimonial}
+const TestimonialCard = ({
+  testimonial,
+}: {
+  testimonial: {
+    description: string;
+    name: string;
+    position: string;
+    location: string;
+    image?: string;
+  };
+}) => (
+  <div className="bg-black rounded-lg p-4 flex flex-col justify-between h-56">
+    <p className="text-sm font-light text-white line-clamp-5">
+      {testimonial?.description}
     </p>
     <div className="flex">
-      <div className="w-16 h-16 rounded-full bg-gray-300 mr-2"></div>
+      <div className="w-16 h-16 rounded-full mr-2 overflow-hidden flex items-center justify-center border-none">
+        {testimonial?.image ? (
+          <img
+            src={testimonial.image}
+            alt={testimonial.name}
+            className="w-full h-full object-cover"
+          />
+        ) : (
+          <span className="text-xs text-gray-400">Sin foto</span>
+        )}
+      </div>
       <div className="flex flex-col justify-center ml-4">
-        <h3 className="text-sm font-semibold text-white">Nombre del Cliente</h3>
-        <p className="text-xs font-light text-[#767575]">Cargo del Cliente</p>
-        <p className="text-xs font-light text-[#767575]">Ubicación</p>
+        <h3 className="text-sm font-semibold text-white">
+          {testimonial?.name}
+        </h3>
+        <p className="text-xs font-light text-[#767575]">
+          {testimonial?.position}
+        </p>
+        <p className="text-xs font-light text-[#767575]">
+          {testimonial?.location}
+        </p>
       </div>
     </div>
   </div>

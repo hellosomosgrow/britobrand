@@ -6,6 +6,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Funnel Sans', sans-serif;
+  overflow-x: hidden; /* Prevent horizontal scroll */
 }
 
 @layer utilities {
@@ -22,4 +23,39 @@ body {
 
 .text-cute-font {
   font-family: 'Cute Font', sans-serif;
+}
+
+/* Ocultar el scrollbar visualmente */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+.no-scrollbar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+/* Forzar espacio para el scrollbar */
+.no-scrollbar {
+  position: relative;
+}
+/* Asegurar que el gutter sea estable */
+.scrollbar-gutter {
+  scrollbar-gutter: stable;
+}
+
+/* Estilo personalizado para los select */
+select.custom-select option {
+  background-color: white;
+  color: #1e1e1e;
+  padding: 0.75rem 1rem;
+  border: none;
+  font-size: 0.875rem;
+}
+
+/* Hover simulado con borde y border-radius */
+select.custom-select option:hover {
+  border: 0.5px solid #1e1e1e;
+  border-radius: 10px;
+  background-color: #f9f9f9;
 }

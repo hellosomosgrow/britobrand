@@ -21,9 +21,9 @@ const getColsClass = (cols: number | undefined) => {
 
 const ProjectsPreview = ({ columnsDesktop }: ProjectsPreviewProps) => {
   return (
-    <div className="w-full grid grid-cols-1 gap-4">
+    <div className="w-full grid grid-cols-1 gap-4 scrollbar-gutter overflow-y-auto no-scrollbar">
       {/* Solo se muestran las versiones 'Large' en escritorio (4 columnas) */}
-      <div className={`hidden md:grid ${getColsClass(columnsDesktop)} gap-3`}>
+      <div className={`hidden md:grid ${getColsClass(columnsDesktop)} gap-4`}>
         {projectsLarge.map((project, index) => (
           <ProjectPreviewLargeCard key={index} project={project} />
         ))}
@@ -61,10 +61,8 @@ const ProjectPreviewLargeCard = ({
         className="w-full h-auto object-cover rounded-[10px]"
       />
       <div className="flex justify-between p-1 items-center">
-        <h3 className="text-[15px] font-semibold max-w-[180px] truncate">
-          {project.title}
-        </h3>
-        <p className="font-light">{project.type}</p>
+        <h3 className="text-sm font-semibold">{project.title}</h3>
+        <p className="font-light text-sm">{project.type}</p>
       </div>
     </div>
   );

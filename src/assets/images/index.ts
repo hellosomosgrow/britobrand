@@ -33,26 +33,59 @@ import coverpintaloPro from '@/assets/images/projects-cover/coverpintaloPro.png'
 import coversantaElena from '@/assets/images/projects-cover/coversantaElena.png';
 import coversedel from '@/assets/images/projects-cover/coversedel.png';
 import coversierraAtlantica from '@/assets/images/projects-cover/coversierraAtlantica.png';
-import behance from '@/assets/images/social/behance.png';
-import instagram from '@/assets/images/social/instagram.png';
-import linkedin from '@/assets/images/social/linkedin.png';
-import spotify from '@/assets/images/social/spotify.png';
-import whatsapp from '@/assets/images/social/whatsapp.png';
+import coverlointerior from '@/assets/images/projects-cover/coverlointerior.png';
+import behance from '@/assets/images/social/behance.webp';
+import instagram from '@/assets/images/social/instagram.webp';
+import tiktok from '@/assets/images/social/tiktok.webp';
+import linkedin from '@/assets/images/social/linkedin.webp';
+import spotify from '@/assets/images/social/spotify.webp';
+import whatsapp from '@/assets/images/social/whatsapp.webp';
 import chat from '@/assets/images/social/chat.png';
 import adobefonts from '@/assets/images/info/adobefonts.png';
 import location from '@/assets/images/info/location.png';
-import psLogo from '@/assets/images/tools/psLogo.png';
-import aiLogo from '@/assets/images/tools/aiLogo.png';
-import figmaLogo from '@/assets/images/tools/figmaLogo.png';
-import imagecontact from '@/assets/images/info/imagecontact.png';
-import dudu1 from '@/assets/images/projects-details/dudu/dudu-1.jpg';
-import dudu2 from '@/assets/images/projects-details/dudu/dudu-2.jpg';
+import psLogo from '@/assets/images/tools/psLogo.webp';
+import aiLogo from '@/assets/images/tools/aiLogo.webp';
+import figmaLogo from '@/assets/images/tools/figmaLogo.webp';
+import imagecontact from '@/assets/images/info/imagecontact.webp';
+import dudu1 from '@/assets/images/projects-details/dudu/dudu1.jpg';
+import dudu2 from '@/assets/images/projects-details/dudu/dudu2.jpg';
+import dudu3 from '@/assets/images/projects-details/dudu/dudu3.jpg';
+import dudu4 from '@/assets/images/projects-details/dudu/dudu4.jpg';
+import dudu5 from '@/assets/images/projects-details/dudu/dudu5.jpg';
+import dudu6 from '@/assets/images/projects-details/dudu/dudu6.jpg';
+import dudu7 from '@/assets/images/projects-details/dudu/dudu7.jpg';
+import dudu8 from '@/assets/images/projects-details/dudu/dudu8.jpg';
+import dudu9 from '@/assets/images/projects-details/dudu/dudu9.jpg';
+import dudu10 from '@/assets/images/projects-details/dudu/dudu10.jpg';
 import dudulogo from '@/assets/images/projects-details/dudu/dudu-logo.png';
 import duduprincipal from '@/assets/images/projects-details/dudu/dudu-principal.jpg';
-import imgrecthorizontal from '@/assets/images/projects-details/dudu/img-rectangle-horizontal.png';
-import imgrectvertical from '@/assets/images/projects-details/dudu/img-rectangle-vertical.png';
-import imgrectvertical2 from '@/assets/images/projects-details/dudu/img-rectangle-vertical-2.png';
-
+//import imgrecthorizontal from '@/assets/images/projects-details/dudu/img-rectangle-horizontal.png';
+//import imgrectvertical from '@/assets/images/projects-details/dudu/img-rectangle-vertical.png';
+//import imgrectvertical2 from '@/assets/images/projects-details/dudu/img-rectangle-vertical-2.png';
+import britobrandlogo from '@/assets/images/info/brito-brand-logo.png';
+import coverplatz from '@/assets/images/projects-cover/coverplatz.png';
+import covernuevoproyecto from '@/assets/images/projects-cover/covernuevoproyecto.png';
+import igimage from '@/assets/images/info/igimage.png';
+import dudutestimonial from '@/assets/images/projects-cover/dudutestimonial.png';
+import casanunatestimonial from '@/assets/images/projects-cover/casanunatestimonial.png';
+import botanicaltestimonial from '@/assets/images/projects-cover/botanicaltestimonial.png';
+import cotaprincipal from '@/assets/images/projects-details/cota/cotaprincipal.jpg';
+import cotalogo from '@/assets/images/projects-details/cota/cota-logo.png';
+import cota1 from '@/assets/images/projects-details/cota/cota1.jpg';
+import cota2 from '@/assets/images/projects-details/cota/cota2.jpg';
+import cota3 from '@/assets/images/projects-details/cota/cota3.jpg';
+import cota4 from '@/assets/images/projects-details/cota/cota4.jpg';
+import cota5 from '@/assets/images/projects-details/cota/cota5.jpg';
+import cota6 from '@/assets/images/projects-details/cota/cota6.jpg';
+import cota7 from '@/assets/images/projects-details/cota/cota7.jpg';
+import cota8 from '@/assets/images/projects-details/cota/cota8.jpg';
+import cota9 from '@/assets/images/projects-details/cota/cota9.jpg';
+import cota10 from '@/assets/images/projects-details/cota/cota10.jpg';
+import cota11 from '@/assets/images/projects-details/cota/cota11.jpg';
+import cota12 from '@/assets/images/projects-details/cota/cota12.jpg';
+import cota13 from '@/assets/images/projects-details/cota/cota13.jpg';
+import cota14 from '@/assets/images/projects-details/cota/cota14.jpg';
+import cota15 from '@/assets/images/projects-details/cota/cota15.jpg';
 export {
   cota,
   cyclingstore,
@@ -81,8 +114,11 @@ export {
   coverideamania,
   coverinvolvere,
   coveremamodels,
+  coverlointerior,
+  coverplatz,
   behance,
   instagram,
+  tiktok,
   linkedin,
   spotify,
   whatsapp,
@@ -99,13 +135,44 @@ export {
   coversantaElena,
   coversedel,
   coversierraAtlantica,
+  covernuevoproyecto,
   imagecontact,
   chat,
   dudu1,
   dudu2,
+  dudu3,
+  dudu4,
+  dudu5,
+  dudu6,
+  dudu7,
+  dudu8,
+  dudu9,
+  dudu10,
   dudulogo,
   duduprincipal,
-  imgrecthorizontal,
-  imgrectvertical,
-  imgrectvertical2,
+  //imgrecthorizontal,
+  //imgrectvertical,
+  //imgrectvertical2,
+  britobrandlogo,
+  igimage,
+  dudutestimonial,
+  casanunatestimonial,
+  botanicaltestimonial,
+  cotaprincipal,
+  cotalogo,
+  cota1,
+  cota2,
+  cota3,
+  cota4,
+  cota5,
+  cota6,
+  cota7,
+  cota8,
+  cota9,
+  cota10,
+  cota11,
+  cota12,
+  cota13,
+  cota14,
+  cota15,
 };

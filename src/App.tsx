@@ -10,7 +10,7 @@ import Contact from './views/Contact';
 function App() {
   return (
     <Router>
-      <div className="my-4 space-y-2 flex flex-col flex-grow px-3">
+      <div className="my-4 space-y-4 flex flex-col flex-grow px-3">
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />

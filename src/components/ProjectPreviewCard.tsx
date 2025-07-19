@@ -18,12 +18,12 @@ const ProjectPreviewCard = ({
   };
 
   return (
-    <div className="bg-[#E9E9E9] text-[#1E1E1E] rounded-lg shadow p-3 md:row-span-2">
-      <div className="flex justify-between space-y-3 items-start">
+    <div className="bg-[#E9E9E9] text-[#1E1E1E] rounded-lg p-3 py-5 md:row-span-2">
+      <div className="flex justify-between space-y-5 items-start">
         <h2 className="text-[14px]">Proyectos</h2>
         <button
           onClick={isExpanded ? toggleExpand : handleViewMore}
-          className="text-xs hover:underline"
+          className="text-sm font-light"
         >
           {isExpanded ? 'Ver Menos' : 'Ver Más'}
         </button>
