@@ -4,7 +4,7 @@ const TestimonialCard = ({
   testimonial: {
     description: string;
     name: string;
-    position: string;
+    company: string;
     location: string;
     image?: string;
   };
@@ -30,7 +30,7 @@ const TestimonialCard = ({
           {testimonial?.name}
         </h3>
         <p className="text-xs font-light text-[#767575]">
-          {testimonial?.position}
+          {testimonial?.company}
         </p>
         <p className="text-xs font-light text-[#767575]">
           {testimonial?.location}

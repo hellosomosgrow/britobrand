@@ -46,7 +46,7 @@ const ProjectDetail = () => {
   return (
     <div className="w-full mx-auto flex flex-col md:flex-row md:space-x-4">
       {/* Columna izquierda: ProjectPreviewCard e InfoProjects */}
-      <div className="flex flex-col space-y-4 md:w-1/3 md:sticky md:top-0 md:h-screen no-scrollbar max-w-md">
+      <div className="flex flex-col space-y-4 md:w-1/3 md:sticky md:top-0 md:h-screen no-scrollbar max-w-[420px]">
         {/* <ProjectPreviewCard project={project} /> */}
         <InfoProjects
           projectTitle={project.title || ''}
