@@ -45,7 +45,7 @@ import adobefonts from '@/assets/images/info/adobefonts.png';
 import location from '@/assets/images/info/location.png';
 import psLogo from '@/assets/images/tools/psLogo.webp';
 import aiLogo from '@/assets/images/tools/aiLogo.webp';
-import figmaLogo from '@/assets/images/tools/figmaLogo.webp';
+import figmaLogo from '@/assets/images/tools/figmalogo.webp';
 import imagecontact from '@/assets/images/info/imagecontact.webp';
 import dudu1 from '@/assets/images/projects-details/dudu/dudu1.jpg';
 import dudu2 from '@/assets/images/projects-details/dudu/dudu2.jpg';
