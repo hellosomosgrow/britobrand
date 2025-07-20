@@ -37,7 +37,10 @@ export const InfoCard = ({
             Ir al link
           </a>
         ) : title === 'Contacto' ? (
-          <button onClick={handleRedirect} className="text-sm font-light">
+          <button
+            onClick={handleRedirect}
+            className="text-sm cursor-pointer font-light"
+          >
             Ver Más
           </button>
         ) : title === 'Experiencia' ? (

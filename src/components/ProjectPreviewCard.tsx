@@ -23,7 +23,7 @@ const ProjectPreviewCard = ({
         <h2 className="text-[14px]">Proyectos</h2>
         <button
           onClick={isExpanded ? toggleExpand : handleViewMore}
-          className="text-sm font-light"
+          className="text-sm font-light cursor-pointer"
         >
           {isExpanded ? 'Ver Menos' : 'Ver Más'}
         </button>
