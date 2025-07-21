@@ -59,6 +59,21 @@ import dudu9 from '@/assets/images/projects-details/dudu/dudu9.jpg';
 import dudu10 from '@/assets/images/projects-details/dudu/dudu10.jpg';
 import dudulogo from '@/assets/images/projects-details/dudu/dudu-logo.png';
 import duduprincipal from '@/assets/images/projects-details/dudu/dudu-principal.jpg';
+import cycling1 from '@/assets/images/projects-details/cycling/Cycling-01.jpg';
+import cycling2 from '@/assets/images/projects-details/cycling/Cycling-02.jpg';
+import cycling3 from '@/assets/images/projects-details/cycling/Cycling-03.jpg';
+import cycling4 from '@/assets/images/projects-details/cycling/Cycling-04.jpg';
+import cycling5 from '@/assets/images/projects-details/cycling/Cycling-05.jpg';
+import cycling6 from '@/assets/images/projects-details/cycling/Cycling-06.jpg';
+import cycling7 from '@/assets/images/projects-details/cycling/Cycling-07.jpg';
+import cycling8 from '@/assets/images/projects-details/cycling/Cycling-08.jpg';
+import cycling9 from '@/assets/images/projects-details/cycling/Cycling-09.jpg';
+import cycling10 from '@/assets/images/projects-details/cycling/Cycling-10.jpg';
+import cycling11 from '@/assets/images/projects-details/cycling/Cycling-11.jpg';
+import cycling12 from '@/assets/images/projects-details/cycling/Cycling-12.jpg';
+import cycling13 from '@/assets/images/projects-details/cycling/Cycling-13.jpg';
+import cycling14 from '@/assets/images/projects-details/cycling/Cycling-14.jpg';
+import cycling15 from '@/assets/images/projects-details/cycling/Cycling-15.jpg';
 //import imgrecthorizontal from '@/assets/images/projects-details/dudu/img-rectangle-horizontal.png';
 //import imgrectvertical from '@/assets/images/projects-details/dudu/img-rectangle-vertical.png';
 //import imgrectvertical2 from '@/assets/images/projects-details/dudu/img-rectangle-vertical-2.png';
@@ -86,6 +101,40 @@ import cota12 from '@/assets/images/projects-details/cota/cota12.jpg';
 import cota13 from '@/assets/images/projects-details/cota/cota13.jpg';
 import cota14 from '@/assets/images/projects-details/cota/cota14.jpg';
 import cota15 from '@/assets/images/projects-details/cota/cota15.jpg';
+import cyclinglogo from '@/assets/images/projects-details/cycling/cyclinglogo.png';
+import emamodels1 from '@/assets/images/projects-details/emamodels/EmaModels-01.jpg';
+import emamodels2 from '@/assets/images/projects-details/emamodels/EmaModels-02.jpg';
+import emamodels3 from '@/assets/images/projects-details/emamodels/EmaModels-03.jpg';
+import emamodels4 from '@/assets/images/projects-details/emamodels/EmaModels-04.jpg';
+import emamodels5 from '@/assets/images/projects-details/emamodels/EmaModels-05.jpg';
+import emamodels6 from '@/assets/images/projects-details/emamodels/EmaModels-06.jpg';
+import emamodels7 from '@/assets/images/projects-details/emamodels/EmaModels-07.jpg';
+import emamodels8 from '@/assets/images/projects-details/emamodels/EmaModels-08.jpg';
+import emamodels9 from '@/assets/images/projects-details/emamodels/EmaModels-09.jpg';
+import emamodels10 from '@/assets/images/projects-details/emamodels/EmaModels-10.jpg';
+import emamodels11 from '@/assets/images/projects-details/emamodels/EmaModels-11.jpg';
+import emamodels12 from '@/assets/images/projects-details/emamodels/EmaModels-12.jpg';
+import emamodels13 from '@/assets/images/projects-details/emamodels/EmaModels-13.jpg';
+import emamodels14 from '@/assets/images/projects-details/emamodels/EmaModels-14.jpg';
+import platzlogo from '@/assets/images/projects-details/platz/platzlogo.png';
+import platz1 from '@/assets/images/projects-details/platz/Platz-01.jpg';
+import platz2 from '@/assets/images/projects-details/platz/Platz-02.jpg';
+import platz3 from '@/assets/images/projects-details/platz/Platz-03.jpg';
+import platz4 from '@/assets/images/projects-details/platz/Platz-04.jpg';
+import platz5 from '@/assets/images/projects-details/platz/Platz-05.jpg';
+import platz6 from '@/assets/images/projects-details/platz/Platz-06.jpg';
+import platz7 from '@/assets/images/projects-details/platz/Platz-07.jpg';
+import platz8 from '@/assets/images/projects-details/platz/Platz-08.jpg';
+import platz9 from '@/assets/images/projects-details/platz/Platz-09.jpg';
+import platz10 from '@/assets/images/projects-details/platz/Platz-10.jpg';
+import platz11 from '@/assets/images/projects-details/platz/Platz-11.jpg';
+import platz12 from '@/assets/images/projects-details/platz/Platz-12.jpg';
+import platz13 from '@/assets/images/projects-details/platz/Platz-13.jpg';
+import platz14 from '@/assets/images/projects-details/platz/Platz-14.jpg';
+import platz15 from '@/assets/images/projects-details/platz/Platz-15.jpg';
+import platz16 from '@/assets/images/projects-details/platz/Platz-16.jpg';
+import platz17 from '@/assets/images/projects-details/platz/Platz-17.jpg';
+
 export {
   cota,
   cyclingstore,
@@ -175,4 +224,52 @@ export {
   cota13,
   cota14,
   cota15,
+  cycling1,
+  cycling2,
+  cycling3,
+  cycling4,
+  cycling5,
+  cycling6,
+  cycling7,
+  cycling8,
+  cycling9,
+  cycling10,
+  cycling11,
+  cycling12,
+  cycling13,
+  cycling14,
+  cycling15,
+  cyclinglogo,
+  emamodels1,
+  emamodels2,
+  emamodels3,
+  emamodels4,
+  emamodels5,
+  emamodels6,
+  emamodels7,
+  emamodels8,
+  emamodels9,
+  emamodels10,
+  emamodels11,
+  emamodels12,
+  emamodels13,
+  emamodels14,
+  platzlogo,
+  platz1,
+  platz2,
+  platz3,
+  platz4,
+  platz5,
+  platz6,
+  platz7,
+  platz8,
+  platz9,
+  platz10,
+  platz11,
+  platz12,
+  platz13,
+  platz14,
+  platz15,
+  platz16,
+  platz17,
 };
