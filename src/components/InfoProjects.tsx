@@ -35,8 +35,6 @@ export const InfoProjectDetails = ({
   projectTools,
   project,
 }: {
-  projectTitle: string;
-  projectType: string;
   projectDescription: string;
   projectLocationDescription: string;
   projectColaborators: string[];
