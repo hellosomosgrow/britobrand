@@ -2,7 +2,6 @@ import cota from '@/assets/images/projects-min/cota.webp';
 import cyclingstore from '@/assets/images/projects-min/cyclingstore.webp';
 import dudu from '@/assets/images/projects-min/dudu.webp';
 import sedel from '@/assets/images/projects-min/sedel.webp';
-import ideamania from '@/assets/images/projects-min/ideamania.webp';
 import casanuna from '@/assets/images/projects-min/casanuna.webp';
 import factor from '@/assets/images/projects-min/factor.webp';
 import involvere from '@/assets/images/projects-min/involvere.webp';

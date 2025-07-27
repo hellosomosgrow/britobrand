@@ -53,6 +53,7 @@ const ProjectDetail = () => {
           projectLocationDescription={project.location || ''}
           projectColaborators={project.colaborators || []}
           projectTools={project.tools || []}
+          project={project}
         />
 
         <div className="flex flex-col space-y-2">
