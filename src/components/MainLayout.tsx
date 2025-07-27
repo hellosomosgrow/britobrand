@@ -8,9 +8,9 @@ import { projectsPreview } from '@/data/projectsData';
 import ProjectPreviewCard from './ProjectPreviewCard';
 const MainLayout = () => {
   return (
-    <div className="w-full flex flex-col space-y-4 md:flex-row gap-4">
+    <div className="w-full flex flex-col md:flex-row gap-4">
       {/* Columna de la izquierda: Para escritorio */}
-      <div className="flex flex-col space-y-4 md:w-1/3 md:sticky md:top-0 md:h-screen md:overflow-y-auto no-scrollbar">
+      <div className="flex flex-col gap-4 md:w-1/3 md:sticky md:h-screen md:overflow-y-auto no-scrollbar">
         {/* InfoSection: Visible tanto en mobile como en desktop */}
         <InfoSection />
 

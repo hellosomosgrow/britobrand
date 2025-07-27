@@ -19,7 +19,8 @@ export default function Header() {
         </Link>
       </div>
       <div className="flex justify-center md:justify-end px-3">
-        <nav className="flex gap-x-0 md:gap-x-1 w-full md:w-auto items-center">
+        <nav className="flex w-full items-center justify-around md:justify-end gap-x-0 md:gap-x-1">
+          {' '}
           {links.map(({ label, path }) => {
             const currentIsActive = isActive(path);
             //const nextIsActive =

@@ -5,7 +5,7 @@ import {
   projectsLarge,
   type Project,
 } from '@/data/projectsData';
-import InfoProjects from '@/components/InfoProjects';
+import { InfoProjects, InfoProjectDetails } from '@/components/InfoProjects';
 //import { projectsDetailData } from '@/data/projectsDetailData';
 
 const ProjectDetail = () => {
@@ -45,18 +45,16 @@ const ProjectDetail = () => {
 
   return (
     <div className="w-full mx-auto flex flex-col md:flex-row md:space-x-4">
-      {/* Columna izquierda: ProjectPreviewCard e InfoProjects */}
-      <div className="flex flex-col space-y-4 md:w-1/3 md:sticky md:top-0 md:h-screen no-scrollbar max-w-[420px]">
-        {/* <ProjectPreviewCard project={project} /> */}
-        <InfoProjects
-          projectTitle={project.title || ''}
-          projectType={project.type || ''}
+      {/* Columna izquierda: Desktop */}
+      <div className="hidden md:flex flex-col space-y-4 md:w-1/3 md:sticky md:top-0 md:h-screen no-scrollbar max-w-[420px]">
+        <InfoProjects project={project} />
+        <InfoProjectDetails
           projectDescription={project.description || ''}
           projectLocationDescription={project.location || ''}
           projectColaborators={project.colaborators || []}
           projectTools={project.tools || []}
-          project={project}
         />
+
         <div className="flex flex-col space-y-2">
           <button
             onClick={handleNextProject}
@@ -73,8 +71,60 @@ const ProjectDetail = () => {
         </div>
       </div>
 
-      {/* Columna derecha: Imágenes */}
-      <div className="flex-1 grid grid-cols-1 md:grid-cols-2 gap-4 auto-rows-auto">
+      {/* Mobile: Card principal, imágenes, luego detalles */}
+      <div className="md:hidden flex flex-col w-full space-y-4">
+        <InfoProjects project={project} />
+
+        {/* Imágenes */}
+        <div className="grid grid-cols-1 gap-4 auto-rows-auto">
+          {project.images && project.images.length > 0 ? (
+            project.images.map((img, idx) => (
+              <div
+                key={idx}
+                className={`bg-[#E9E9E9] rounded-lg overflow-hidden ${
+                  img.layout === 'full' ? 'col-span-1' : 'col-span-1'
+                }`}
+              >
+                <img
+                  src={img.url}
+                  alt={`Imagen ${idx + 1}`}
+                  className="w-full h-auto object-cover"
+                />
+              </div>
+            ))
+          ) : (
+            <div className="col-span-2 text-center text-gray-400">
+              No hay imágenes para este proyecto.
+            </div>
+          )}
+        </div>
+
+        <InfoProjectDetails
+          projectDescription={project.description || ''}
+          projectLocationDescription={project.location || ''}
+          projectColaborators={project.colaborators || []}
+          projectTools={project.tools || []}
+          project={project}
+        />
+
+        <div className="flex flex-col space-y-2">
+          <button
+            onClick={handleNextProject}
+            className="w-full bg-black text-white text-[15px] font-light py-3 rounded-[6px] hover:opacity-90 transition cursor-pointer"
+          >
+            Ver Siguiente Proyecto
+          </button>
+          <button
+            onClick={handlePrevProject}
+            className="w-full bg-[#767575] text-[15px] font-light text-white py-3 rounded-[6px] hover:opacity-90 transition cursor-pointer"
+          >
+            Ir Atrás
+          </button>
+        </div>
+      </div>
+
+      {/* Columna derecha: Imágenes (desktop) */}
+      <div className=" hidden md:grid grid-cols-1 flex-1 md:grid-cols-2 gap-4 auto-rows-auto">
         {project.images && project.images.length > 0 ? (
           project.images.map((img, idx) => (
             <div

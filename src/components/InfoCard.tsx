@@ -19,8 +19,8 @@ export const InfoCard = ({
     setIsExpanded(!isExpanded);
   };
 
-  const handleRedirect = () => {
-    navigate('/contacto');
+  const handleRedirect = (path: string) => {
+    navigate(path);
   };
 
   return (
@@ -31,14 +31,14 @@ export const InfoCard = ({
           <a
             href="https://instagram.com/britobrand_"
             target="_blank"
-            rel="noopener noreferrer text-sm font-light"
-            className="no-underline no-decoration"
+            rel="noopener noreferrer"
+            className="text-sm font-light no-underline"
           >
             Ir al link
           </a>
         ) : title === 'Contacto' ? (
           <button
-            onClick={handleRedirect}
+            onClick={() => handleRedirect('/contacto')}
             className="text-sm cursor-pointer font-light"
           >
             Ver Más
@@ -64,7 +64,11 @@ export const InfoCard = ({
       {subtitle && <h3 className="font-medium text-[15px] mb-1">{subtitle}</h3>}
       <p
         className={`text-[15px] font-light whitespace-pre-line ${
-          !isExpanded ? 'line-clamp-4' : ''
+          !isExpanded
+            ? title === 'Servicios'
+              ? 'line-clamp-2'
+              : 'line-clamp-4'
+            : ''
         }`}
       >
         {content}
@@ -75,6 +79,13 @@ export const InfoCard = ({
           alt={title}
           className="w-full h-auto mt-2 rounded-lg"
         />
+      )}
+      {title === 'Servicios' && isExpanded && (
+        <div className="mt-6 flex justify-center w-full">
+          <button className="bg-black text-white rounded-[10px] px-10 py-3 text-sm">
+            Quiero Contratar un Servicio
+          </button>
+        </div>
       )}
     </div>
   );

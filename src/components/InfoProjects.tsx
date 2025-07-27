@@ -1,16 +1,6 @@
-const InfoProjects = ({
-  projectDescription,
-  projectLocationDescription,
-  projectColaborators,
-  projectTools,
+export const InfoProjects = ({
   project,
 }: {
-  projectTitle: string;
-  projectType: string;
-  projectDescription: string;
-  projectLocationDescription: string;
-  projectColaborators: string[];
-  projectTools: string[];
   project: {
     image?: string;
     title?: string;
@@ -18,9 +8,9 @@ const InfoProjects = ({
   };
 }) => {
   return (
-    <div className="bg-[#E9E9E9] text-gray-800 rounded-lg pt-4">
+    <div className="bg-[#E9E9E9] text-black rounded-[10px]">
       {/* Sección Card Principal */}
-      <div className="border-b border-[#767575]  pb-4 px-4 mb-4 last:border-b-0 h-32">
+      <div className="md:border-b md:border-[#767575] p-3 md:mb-4 last:border-b-0 h-32">
         <h2 className="text-[14px] mb-5">Proyectos</h2>
         <div className="flex space-x-4">
           <img
@@ -34,10 +24,42 @@ const InfoProjects = ({
           </div>
         </div>
       </div>
+    </div>
+  );
+};
 
+export const InfoProjectDetails = ({
+  projectDescription,
+  projectLocationDescription,
+  projectColaborators,
+  projectTools,
+  project,
+}: {
+  projectTitle: string;
+  projectType: string;
+  projectDescription: string;
+  projectLocationDescription: string;
+  projectColaborators: string[];
+  projectTools: string[];
+  project: {
+    title?: string;
+    type?: string;
+  };
+}) => {
+  return (
+    <div className="bg-[#E9E9E9] rounded-[10px] pt-4">
       {/* Sección Info */}
-      <div className="border-b border-[#767575] pb-4 px-4 mb-4 last:border-b-0">
-        <p className="py-3 text-sm text-[#4A4949] font-light whitespace-pre-line h-[24rem]">
+      <div className="border-b text-black border-[#767575] pb-4 px-4 mb-4 last:border-b-0">
+        {project && (
+          <>
+            <p className="md:hidden">Info.</p>
+            <h3 className="md:hidden text-[15px] font-semibold">
+              {project.title}
+            </h3>
+            <p className="md:hidden">{project?.type}</p>
+          </>
+        )}
+        <p className="py-3 mt-3 text-sm text-[#4A4949] font-light whitespace-pre-line h-[24rem]">
           {projectDescription}
         </p>
       </div>
@@ -46,7 +68,7 @@ const InfoProjects = ({
       <div className="h-32 border-b border-[#767575]  pb-4 px-4 mb-4 last:border-b-0">
         <span className="text-sm">Ubicación</span>
 
-        <p className="mt-2 text-sm text-black font-semibold">
+        <p className="mt-3 text-sm text-black font-semibold">
           {projectLocationDescription}
         </p>
       </div>
@@ -55,7 +77,7 @@ const InfoProjects = ({
       {projectColaborators.length > 0 && (
         <div className="h-32 border-b border-[#767575] pb-4 px-4 mb-4 last:border-b-0">
           <span className="text-sm">Work Featured In</span>
-          <ul className="list-none text-sm">
+          <ul className="list-none text-sm mt-3">
             {projectColaborators.map((colab, index) => {
               const [name, role] = colab.split(' - ');
               return (
@@ -75,7 +97,7 @@ const InfoProjects = ({
       <div className="h-32 border-b border-gray-300 pb-4 px-4 last:border-b-0">
         <span className="text-sm font-semibold">Herramientas</span>
 
-        <div className="flex gap-[6px] mt-2">
+        <div className="flex gap-[6px] mt-3">
           {projectTools.map((tool, index) => (
             <img
               key={index}
@@ -89,5 +111,3 @@ const InfoProjects = ({
     </div>
   );
 };
-
-export default InfoProjects;

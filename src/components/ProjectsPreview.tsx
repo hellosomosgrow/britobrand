@@ -20,17 +20,20 @@ const getColsClass = (cols: number | undefined) => {
 };
 
 const ProjectsPreview = ({ columnsDesktop }: ProjectsPreviewProps) => {
+  const largeFirst8 = projectsLarge.slice(0, 8);
   return (
-    <div className="w-full grid grid-cols-1 gap-4 scrollbar-gutter overflow-y-auto no-scrollbar">
-      {/* Solo se muestran las versiones 'Large' en escritorio (4 columnas) */}
+    <div className="w-full space-y-4">
+      {/* Escritorio: todos los proyectos large */}
       <div className={`hidden md:grid ${getColsClass(columnsDesktop)} gap-4`}>
         {projectsLarge.map((project, index) => (
           <ProjectPreviewLargeCard key={index} project={project} />
         ))}
       </div>
 
-      {/* Solo se muestran las versiones 'Preview' en móvil */}
-      <div className="md:hidden grid-cols-1 gap-4">
+      <div className="md:hidden grid grid-cols-1 gap-4">
+        {largeFirst8.map((project, index) => (
+          <ProjectPreviewLargeCard key={index} project={project} />
+        ))}
         {projectsPreview.map((project, index) => (
           <ProjectPreviewCard key={index} project={project} />
         ))}
