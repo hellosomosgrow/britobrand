@@ -37,7 +37,7 @@ const ProjectDetail = () => {
 
   useEffect(() => {
     window.scrollTo(0, 0);
-  }, []);
+  }, [projectId]);
 
   if (!project) {
     return <div>Proyecto no encontrado</div>;
@@ -60,13 +60,13 @@ const ProjectDetail = () => {
         <div className="flex flex-col space-y-2">
           <button
             onClick={handleNextProject}
-            className="w-full bg-black text-white text-[15px] font-light py-3 rounded-[6px] hover:opacity-90 transition"
+            className="w-full bg-black text-white text-[15px] font-light py-3 rounded-[6px] hover:opacity-90 transition cursor-pointer"
           >
             Ver Siguiente Proyecto
           </button>
           <button
             onClick={handlePrevProject}
-            className="w-full bg-[#767575] text-[15px] font-light text-white py-3 rounded-[6px] hover:opacity-90 transition"
+            className="w-full bg-[#767575] text-[15px] font-light text-white py-3 rounded-[6px] hover:opacity-90 transition cursor-pointer"
           >
             Ir Atrás
           </button>

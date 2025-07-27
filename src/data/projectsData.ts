@@ -4,11 +4,9 @@ import {
   factor,
   pintalopro,
   botanico,
-  labsantaelena,
   emamodels,
   sierraatlantica,
   mss,
-  lachacra,
 } from '@/assets/images';
 import {
   coverbotanico,
@@ -110,9 +108,117 @@ import {
   platz15,
   platz16,
   platz17,
+  botanico1,
+  botanico2,
+  botanico3,
+  botanico4,
+  botanico5,
+  botanico6,
+  botanico7,
+  botanico8,
+  botanico9,
+  botanico10,
+  botanico11,
+  botanico12,
+  botanico13,
+  botanico14,
   //imgrecthorizontal,
   //imgrectvertical,
   //imgrectvertical2,
+  lointerior,
+  lointerior1,
+  lointerior2,
+  lointerior3,
+  lointerior4,
+  lointerior5,
+  lointerior6,
+  lointerior7,
+  lointerior8,
+  lointerior9,
+  lointerior10,
+  lointerior11,
+  lointerior12,
+  lointerior13,
+  lointerior14,
+  factor1,
+  factor2,
+  factor3,
+  factor4,
+  factor5,
+  factor6,
+  factor7,
+  factor8,
+  factor9,
+  factor10,
+  factor11,
+  factor12,
+  factor13,
+  factor14,
+  ideamania,
+  ideamania1,
+  ideamania2,
+  ideamania3,
+  ideamania4,
+  ideamania5,
+  ideamania6,
+  ideamania7,
+  ideamania8,
+  ideamania9,
+  ideamania10,
+  ideamania11,
+  ideamania12,
+  ideamania13,
+  ideamania14,
+  ideamania15,
+  casanuna1,
+  casanuna2,
+  casanuna3,
+  casanuna4,
+  casanuna5,
+  casanuna6,
+  casanuna7,
+  casanuna8,
+  casanuna9,
+  casanuna10,
+  casanuna11,
+  sedel1,
+  sedel2,
+  sedel3,
+  sedel4,
+  sedel5,
+  sedel6,
+  sedel7,
+  sedel8,
+  sedel9,
+  sedel10,
+  sedel11,
+  sedel12,
+  sedel13,
+  sedel14,
+  sedel15,
+  sedel16,
+  sedel17,
+  sedel18,
+  sierraatlantica1,
+  sierraatlantica2,
+  sierraatlantica3,
+  sierraatlantica4,
+  sierraatlantica5,
+  sierraatlantica6,
+  sierraatlantica7,
+  sierraatlantica8,
+  sierraatlantica9,
+  sierraatlantica10,
+  sierraatlantica11,
+  sierraatlantica12,
+  mss1,
+  mss2,
+  mss3,
+  mss4,
+  mss5,
+  mss6,
+  mss7,
+  mss8,
 } from '@/assets/images';
 
 export type Project = {
@@ -288,121 +394,257 @@ Una identidad sin exceso, pero con presencia. Precisa, directa y diseñada para 
     ],
   },
   {
-    title: 'BOTÁNICO',
-    image: botanico,
-    type: 'Identidad Visual',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget.',
-    location: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    colaborators: [
-      'Shalma Suarez - Consultora de marcas (UY)',
-      'Arquetipo - Estudio de Diseño (USA)',
-    ],
-    tools: [psLogo, aiLogo, figmaLogo],
-  },
-  {
-    title: 'CASA NUNA',
-    image: casanuna,
-    type: 'Identidad Visual',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget.',
-    location: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    colaborators: [
-      'Shalma Suarez - Consultora de marcas (UY)',
-      'Arquetipo - Estudio de Diseño (USA)',
-    ],
-    tools: [psLogo, aiLogo, figmaLogo],
-  },
-  {
     title: 'PINTALO PRO',
     image: pintalopro,
     type: 'Identidad Visual',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget.',
-    location: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    colaborators: [
-      'Shalma Suarez - Consultora de marcas (UY)',
-      'Arquetipo - Estudio de Diseño (USA)',
-    ],
+    description: `Trabajé en el rediseño completo de la imagen de PíntaloPro, una marca de servicios de pintura y renovación con foco en calidad, tecnología y experiencia. El objetivo fue construir una identidad más sólida, moderna y coherente con su propuesta actual.
+
+Desarrollé un logo tipográfico que transmite precisión y profesionalismo, junto a una marca secundaria versátil pensada para aplicaciones en señalética, redes y uniformes. La estética general apuesta por el minimalismo, con una paleta en blanco, negro y grises que refuerza el carácter técnico y limpio del rubro.
+
+La elección de la tipografía Inter y la construcción de un sistema visual claro permiten jerarquías bien definidas y una comunicación directa. Además, diseñé piezas clave como tarjetas, señalética, web y línea gráfica digital para redes, asegurando consistencia en todos los puntos de contacto de la marca.
+`,
+    location: 'Montevideo - Uruguay',
+    colaborators: [],
     tools: [psLogo, aiLogo, figmaLogo],
   },
   {
-    title: 'SIERRA ATLÁNTICA',
-    image: sierraatlantica,
+    title: 'BOTÁNICO',
+    image: botanico,
     type: 'Identidad Visual',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget.',
-    location: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    colaborators: [
-      'Shalma Suarez - Consultora de marcas (UY)',
-      'Arquetipo - Estudio de Diseño (USA)',
+    description: `Botánico es un café que ya tenía raíces firmes y una comunidad fiel, pero buscaba renovar su identidad visual para acompañar su crecimiento. El encargo fue claro: sin tocar el logo, potenciar todo lo demás para reflejar mejor su energía actual.
+
+El trabajo se centró en un refresh visual que incluyó paleta de color, ilustraciones, diseño del menú, piezas impresas y contenido para redes. Cada decisión buscó mantener la calidez del lugar, con una estética más orgánica, cuidada y coherente con la experiencia real del espacio.
+
+El resultado es una identidad que respira verde, sabor y cercanía. Una marca que sigue creciendo con intención, sin perder lo que la hace especial.
+`,
+    location: 'Santiago de Chile - Chile',
+    colaborators: [],
+    tools: [psLogo, aiLogo],
+    images: [
+      { url: botanico1, layout: 'full' },
+      { url: botanico2, layout: 'full' },
+      { url: botanico3, layout: 'vertical' },
+      { url: botanico4, layout: 'vertical' },
+      { url: botanico5, layout: 'full' },
+      { url: botanico6, layout: 'vertical' },
+      { url: botanico7, layout: 'vertical' },
+      { url: botanico8, layout: 'full' },
+      { url: botanico9, layout: 'vertical' },
+      { url: botanico10, layout: 'vertical' },
+      { url: botanico11, layout: 'full' },
+      { url: botanico12, layout: 'vertical' },
+      { url: botanico13, layout: 'vertical' },
+      { url: botanico14, layout: 'full' },
     ],
-    tools: [psLogo, aiLogo, figmaLogo],
   },
   {
-    title: 'SEDEL',
-    image: sedel,
-    type: 'Identidad Visual + Website',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget.',
-    location: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    colaborators: [
-      'Shalma Suarez - Consultora de marcas (UY)',
-      'Arquetipo - Estudio de Diseño (USA)',
+    title: 'LO INTERIOR',
+    image: lointerior,
+    type: 'Identidad Visual',
+    description: `Lo Interior es un estudio de arquitectura y diseño que entiende los espacios desde lo esencial. La identidad debía transmitir calma, detalle y contención. El punto de partida fue una paleta sobria liderada por un verde sage que articula el tono visual de toda la marca.
+
+El logotipo principal convive con su versión comprimida: LOI, un acrónimo que nace de forma natural como respuesta a la dinámica de los soportes y la manera en que las personas nombran lo que ya sienten cercano. 
+
+Este recurso permitió desarrollar un sistema más flexible, sin perder elegancia ni reconocimiento.
+Cada pieza —desde las tarjetas hasta el feed— busca replicar esa misma sensación que deja un buen espacio: equilibrio, intención y una belleza silenciosa.
+`,
+    location: 'Texas - Estados Unidos',
+    colaborators: ['Eleazar Briceño y Manuel G. Ordóñez - Agencia de Diseño.'],
+    tools: [psLogo, aiLogo],
+    images: [
+      { url: lointerior1, layout: 'full' },
+      { url: lointerior2, layout: 'vertical' },
+      { url: lointerior3, layout: 'vertical' },
+      { url: lointerior4, layout: 'full' },
+      { url: lointerior5, layout: 'full' },
+      { url: lointerior6, layout: 'vertical' },
+      { url: lointerior7, layout: 'vertical' },
+      { url: lointerior8, layout: 'full' },
+      { url: lointerior9, layout: 'full' },
+      { url: lointerior10, layout: 'full' },
+      { url: lointerior11, layout: 'vertical' },
+      { url: lointerior12, layout: 'vertical' },
+      { url: lointerior13, layout: 'full' },
+      { url: lointerior14, layout: 'full' },
     ],
-    tools: [psLogo, aiLogo, figmaLogo],
   },
   {
     title: 'FACTOR',
     image: factor,
     type: 'Identidad Visual',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget.',
-    location: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    colaborators: [
-      'Shalma Suarez - Consultora de marcas (UY)',
-      'Arquetipo - Estudio de Diseño (USA)',
+    description: `Es una agencia de marketing digital enfocada en performance. Su promesa es clara: multiplicar resultados. El objetivo del proyecto fue crear una identidad visual que tuviera el mismo impacto que sus campañas: directa, enérgica y memorable.
+
+Diseñé el logo, una tipografía custom basada en trazos modulares y una paleta cromática audaz que permite adaptarse a múltiples formatos. El sistema se complementa con layouts dinámicos, piezas para redes, presentaciones y elementos gráficos que refuerzan movimiento y expansión.
+
+Una marca que se construye con ritmo, habla con datos y deja claro cuál es su factor diferencial: resultados que se notan.
+`,
+    location: 'Montevideo - Uruguay',
+    colaborators: [],
+    tools: [psLogo, aiLogo],
+    images: [
+      { url: factor1, layout: 'full' },
+      { url: factor2, layout: 'full' },
+      { url: factor3, layout: 'vertical' },
+      { url: factor4, layout: 'vertical' },
+      { url: factor5, layout: 'full' },
+      { url: factor6, layout: 'vertical' },
+      { url: factor7, layout: 'vertical' },
+      { url: factor8, layout: 'full' },
+      { url: factor9, layout: 'vertical' },
+      { url: factor10, layout: 'vertical' },
+      { url: factor11, layout: 'full' },
+      { url: factor12, layout: 'vertical' },
+      { url: factor13, layout: 'vertical' },
+      { url: factor14, layout: 'full' },
     ],
-    tools: [psLogo, aiLogo, figmaLogo],
   },
   {
-    title: 'LA CHACRA',
-    image: lachacra,
-    type: 'Website',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget.',
-    location: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    colaborators: [
-      'Shalma Suarez - Consultora de marcas (UY)',
-      'Arquetipo - Estudio de Diseño (USA)',
-    ],
-    tools: [psLogo, aiLogo, figmaLogo],
-  },
-  {
-    title: 'LABORATORIO SANTA ELENA',
-    image: labsantaelena,
+    title: 'IDEMANIA',
+    image: ideamania,
     type: 'Identidad Visual',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget.',
-    location: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    colaborators: [
-      'Shalma Suarez - Consultora de marcas (UY)',
-      'Arquetipo - Estudio de Diseño (USA)',
-    ],
+    description: `Ideamania llegó con una idea clara: necesitaban renovar su imagen para verse más actuales, sin perder cercanía ni funcionalidad. Lo primero que trabajamos fue el logo. Querían que se leyera de una, sin esfuerzo. Algo simple, directo y eficaz. A partir de ahí, desarrollé toda la identidad visual: paleta de color, universo gráfico, propuesta web y un sistema adaptable a todo tipo de soporte.
+
+Busqué que la nueva imagen tuviera personalidad, pero sin complicaciones. Que pudiera funcionar igual de bien en redes, etiquetas, gorras, totebags, packaging y hasta en el ploteo de vehículos. Todo con un lenguaje visual fresco, reconocible y coherente.
+
+Fue una renovación total que dejó atrás lo genérico para mostrar una marca mucho más segura de lo que ofrece: diseño, productos y servicios con propósito.
+`,
+    location: 'Montevideo - Uruguay',
+    colaborators: [],
     tools: [psLogo, aiLogo, figmaLogo],
+    images: [
+      { url: ideamania1, layout: 'full' },
+      { url: ideamania2, layout: 'vertical' },
+      { url: ideamania3, layout: 'vertical' },
+      { url: ideamania4, layout: 'full' },
+      { url: ideamania5, layout: 'full' },
+      { url: ideamania6, layout: 'vertical' },
+      { url: ideamania7, layout: 'vertical' },
+      { url: ideamania8, layout: 'full' },
+      { url: ideamania9, layout: 'vertical' },
+      { url: ideamania10, layout: 'vertical' },
+      { url: ideamania11, layout: 'full' },
+      { url: ideamania12, layout: 'vertical' },
+      { url: ideamania13, layout: 'vertical' },
+      { url: ideamania14, layout: 'full' },
+      { url: ideamania15, layout: 'full' },
+    ],
   },
+  {
+    title: 'CASA NUNA',
+    image: casanuna,
+    type: 'Identidad Visual',
+    description: `Casa Nuna es una marca de café en grano enfocada en ofrecer producto de calidad, cuidadosamente empacado y con una estética que respira calidez y detalle. El objetivo fue crear una identidad visual que hiciera del empaque una experiencia tan cuidada como el café que contiene.
+
+Diseñé un sistema gráfico adaptable a distintos productos, con especial atención al color, las tipografías y los materiales. La identidad transmite cercanía, origen y equilibrio: desde los packs hasta las aplicaciones digitales.
+
+Una marca pensada para verse bien en anaquel, en redes y en la rutina diaria de quien elige un buen café.
+`,
+    location: 'Montevideo - Uruguay',
+    colaborators: [],
+    tools: [psLogo, aiLogo],
+    images: [
+      { url: casanuna1, layout: 'full' },
+      { url: casanuna2, layout: 'full' },
+      { url: casanuna3, layout: 'vertical' },
+      { url: casanuna4, layout: 'vertical' },
+      { url: casanuna5, layout: 'full' },
+      { url: casanuna6, layout: 'vertical' },
+      { url: casanuna7, layout: 'vertical' },
+      { url: casanuna8, layout: 'full' },
+      { url: casanuna9, layout: 'full' },
+      { url: casanuna10, layout: 'vertical' },
+      { url: casanuna11, layout: 'vertical' },
+    ],
+  },
+  {
+    title: 'SEDEL',
+    image: sedel,
+    type: 'Identidad Visual + Website',
+    description: `SEDEL es una de las empresas de control de plagas más reconocidas en Uruguay. Con años de trayectoria, necesitaba actualizar su identidad visual sin perder solidez ni confianza. El reto fue rediseñar su imagen para que hablara el mismo idioma que sus servicios: técnico, preciso y eficiente.
+
+El trabajo incluyó el rediseño del logo, un símbolo geométrico basado en la letra “S”, que transmite movimiento y estructura. También desarrollé un nuevo sistema gráfico aplicado a web, uniformes, vehículos y materiales corporativos, reforzando profesionalismo y visibilidad de marca.
+
+Una identidad renovada que se ve más actual, más clara y lista para seguir creciendo en un rubro que exige confianza y respuesta inmediata.
+`,
+
+    location: 'Montevideo - Uruguay',
+    colaborators: [],
+    tools: [psLogo, aiLogo, figmaLogo],
+    images: [
+      { url: sedel1, layout: 'full' },
+      { url: sedel2, layout: 'vertical' },
+      { url: sedel3, layout: 'vertical' },
+      { url: sedel4, layout: 'full' },
+      { url: sedel5, layout: 'vertical' },
+      { url: sedel6, layout: 'vertical' },
+      { url: sedel7, layout: 'full' },
+      { url: sedel8, layout: 'vertical' },
+      { url: sedel9, layout: 'vertical' },
+      { url: sedel10, layout: 'full' },
+      { url: sedel11, layout: 'full' },
+      { url: sedel12, layout: 'vertical' },
+      { url: sedel13, layout: 'vertical' },
+      { url: sedel14, layout: 'full' },
+      { url: sedel15, layout: 'full' },
+      { url: sedel16, layout: 'vertical' },
+      { url: sedel17, layout: 'vertical' },
+      { url: sedel18, layout: 'full' },
+    ],
+  },
+  {
+    title: 'SIERRA ATLÁNTICA',
+    image: sierraatlantica,
+    type: 'Identidad Visual',
+    description: `Sierra Atlántica fue un proyecto de identidad visual que desarrollé desde cero, buscando representar una marca honesta, natural y cercana. El objetivo era construir una identidad sencilla pero con personalidad, que pudiera vivir bien tanto en lo digital como en sus aplicaciones físicas.
+
+Diseñé el logo, el sistema gráfico, algunas ilustraciones aplicadas al merchandising y piezas como totebags. Cada elemento fue pensado para transmitir una estética limpia, con tonos neutros y gestos visuales que conectaran con la esencia de la marca.
+
+Quise que todo se sintiera coherente, sin exceso, con una estética tranquila pero firme. Una identidad visual que acompaña sin imponerse, y que funciona con claridad en distintos soportes.
+`,
+    location: 'Montevideo - Uruguay',
+    colaborators: [],
+    tools: [psLogo, aiLogo],
+    images: [
+      { url: sierraatlantica1, layout: 'full' },
+      { url: sierraatlantica2, layout: 'vertical' },
+      { url: sierraatlantica3, layout: 'vertical' },
+      { url: sierraatlantica4, layout: 'full' },
+      { url: sierraatlantica5, layout: 'vertical' },
+      { url: sierraatlantica6, layout: 'vertical' },
+      { url: sierraatlantica7, layout: 'full' },
+      { url: sierraatlantica8, layout: 'vertical' },
+      { url: sierraatlantica9, layout: 'vertical' },
+      { url: sierraatlantica10, layout: 'full' },
+      { url: sierraatlantica11, layout: 'vertical' },
+      { url: sierraatlantica12, layout: 'vertical' },
+    ],
+  },
+
   {
     title: 'MINING SUPPLIES SOLUTIONS',
     image: mss,
     type: 'Branding',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget.',
-    location: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    colaborators: [
-      'Shalma Suarez - Consultora de marcas (UY)',
-      'Arquetipo - Estudio de Diseño (USA)',
+    description: `MMS – Mining Supplies Solutions es una empresa especializada en insumos para minería. Ya contaban con un logotipo base, y el desafío fue vectorizarlo y construir a partir de él un sistema visual sólido, técnico y profesional.
+
+Diseñé toda la identidad visual: papelería, presentaciones, assets para dispositivos y piezas corporativas. Trabajé una paleta de azules profundos con acentos eléctricos, tipografía de buen rendimiento técnico y una grilla visual basada en bloques, inspirada en estructuras modulares.
+
+El resultado es una marca que transmite orden, precisión y escala. Visualmente clara, lista para operar en entornos exigentes y altamente funcionales.
+
+
+`,
+    location: 'Montevideo - Uruguay',
+    colaborators: [],
+    tools: [psLogo, aiLogo],
+    images: [
+      { url: mss1, layout: 'full' },
+      { url: mss2, layout: 'vertical' },
+      { url: mss3, layout: 'vertical' },
+      { url: mss4, layout: 'full' },
+      { url: mss5, layout: 'vertical' },
+      { url: mss6, layout: 'vertical' },
+      { url: mss7, layout: 'full' },
+      { url: mss8, layout: 'vertical' },
     ],
-    tools: [psLogo, aiLogo, figmaLogo],
   },
 ];
 
@@ -429,7 +671,7 @@ export const projectsLarge = [
   //{ title: 'LA CHACRA', image: coverlachacra, type: 'Identidad Visual' },
   //{ title: 'SANTA ELENA', image: coversantaElena, type: 'Identidad Visual' },
   {
-    title: 'MINING SUPPLIES SOLUTIONS',
+    title: 'MSS',
     image: coverminingSuppliesSolutions,
     type: 'Identidad Visual',
   },
