@@ -33,6 +33,7 @@ import coversantaElena from '@/assets/images/projects-cover/coversantaElena.png'
 import coversedel from '@/assets/images/projects-cover/coversedel.png';
 import coversierraAtlantica from '@/assets/images/projects-cover/coversierraAtlantica.png';
 import coverlointerior from '@/assets/images/projects-cover/coverlointerior.png';
+import covergrow from '@/assets/images/projects-cover/covergrow.png';
 import behance from '@/assets/images/social/behance.webp';
 import instagram from '@/assets/images/social/instagram.webp';
 import tiktok from '@/assets/images/social/tiktok.webp';
@@ -241,7 +242,21 @@ import mss5 from '@/assets/images/projects-details/mss/MMS-05.jpg';
 import mss6 from '@/assets/images/projects-details/mss/MMS-06.jpg';
 import mss7 from '@/assets/images/projects-details/mss/MMS-07.jpg';
 import mss8 from '@/assets/images/projects-details/mss/MMS-08.jpg';
-
+import pintalopro1 from '@/assets/images/projects-details/pintalopro/PintaloPro-01.jpg';
+import pintalopro2 from '@/assets/images/projects-details/pintalopro/PintaloPro-02.jpg';
+import pintalopro3 from '@/assets/images/projects-details/pintalopro/PintaloPro-03.jpg';
+import pintalopro4 from '@/assets/images/projects-details/pintalopro/PintaloPro-04.jpg';
+import pintalopro5 from '@/assets/images/projects-details/pintalopro/PintaloPro-05.jpg';
+import pintalopro6 from '@/assets/images/projects-details/pintalopro/PintaloPro-06.jpg';
+import pintalopro7 from '@/assets/images/projects-details/pintalopro/PintaloPro-07.jpg';
+import pintalopro8 from '@/assets/images/projects-details/pintalopro/PintaloPro-08.jpg';
+import pintalopro9 from '@/assets/images/projects-details/pintalopro/PintaloPro-09.jpg';
+import pintalopro10 from '@/assets/images/projects-details/pintalopro/PintaloPro-10.jpg';
+import pintalopro11 from '@/assets/images/projects-details/pintalopro/PintaloPro-11.jpg';
+import pintalopro12 from '@/assets/images/projects-details/pintalopro/PintaloPro-12.jpg';
+import pintalopro13 from '@/assets/images/projects-details/pintalopro/PintaloPro-13.jpg';
+import pintalopro14 from '@/assets/images/projects-details/pintalopro/PintaloPro-14.jpg';
+import pintalopro15 from '@/assets/images/projects-details/pintalopro/PintaloPro-15.jpg';
 export {
   cota,
   cyclingstore,
@@ -486,4 +501,20 @@ export {
   mss6,
   mss7,
   mss8,
+  pintalopro1,
+  pintalopro2,
+  pintalopro3,
+  pintalopro4,
+  pintalopro5,
+  pintalopro6,
+  pintalopro7,
+  pintalopro8,
+  pintalopro9,
+  pintalopro10,
+  pintalopro11,
+  pintalopro12,
+  pintalopro13,
+  pintalopro14,
+  pintalopro15,
+  covergrow,
 };

@@ -15,7 +15,7 @@ const social = [
   {
     id: 2,
     icon: behance,
-    url: 'https://www.behance.net/',
+    url: 'https://www.behance.net/britobrand ',
   },
   {
     id: 3,

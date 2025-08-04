@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useLayoutEffect, useRef } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import {
   projectsPreview,
@@ -6,11 +6,19 @@ import {
   type Project,
 } from '@/data/projectsData';
 import { InfoProjects, InfoProjectDetails } from '@/components/InfoProjects';
-//import { projectsDetailData } from '@/data/projectsDetailData';
+// import { projectsDetailData } from '@/data/projectsDetailData';
 
 const ProjectDetail = () => {
   const { projectId } = useParams<{ projectId: string }>();
   const navigate = useNavigate();
+  const leftColRef = useRef<HTMLDivElement>(null);
+  const rightColRef = useRef<HTMLDivElement>(null);
+
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0); // Por si acaso en mobile
+    if (leftColRef.current) leftColRef.current.scrollTo(0, 0);
+    if (rightColRef.current) rightColRef.current.scrollTo(0, 0);
+  }, [projectId]);
 
   const project: Project | undefined =
     projectsPreview.find((p) => p.title === projectId) ||
@@ -19,60 +27,115 @@ const ProjectDetail = () => {
   const projectList = projectsLarge;
   const currentIndex = projectList.findIndex((p) => p.title === projectId);
 
-  const nextProjectIndex = (currentIndex + 1) % projectList.length;
-  const prevProjectIndex =
-    (currentIndex - 1 + projectList.length) % projectList.length;
+  // const nextProjectIndex = (currentIndex + 1) % projectList.length;
+  // const prevProjectIndex =
+  //   (currentIndex - 1 + projectList.length) % projectList.length;
 
-  const nextProject = projectList[nextProjectIndex];
-  const prevProject = projectList[prevProjectIndex];
+  // const nextProject = projectList[nextProjectIndex];
+  // const prevProject = projectList[prevProjectIndex];
+  const isComingSoon = (project: Project) =>
+    project.type === 'Se viene algo nuevo' || project.isComingSoon;
+
+  // Siguiente proyecto válido
+  const getNextValidProject = (startIdx: number) => {
+    let idx = (startIdx + 1) % projectList.length;
+    let count = 0;
+    while (isComingSoon(projectList[idx]) && count < projectList.length) {
+      idx = (idx + 1) % projectList.length;
+      count++;
+    }
+    return projectList[idx];
+  };
+
+  // Anterior proyecto válido
+  const getPrevValidProject = (startIdx: number) => {
+    let idx = (startIdx - 1 + projectList.length) % projectList.length;
+    let count = 0;
+    while (isComingSoon(projectList[idx]) && count < projectList.length) {
+      idx = (idx - 1 + projectList.length) % projectList.length;
+      count++;
+    }
+    return projectList[idx];
+  };
 
   const handleNextProject = () => {
-    navigate(`/proyectos/${nextProject.title}`);
+    const next = getNextValidProject(currentIndex);
+    navigate(`/proyectos/${next.title}`);
   };
 
   const handlePrevProject = () => {
-    navigate(`/proyectos/${prevProject.title}`);
+    const prev = getPrevValidProject(currentIndex);
+    navigate(`/proyectos/${prev.title}`);
   };
-  //const images = projectId ? projectsDetailData[projectId] || [] : [];
-
-  useEffect(() => {
-    window.scrollTo(0, 0);
-  }, [projectId]);
 
   if (!project) {
     return <div>Proyecto no encontrado</div>;
   }
 
   return (
-    <div className="w-full mx-auto flex flex-col md:flex-row md:space-x-4">
-      {/* Columna izquierda: Desktop */}
-      <div className="hidden md:flex flex-col space-y-4 md:w-1/3 md:sticky md:top-0 md:h-screen no-scrollbar max-w-[420px]">
-        <InfoProjects project={project} />
-        <InfoProjectDetails
-          projectDescription={project.description || ''}
-          projectLocationDescription={project.location || ''}
-          projectColaborators={project.colaborators || []}
-          projectTools={project.tools || []}
-          project={project}
-        />
+    <>
+      {/* Desktop: Doble scroll */}
+      <div className="w-full hidden md:flex h-screen overflow-hidden gap-4">
+        {/* Columna izquierda con scroll independiente */}
+        <div
+          className="w-1/3 max-w-[420px] h-full overflow-y-auto no-scrollbar flex flex-col gap-4"
+          ref={leftColRef}
+        >
+          {/* <InfoProjects project={project} /> */}
+          <InfoProjectDetails
+            projectDescription={project.description || ''}
+            projectLocationDescription={project.location || ''}
+            projectColaborators={project.colaborators || []}
+            projectTools={project.tools || []}
+            project={project}
+          />
+          <div className="flex flex-col space-y-2">
+            <button
+              onClick={handleNextProject}
+              className="w-full bg-black text-white text-[15px] font-light py-3 rounded-[6px] transition-transform hover:scale-[1.03] cursor-pointer"
+            >
+              Ver Siguiente Proyecto
+            </button>
+            <button
+              onClick={handlePrevProject}
+              className="w-full bg-[#767575] text-[15px] font-light text-white py-3 rounded-[6px] transition-transform hover:scale-[1.03] cursor-pointer"
+            >
+              Ir Atrás
+            </button>
+          </div>
+        </div>
 
-        <div className="flex flex-col space-y-2">
-          <button
-            onClick={handleNextProject}
-            className="w-full bg-black text-white text-[15px] font-light py-3 rounded-[6px] hover:opacity-90 transition cursor-pointer"
-          >
-            Ver Siguiente Proyecto
-          </button>
-          <button
-            onClick={handlePrevProject}
-            className="w-full bg-[#767575] text-[15px] font-light text-white py-3 rounded-[6px] hover:opacity-90 transition cursor-pointer"
-          >
-            Ir Atrás
-          </button>
+        {/* Columna derecha con scroll independiente */}
+        <div
+          className="flex-1 h-full overflow-y-auto no-scrollbar"
+          ref={rightColRef}
+        >
+          <div className="grid grid-cols-2 gap-4 auto-rows-auto">
+            {project.images && project.images.length > 0 ? (
+              project.images.map((img, idx) => (
+                <div
+                  key={idx}
+                  className={`bg-[#E9E9E9] rounded-lg overflow-hidden ${
+                    img.layout === 'full' ? 'col-span-2' : 'col-span-1'
+                  }`}
+                >
+                  <img
+                    src={img.url}
+                    alt={`Imagen ${idx + 1}`}
+                    className="w-full h-auto object-cover"
+                  />
+                </div>
+              ))
+            ) : (
+              <div className="col-span-2 text-center text-gray-400">
+                No hay imágenes para este proyecto.
+              </div>
+            )}
+          </div>
         </div>
       </div>
 
-      {/* Mobile: Card principal, imágenes, luego detalles */}
+      {/* Mobile: todo en scroll natural */}
       <div className="md:hidden flex flex-col w-full space-y-4">
         <InfoProjects project={project} />
 
@@ -111,45 +174,19 @@ const ProjectDetail = () => {
         <div className="flex flex-col space-y-2">
           <button
             onClick={handleNextProject}
-            className="w-full bg-black text-white text-[15px] font-light py-3 rounded-[6px] hover:opacity-90 transition cursor-pointer"
+            className="w-full bg-black text-white text-[15px] font-light py-3 rounded-[6px] transition-transform hover:scale-[1.03] duration-200  cursor-pointer"
           >
             Ver Siguiente Proyecto
           </button>
           <button
             onClick={handlePrevProject}
-            className="w-full bg-[#767575] text-[15px] font-light text-white py-3 rounded-[6px] hover:opacity-90 transition cursor-pointer"
+            className="w-full bg-[#767575] text-[15px] font-light text-white py-3 rounded-[6px] transition-transform hover:scale-[1.03]  cursor-pointer"
           >
             Ir Atrás
           </button>
         </div>
       </div>
-
-      {/* Columna derecha: Imágenes (desktop) */}
-      <div className=" hidden md:grid grid-cols-1 flex-1 md:grid-cols-2 gap-4 auto-rows-auto">
-        {project.images && project.images.length > 0 ? (
-          project.images.map((img, idx) => (
-            <div
-              key={idx}
-              className={`bg-[#E9E9E9] rounded-lg overflow-hidden ${
-                img.layout === 'full'
-                  ? 'col-span-1 md:col-span-2'
-                  : 'col-span-1'
-              }`}
-            >
-              <img
-                src={img.url}
-                alt={`Imagen ${idx + 1}`}
-                className="w-full h-auto object-cover"
-              />
-            </div>
-          ))
-        ) : (
-          <div className="col-span-2 text-center text-gray-400">
-            No hay imágenes para este proyecto.
-          </div>
-        )}
-      </div>
-    </div>
+    </>
   );
 };
 

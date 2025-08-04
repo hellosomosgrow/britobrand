@@ -2,9 +2,9 @@ import { useState, useEffect } from 'react';
 import banner1 from '../assets/images/banner/banner1.webp';
 import banner2 from '../assets/images/banner/banner2.webp';
 import banner3 from '../assets/images/banner/banner3.webp';
-import bannerDesktop1 from '../assets/images/banner/bannerDesktop1.png';
+import bannerDesktop1 from '../assets/images/banner/bannerDesktop1.jpg';
 import bannerDesktop2 from '../assets/images/banner/bannerDesktop2.png';
-import bannerDesktop3 from '../assets/images/banner/bannerDesktop3.png';
+import bannerDesktop3 from '../assets/images/banner/bannerDesktop3.jpg';
 import chat from '../assets/images/social/chat.png';
 import { useLocation } from 'react-router-dom';
 
@@ -37,12 +37,21 @@ const Banner = () => {
         alt="Banner"
         className="w-full h-full object-cover rounded-[10px] overflow-hidden"
       />
-      <div className="absolute bottom-6 left-1/2 -translate-x-1/2 flex flex-row items-center justify-center gap-[10px] z-10">
+      <div
+        className={`
+    absolute z-10
+    ${
+      isMobile
+        ? 'bottom-6 left-1/2 -translate-x-1/2 flex flex-row items-center justify-center gap-[10px]'
+        : 'top-1/2 left-8 -translate-y-1/2 flex flex-col items-start gap-[10px]'
+    }
+  `}
+      >
         {mobileImages.map((_, index) => (
           <div
             key={index}
             className={`w-[12px] h-[12px] rounded-full border-none transition-all duration-300 ${
-              current === index ? 'bg-[#767575]' : 'bg-white'
+              current === index ? 'bg-white' : 'bg-[#767575]'
             }`}
           />
         ))}

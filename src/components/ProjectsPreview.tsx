@@ -5,6 +5,7 @@ import { useNavigate } from 'react-router-dom';
 type ProjectsPreviewProps = {
   columnsDesktop?: number; // Por defecto 3
 };
+import { covernuevoproyecto } from '@/assets/images';
 
 const getColsClass = (cols: number | undefined) => {
   switch (cols) {
@@ -21,12 +22,28 @@ const getColsClass = (cols: number | undefined) => {
 
 const ProjectsPreview = ({ columnsDesktop }: ProjectsPreviewProps) => {
   const largeFirst8 = projectsLarge.slice(0, 8);
+  const cols = columnsDesktop ?? 3;
+  const totalProjects = projectsLarge.length;
+  const remainder = totalProjects % cols;
+  const newComingCards = remainder === 0 ? 0 : cols - remainder;
+
   return (
     <div className="w-full space-y-4">
       {/* Escritorio: todos los proyectos large */}
       <div className={`hidden md:grid ${getColsClass(columnsDesktop)} gap-4`}>
         {projectsLarge.map((project, index) => (
           <ProjectPreviewLargeCard key={index} project={project} />
+        ))}
+        {/* Cards "Se viene algo nuevo" solo si hace falta */}
+        {Array.from({ length: newComingCards }).map((_, idx) => (
+          <div key={`coming-soon-${idx}`} className="">
+            <img
+              src={covernuevoproyecto}
+              alt="Se viene algo nuevo"
+              className=""
+            />
+            <span className="font-semibold text-sm p-1">NUEVO PROYECTO</span>
+          </div>
         ))}
       </div>
 

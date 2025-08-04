@@ -210,7 +210,7 @@ import {
   sierraatlantica9,
   sierraatlantica10,
   sierraatlantica11,
-  sierraatlantica12,
+  //sierraatlantica12,
   mss1,
   mss2,
   mss3,
@@ -219,6 +219,22 @@ import {
   mss6,
   mss7,
   mss8,
+  pintalopro1,
+  pintalopro2,
+  pintalopro3,
+  pintalopro4,
+  pintalopro5,
+  pintalopro6,
+  pintalopro7,
+  pintalopro8,
+  pintalopro9,
+  pintalopro10,
+  pintalopro11,
+  pintalopro12,
+  pintalopro13,
+  pintalopro14,
+  pintalopro15,
+  covergrow,
 } from '@/assets/images';
 
 export type Project = {
@@ -249,7 +265,7 @@ El concepto #DuduForKids sintetiza una marca pensada con atención al detalle, e
     colaborators: [
       'Shalma Suarez Yazigi. - Estratega de Marketing y Comunicación.',
     ],
-    tools: [psLogo, aiLogo, figmaLogo],
+    tools: [psLogo, aiLogo],
     image: dudulogo,
     images: [
       { url: duduprincipal, layout: 'full' },
@@ -274,6 +290,7 @@ El logotipo principal convive con su versión comprimida: LOI, un acrónimo que 
 
 Este recurso permitió desarrollar un sistema más flexible, sin perder elegancia ni reconocimiento.
 Cada pieza —desde las tarjetas hasta el feed— busca replicar esa misma sensación que deja un buen espacio: equilibrio, intención y una belleza silenciosa.
+
 `,
     location: 'Miami - Estados Unidos',
 
@@ -367,8 +384,11 @@ EMA comunica con claridad, elegancia y dirección. Una identidad pensada para in
     image: platzlogo,
     type: 'Identidad Visual',
     description: `PLATZ es un café que apuesta por la sencillez bien pensada. Desde la creación del logo hasta el diseño completo del sistema visual, desarrollé una identidad clara, funcional y estética, que acompaña la arquitectura del espacio y la experiencia de marca.
+
 El proyecto incluyó branding, redes, menú, packaging, etiquetas, propuesta web y una serie de ilustraciones pensadas especialmente para el merchandising. Todo parte de un mismo lenguaje visual: limpio, moderno y coherente.
+
 Una identidad sin exceso, pero con presencia. Precisa, directa y diseñada para durar.
+
 `,
     location: 'Montevideo - Uruguay',
     colaborators: [],
@@ -406,6 +426,23 @@ La elección de la tipografía Inter y la construcción de un sistema visual cla
     location: 'Montevideo - Uruguay',
     colaborators: [],
     tools: [psLogo, aiLogo, figmaLogo],
+    images: [
+      { url: pintalopro1, layout: 'full' },
+      { url: pintalopro2, layout: 'full' },
+      { url: pintalopro3, layout: 'vertical' },
+      { url: pintalopro4, layout: 'vertical' },
+      { url: pintalopro5, layout: 'full' },
+      { url: pintalopro6, layout: 'full' },
+      { url: pintalopro7, layout: 'vertical' },
+      { url: pintalopro8, layout: 'vertical' },
+      { url: pintalopro9, layout: 'full' },
+      { url: pintalopro10, layout: 'vertical' },
+      { url: pintalopro11, layout: 'vertical' },
+      { url: pintalopro12, layout: 'full' },
+      { url: pintalopro13, layout: 'vertical' },
+      { url: pintalopro14, layout: 'vertical' },
+      { url: pintalopro15, layout: 'full' },
+    ],
   },
   {
     title: 'BOTÁNICO',
@@ -417,7 +454,7 @@ El trabajo se centró en un refresh visual que incluyó paleta de color, ilustra
 
 El resultado es una identidad que respira verde, sabor y cercanía. Una marca que sigue creciendo con intención, sin perder lo que la hace especial.
 `,
-    location: 'Santiago de Chile - Chile',
+    location: 'Montevideo - Uruguay',
     colaborators: [],
     tools: [psLogo, aiLogo],
     images: [
@@ -539,7 +576,7 @@ Diseñé un sistema gráfico adaptable a distintos productos, con especial atenc
 
 Una marca pensada para verse bien en anaquel, en redes y en la rutina diaria de quien elige un buen café.
 `,
-    location: 'Montevideo - Uruguay',
+    location: 'Santiago de Chile - Chile',
     colaborators: [],
     tools: [psLogo, aiLogo],
     images: [
@@ -614,14 +651,12 @@ Quise que todo se sintiera coherente, sin exceso, con una estética tranquila pe
       { url: sierraatlantica7, layout: 'full' },
       { url: sierraatlantica8, layout: 'vertical' },
       { url: sierraatlantica9, layout: 'vertical' },
-      { url: sierraatlantica10, layout: 'full' },
+      { url: sierraatlantica10, layout: 'vertical' },
       { url: sierraatlantica11, layout: 'vertical' },
-      { url: sierraatlantica12, layout: 'vertical' },
     ],
   },
-
   {
-    title: 'MINING SUPPLIES SOLUTIONS',
+    title: 'MSS',
     image: mss,
     type: 'Branding',
     description: `MMS – Mining Supplies Solutions es una empresa especializada en insumos para minería. Ya contaban con un logotipo base, y el desafío fue vectorizarlo y construir a partir de él un sistema visual sólido, técnico y profesional.
@@ -630,20 +665,19 @@ Diseñé toda la identidad visual: papelería, presentaciones, assets para dispo
 
 El resultado es una marca que transmite orden, precisión y escala. Visualmente clara, lista para operar en entornos exigentes y altamente funcionales.
 
-
 `,
     location: 'Montevideo - Uruguay',
     colaborators: [],
     tools: [psLogo, aiLogo],
     images: [
       { url: mss1, layout: 'full' },
-      { url: mss2, layout: 'vertical' },
-      { url: mss3, layout: 'vertical' },
-      { url: mss4, layout: 'full' },
+      { url: mss2, layout: 'full' },
       { url: mss5, layout: 'vertical' },
-      { url: mss6, layout: 'vertical' },
-      { url: mss7, layout: 'full' },
+      { url: mss4, layout: 'vertical' },
+      { url: mss3, layout: 'full' },
+      { url: mss7, layout: 'vertical' },
       { url: mss8, layout: 'vertical' },
+      { url: mss6, layout: 'full' },
     ],
   },
 ];
@@ -653,11 +687,13 @@ export const projectsLarge = [
   { title: 'COTA', image: covercota, type: 'Identidad Visual' },
   { title: 'CYCLING', image: covercycling, type: 'Identidad Visual' },
   { title: 'EMA MODELS', image: coveremamodels, type: 'Identidad Visual' },
-  { title: 'PINTALO PRO', image: coverpintaloPro, type: 'Identidad Visual' },
-  { title: 'LO INTERIOR', image: coverlointerior, type: 'Identidad Visual' },
-  { title: 'BOTÁNICO', image: coverbotanico, type: 'Identidad Visual' },
-  { title: 'FACTOR', image: coverfactor, type: 'Identidad Visual' },
   { title: 'PLATZ', image: coverplatz, type: 'Identidad Visual' },
+  { title: 'PINTALO PRO', image: coverpintaloPro, type: 'Identidad Visual' },
+  { title: 'BOTÁNICO', image: coverbotanico, type: 'Identidad Visual' },
+  { title: 'LO INTERIOR', image: coverlointerior, type: 'Identidad Visual' },
+
+  { title: 'FACTOR', image: coverfactor, type: 'Identidad Visual' },
+
   { title: 'IDEAMANIA', image: coverideamania, type: 'Identidad Visual' },
   { title: 'CASA NUNA', image: covercasanuna, type: 'Identidad Visual' },
   { title: 'SEDEL', image: coversedel, type: 'Identidad Visual' },
@@ -677,7 +713,12 @@ export const projectsLarge = [
   },
   {
     title: 'GROW',
+    image: covergrow,
+    type: 'Se viene algo nuevo',
+  },
+  {
+    title: 'PUMPA',
     image: covernuevoproyecto,
-    type: 'Identidad Visual',
+    type: 'Se viene algo nuevo',
   },
 ];

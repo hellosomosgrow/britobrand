@@ -55,7 +55,7 @@ export const InfoCard = ({
         ) : (
           <button
             onClick={toggleExpand}
-            className="text-sm font-light text-black"
+            className="text-sm font-light text-black cursor-pointer"
           >
             {isExpanded ? 'Ver Menos' : 'Ver Más'}
           </button>
@@ -64,11 +64,7 @@ export const InfoCard = ({
       {subtitle && <h3 className="font-medium text-[15px] mb-1">{subtitle}</h3>}
       <p
         className={`text-[15px] font-light whitespace-pre-line ${
-          !isExpanded
-            ? title === 'Servicios'
-              ? 'line-clamp-2'
-              : 'line-clamp-4'
-            : ''
+          !isExpanded ? 'line-clamp-2' : ''
         }`}
       >
         {content}
@@ -82,7 +78,10 @@ export const InfoCard = ({
       )}
       {title === 'Servicios' && isExpanded && (
         <div className="mt-6 flex justify-center w-full">
-          <button className="bg-black text-white rounded-[10px] px-10 py-3 text-sm">
+          <button
+            className="bg-black text-white rounded-[10px] px-10 py-3 text-sm"
+            onClick={() => handleRedirect('/contacto')}
+          >
             Quiero Contratar un Servicio
           </button>
         </div>
