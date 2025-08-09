@@ -27,17 +27,14 @@ const ProjectDetail = () => {
   const projectList = projectsLarge;
   const currentIndex = projectList.findIndex((p) => p.title === projectId);
 
-  // const nextProjectIndex = (currentIndex + 1) % projectList.length;
-  // const prevProjectIndex =
-  //   (currentIndex - 1 + projectList.length) % projectList.length;
-
-  // const nextProject = projectList[nextProjectIndex];
-  // const prevProject = projectList[prevProjectIndex];
   const isComingSoon = (project: Project) =>
-    project.type === 'Se viene algo nuevo' || project.isComingSoon;
+    project.type === 'Se viene algo nuevo';
 
-  // Siguiente proyecto válido
-  const getNextValidProject = (startIdx: number) => {
+  const getNextValidProject = (startIdx: number): Project | undefined => {
+    if (startIdx === -1 || projectList.length === 0) {
+      return projectList[0];
+    }
+
     let idx = (startIdx + 1) % projectList.length;
     let count = 0;
     while (isComingSoon(projectList[idx]) && count < projectList.length) {
@@ -48,7 +45,11 @@ const ProjectDetail = () => {
   };
 
   // Anterior proyecto válido
-  const getPrevValidProject = (startIdx: number) => {
+  const getPrevValidProject = (startIdx: number): Project | undefined => {
+    if (startIdx === -1 || projectList.length === 0) {
+      return projectList[0];
+    }
+
     let idx = (startIdx - 1 + projectList.length) % projectList.length;
     let count = 0;
     while (isComingSoon(projectList[idx]) && count < projectList.length) {
@@ -60,12 +61,16 @@ const ProjectDetail = () => {
 
   const handleNextProject = () => {
     const next = getNextValidProject(currentIndex);
-    navigate(`/proyectos/${next.title}`);
+    if (next) {
+      navigate(`/proyectos/${next.title}`);
+    }
   };
 
   const handlePrevProject = () => {
     const prev = getPrevValidProject(currentIndex);
-    navigate(`/proyectos/${prev.title}`);
+    if (prev) {
+      navigate(`/proyectos/${prev.title}`);
+    }
   };
 
   if (!project) {
