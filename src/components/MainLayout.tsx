@@ -84,7 +84,10 @@ Diseño logos, sistemas de marca, empaques, piezas para redes, merch y todo lo q
         {/* Primeros 9 proyectos en mobile */}
         <div className="grid grid-cols-1 gap-4">
           {projectsLarge.slice(0, 9).map((project, index) => (
-            <ProjectPreviewLargeCard key={index} project={project} />
+            <ProjectPreviewLargeCard
+              key={`${project.title}-main-${index}`}
+              project={project}
+            />
           ))}
         </div>
 

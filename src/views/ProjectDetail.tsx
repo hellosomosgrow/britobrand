@@ -11,6 +11,7 @@ import {
   InfoProjectDetailsMobile,
 } from '@/components/InfoProjects';
 import LazyImage from '@/components/LazyImage';
+import VideoPlayer from '@/components/VideoPlayer';
 // import { projectsDetailData } from '@/data/projectsDetailData';
 
 const ProjectDetail = () => {
@@ -124,16 +125,24 @@ const ProjectDetail = () => {
             {project.images && project.images.length > 0 ? (
               project.images.map((img, idx) => (
                 <div
-                  key={idx}
+                  key={`${project.title}-${idx}-${img.url}`}
                   className={`bg-[#E9E9E9] rounded-lg overflow-hidden ${
                     img.layout === 'full' ? 'col-span-2' : 'col-span-1'
                   }`}
                 >
-                  <LazyImage
-                    src={img.url}
-                    alt={`Imagen ${idx + 1}`}
-                    className="w-full h-auto object-cover"
-                  />
+                  {img.isVideo ? (
+                    <VideoPlayer
+                      src={img.url}
+                      alt={`Video ${idx + 1}`}
+                      className="w-full h-auto object-cover"
+                    />
+                  ) : (
+                    <LazyImage
+                      src={img.url}
+                      alt={`Imagen ${idx + 1}`}
+                      className="w-full h-auto object-cover"
+                    />
+                  )}
                 </div>
               ))
             ) : (
@@ -154,16 +163,24 @@ const ProjectDetail = () => {
           {project.images && project.images.length > 0 ? (
             project.images.map((img, idx) => (
               <div
-                key={idx}
+                key={`${project.title}-mobile-${idx}-${img.url}`}
                 className={`bg-[#E9E9E9] rounded-lg overflow-hidden ${
                   img.layout === 'full' ? 'col-span-2' : 'col-span-1'
                 }`}
               >
-                <LazyImage
-                  src={img.url}
-                  alt={`Imagen ${idx + 1}`}
-                  className="w-full h-auto object-cover"
-                />
+                {img.isVideo ? (
+                  <VideoPlayer
+                    src={img.url}
+                    alt={`Video ${idx + 1}`}
+                    className="w-full h-auto object-cover"
+                  />
+                ) : (
+                  <LazyImage
+                    src={img.url}
+                    alt={`Imagen ${idx + 1}`}
+                    className="w-full h-auto object-cover"
+                  />
+                )}
               </div>
             ))
           ) : (

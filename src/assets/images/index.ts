@@ -59,6 +59,13 @@ import dudu9 from '@/assets/images/projects-details/dudu/dudu9.jpg';
 import dudu10 from '@/assets/images/projects-details/dudu/dudu10.jpg';
 import dudulogo from '@/assets/images/projects-details/dudu/dudu-logo.png';
 import duduprincipal from '@/assets/images/projects-details/dudu/dudu-principal.jpg';
+
+// Videos de DUDU
+import dudu2Video from '@/assets/images/projects-details/dudu/dudu2.mp4';
+import dudu3Video from '@/assets/images/projects-details/dudu/dudu3.mp4';
+import dudu6Video from '@/assets/images/projects-details/dudu/dudu6.mp4';
+import dudu8Video from '@/assets/images/projects-details/dudu/dudu8.mp4';
+import dudu11Video from '@/assets/images/projects-details/dudu/dudu11.mp4';
 import cycling1 from '@/assets/images/projects-details/cycling/Cycling-01.jpg';
 import cycling2 from '@/assets/images/projects-details/cycling/Cycling-02.jpg';
 import cycling3 from '@/assets/images/projects-details/cycling/Cycling-03.jpg';
@@ -148,6 +155,12 @@ import botanico11 from '@/assets/images/projects-details/botanico/Botanico-11.jp
 import botanico12 from '@/assets/images/projects-details/botanico/Botanico-12.jpg';
 import botanico13 from '@/assets/images/projects-details/botanico/Botanico-13.jpg';
 import botanico14 from '@/assets/images/projects-details/botanico/Botanico-14.jpg';
+
+// Videos de Botanico
+import botanico4Video from '@/assets/images/projects-details/botanico/Botanico-04.mp4';
+import botanico6Video from '@/assets/images/projects-details/botanico/Botanico-06.mp4';
+import botanico12Video from '@/assets/images/projects-details/botanico/Botanico-12.mp4';
+import botanico13Video from '@/assets/images/projects-details/botanico/Botanico-13.mp4';
 import lointerior from '@/assets/images/projects-details/lointerior/lointerior.png';
 import lointerior1 from '@/assets/images/projects-details/lointerior/LoInterior-01.jpg';
 import lointerior2 from '@/assets/images/projects-details/lointerior/LoInterior-02.jpg';
@@ -162,7 +175,9 @@ import lointerior10 from '@/assets/images/projects-details/lointerior/LoInterior
 import lointerior11 from '@/assets/images/projects-details/lointerior/LoInterior-11.jpg';
 import lointerior12 from '@/assets/images/projects-details/lointerior/LoInterior-12.jpg';
 import lointerior13 from '@/assets/images/projects-details/lointerior/LoInterior-13.jpg';
-import lointerior14 from '@/assets/images/projects-details/lointerior/LoInterior-14.jpg';
+
+// Video de LoInterior
+import lointerior14Video from '@/assets/images/projects-details/lointerior/LoInterior-14.mp4';
 import factor1 from '@/assets/images/projects-details/factor/Factor-01.jpg';
 import factor2 from '@/assets/images/projects-details/factor/Factor-02.jpg';
 import factor3 from '@/assets/images/projects-details/factor/Factor-03.jpg';
@@ -193,6 +208,10 @@ import ideamania12 from '@/assets/images/projects-details/ideamania/Ideamania-12
 import ideamania13 from '@/assets/images/projects-details/ideamania/Ideamania-13.jpg';
 import ideamania14 from '@/assets/images/projects-details/ideamania/Ideamania-14.jpg';
 import ideamania15 from '@/assets/images/projects-details/ideamania/Ideamania-15.jpg';
+
+// Videos de IDEAMANIA
+import ideamania5Video from '@/assets/images/projects-details/ideamania/Ideamania-05.mp4';
+import ideamania7Video from '@/assets/images/projects-details/ideamania/Ideamania-07.mp4';
 import casanuna1 from '@/assets/images/projects-details/casanuna/Casanuna-01.jpg';
 import casanuna2 from '@/assets/images/projects-details/casanuna/Casanuna-02.jpg';
 import casanuna3 from '@/assets/images/projects-details/casanuna/Casanuna-03.jpg';
@@ -246,18 +265,22 @@ import pintalopro1 from '@/assets/images/projects-details/pintalopro/PintaloPro-
 import pintalopro2 from '@/assets/images/projects-details/pintalopro/PintaloPro-02.jpg';
 import pintalopro3 from '@/assets/images/projects-details/pintalopro/PintaloPro-03.jpg';
 import pintalopro4 from '@/assets/images/projects-details/pintalopro/PintaloPro-04.jpg';
-import pintalopro5 from '@/assets/images/projects-details/pintalopro/PintaloPro-05.jpg';
 import pintalopro6 from '@/assets/images/projects-details/pintalopro/PintaloPro-06.jpg';
 import pintalopro7 from '@/assets/images/projects-details/pintalopro/PintaloPro-07.jpg';
 import pintalopro8 from '@/assets/images/projects-details/pintalopro/PintaloPro-08.jpg';
 import pintalopro9 from '@/assets/images/projects-details/pintalopro/PintaloPro-09.jpg';
-import pintalopro10 from '@/assets/images/projects-details/pintalopro/PintaloPro-10.jpg';
 import pintalopro11 from '@/assets/images/projects-details/pintalopro/PintaloPro-11.jpg';
-import pintalopro12 from '@/assets/images/projects-details/pintalopro/PintaloPro-12.jpg';
 import pintalopro13 from '@/assets/images/projects-details/pintalopro/PintaloPro-13.jpg';
 import pintalopro14 from '@/assets/images/projects-details/pintalopro/PintaloPro-14.jpg';
 import pintalopro15 from '@/assets/images/projects-details/pintalopro/PintaloPro-15.jpg';
 import contactBanner from '@/assets/images/banner/contactBanner.jpg';
+
+// Videos de PintaloPro
+import pintalopro5Video from '@/assets/images/projects-details/pintalopro/PintaloPro-05.mp4';
+import pintalopro10Video from '@/assets/images/projects-details/pintalopro/PintaloPro-10.mp4';
+import pintalopro12Video from '@/assets/images/projects-details/pintalopro/PintaloPro-12.mp4';
+
+import platz15Video from '@/assets/images/projects-details/platz/Platz-15.mp4';
 
 export {
   cota,
@@ -286,6 +309,15 @@ export {
   coverideamania,
   coverinvolvere,
   coveremamodels,
+  coverespacio2040,
+  coverfactor,
+  coverlachacra,
+  coverminingSuppliesSolutions,
+  coverpintaloPro,
+  coversantaElena,
+  coversedel,
+  coversierraAtlantica,
+  covernuevoproyecto,
   coverlointerior,
   coverplatz,
   behance,
@@ -299,15 +331,6 @@ export {
   psLogo,
   aiLogo,
   figmaLogo,
-  coverespacio2040,
-  coverfactor,
-  coverlachacra,
-  coverminingSuppliesSolutions,
-  coverpintaloPro,
-  coversantaElena,
-  coversedel,
-  coversierraAtlantica,
-  covernuevoproyecto,
   imagecontact,
   chat,
   dudu1,
@@ -322,6 +345,12 @@ export {
   dudu10,
   dudulogo,
   duduprincipal,
+  // Videos de DUDU
+  dudu2Video,
+  dudu3Video,
+  dudu6Video,
+  dudu8Video,
+  dudu11Video,
   //imgrecthorizontal,
   //imgrectvertical,
   //imgrectvertical2,
@@ -409,6 +438,11 @@ export {
   botanico12,
   botanico13,
   botanico14,
+  // Videos de Botanico
+  botanico4Video,
+  botanico6Video,
+  botanico12Video,
+  botanico13Video,
   lointerior,
   lointerior1,
   lointerior2,
@@ -423,7 +457,8 @@ export {
   lointerior11,
   lointerior12,
   lointerior13,
-  lointerior14,
+  // Video de LoInterior
+  lointerior14Video,
   factor1,
   factor2,
   factor3,
@@ -454,6 +489,9 @@ export {
   ideamania13,
   ideamania14,
   ideamania15,
+  // Videos de IDEAMANIA
+  ideamania5Video,
+  ideamania7Video,
   casanuna1,
   casanuna2,
   casanuna3,
@@ -507,17 +545,19 @@ export {
   pintalopro2,
   pintalopro3,
   pintalopro4,
-  pintalopro5,
   pintalopro6,
   pintalopro7,
   pintalopro8,
   pintalopro9,
-  pintalopro10,
   pintalopro11,
-  pintalopro12,
   pintalopro13,
   pintalopro14,
   pintalopro15,
+  // Videos de PintaloPro
+  pintalopro5Video,
+  pintalopro10Video,
+  pintalopro12Video,
   covergrow,
   contactBanner,
+  platz15Video,
 };

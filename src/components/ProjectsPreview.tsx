@@ -36,7 +36,10 @@ const ProjectsPreview = ({ columnsDesktop }: ProjectsPreviewProps) => {
       {/* Escritorio: todos los proyectos large */}
       <div className={`hidden md:grid ${getColsClass(columnsDesktop)} gap-4`}>
         {projectsLarge.map((project, index) => (
-          <ProjectPreviewLargeCard key={index} project={project} />
+          <ProjectPreviewLargeCard
+            key={`${project.title}-${index}`}
+            project={project}
+          />
         ))}
         {/* Cards "Se viene algo nuevo" solo si hace falta */}
         {Array.from({ length: newComingCards }).map((_, idx) => (
@@ -56,7 +59,10 @@ const ProjectsPreview = ({ columnsDesktop }: ProjectsPreviewProps) => {
         {/* Primeros 9 proyectos */}
         <div className="grid grid-cols-1 gap-4">
           {first9Projects.map((project, index) => (
-            <ProjectPreviewLargeCard key={index} project={project} />
+            <ProjectPreviewLargeCard
+              key={`${project.title}-mobile-${index}`}
+              project={project}
+            />
           ))}
         </div>
 
@@ -64,7 +70,10 @@ const ProjectsPreview = ({ columnsDesktop }: ProjectsPreviewProps) => {
         {remainingProjects.length > 0 && (
           <div className="grid grid-cols-1 gap-4">
             {remainingProjects.map((project, index) => (
-              <ProjectPreviewCard key={index} project={project} />
+              <ProjectPreviewCard
+                key={`${project.title}-mobile-card-${index}`}
+                project={project}
+              />
             ))}
           </div>
         )}
