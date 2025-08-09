@@ -536,7 +536,7 @@ Una marca que se construye con ritmo, habla con datos y deja claro cuál es su f
     ],
   },
   {
-    title: 'IDEMANIA',
+    title: 'IDEAMANIA',
     image: ideamania,
     type: 'Identidad Visual',
     description: `Ideamania llegó con una idea clara: necesitaban renovar su imagen para verse más actuales, sin perder cercanía ni funcionalidad. Lo primero que trabajamos fue el logo. Querían que se leyera de una, sin esfuerzo. Algo simple, directo y eficaz. A partir de ahí, desarrollé toda la identidad visual: paleta de color, universo gráfico, propuesta web y un sistema adaptable a todo tipo de soporte.

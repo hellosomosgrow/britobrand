@@ -1,13 +1,15 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import bannerDesktop1 from '../assets/images/banner/bannerDesktop1.jpg';
 import bannerDesktop2 from '../assets/images/banner/bannerDesktop2.png';
 import bannerDesktop3 from '../assets/images/banner/bannerDesktop3.jpg';
 import chat from '../assets/images/social/chat.png';
 import { useLocation } from 'react-router-dom';
-import LazyImage from './LazyImage';
 
 const Banner = () => {
-  const images = [bannerDesktop1, bannerDesktop2, bannerDesktop3];
+  const images = useMemo(
+    () => [bannerDesktop1, bannerDesktop2, bannerDesktop3],
+    []
+  );
 
   const [current, setCurrent] = useState(0);
   const [isMobile, setIsMobile] = useState(window.innerWidth < 640);
@@ -28,21 +30,27 @@ const Banner = () => {
     };
   }, [images.length]);
 
+  // Pre-cargar todas las imágenes del banner
+  useEffect(() => {
+    images.forEach((src) => {
+      const img = new Image();
+      img.src = src;
+    });
+  }, [images]);
+
   return (
     <div className="relative w-full h-85vh">
-      <LazyImage
+      <img
         src={images[current]}
         alt="Banner"
         className={`w-full h-full object-cover rounded-[10px] overflow-hidden ${
           isMobile ? 'object-center' : 'object-center'
         }`}
-        priority={true}
-        onLoad={() => {
-          // Preload next image
-          const nextIndex = (current + 1) % images.length;
-          const nextImage = new Image();
-          nextImage.src = images[nextIndex];
+        style={{
+          objectPosition: isMobile ? 'center 25%' : 'center center',
         }}
+        loading="eager"
+        decoding="async"
       />
       <div
         className={`
