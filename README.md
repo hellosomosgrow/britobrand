@@ -1,50 +1,67 @@
-# React + TypeScript + Vite
+# Brito Brand Web
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🎯 Navegación con Swipe (Mobile)
 
-Currently, two official plugins are available:
+### ✨ Funcionalidad Implementada
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+La aplicación ahora incluye **navegación con gestos de swipe** exclusivamente para dispositivos móviles:
 
-## Expanding the ESLint configuration
+#### 🔄 **Cómo Funciona**
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- **Swipe Izquierda** → Navega a la siguiente página
+- **Swipe Derecha** → Navega a la página anterior
 
-- Configure the top-level `parserOptions` property like this:
+#### 📍 **Rutas Soportadas**
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+El orden de navegación es:
+
+1. `Home` (`/`)
+2. `Proyectos` (`/proyectos` y `/proyectos/:projectId`)
+3. `Contacto` (`/contacto`)
+
+#### ⚙️ **Configuración**
+
+- **Distancia mínima**: 100px para activar el swipe
+- **Tiempo máximo**: 300ms para completar el gesto
+- **Distancia vertical máxima**: 150px para evitar conflictos con scroll
+- **Indicador visual**: Se muestra por 2 segundos al cambiar de página
+
+#### 🎨 **Indicador Visual**
+
+Cuando cambias de página en mobile, aparece un indicador temporal en la parte inferior que dice:
+
+```
+← Swipe para navegar →
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+#### 🔧 **Detalles Técnicos**
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+- **Solo funciona en mobile**: Detecta automáticamente dispositivos móviles
+- **No interfiere con scroll**: Solo se activa con movimientos horizontales claros
+- **Performance optimizada**: Usa event listeners pasivos para mejor rendimiento
+- **Responsive**: Se adapta automáticamente al tamaño de pantalla
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+#### 🚀 **Uso**
+
+1. Abre la app en un dispositivo móvil
+2. Desliza hacia la izquierda para ir a la siguiente página
+3. Desliza hacia la derecha para ir a la página anterior
+4. El indicador visual te ayudará a recordar la funcionalidad
+
+---
+
+## 🛠️ Tecnologías
+
+- React 18
+- TypeScript
+- Tailwind CSS
+- React Router DOM
+- Vite
+
+## 🎨 Características
+
+- Diseño responsive
+- Navegación con swipe (mobile)
+- Interfaz moderna y elegante
+- Optimización para móviles
+- Animaciones suaves
