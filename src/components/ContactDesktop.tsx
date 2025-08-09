@@ -22,16 +22,31 @@ const ContactDesktop = () => {
   const scrollNext = () => {
     const carousel = carouselRef.current;
     if (carousel) {
-      const cardWidth = carousel.offsetWidth / 3; // 3 cards visibles
+      const cardWidth = 400; // Ancho fijo de la card
       const gap = 16; // gap-4 = 16px
-      const scrollAmount = cardWidth + gap;
+      const totalCardWidth = cardWidth + gap;
       const maxScrollLeft = carousel.scrollWidth - carousel.offsetWidth;
 
       // Si ya está al final (o casi), vuelve al inicio
       if (Math.abs(carousel.scrollLeft - maxScrollLeft) < 5) {
         carousel.scrollTo({ left: 0, behavior: 'smooth' });
       } else {
-        carousel.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+        // Calcular cuántas cards caben en el viewport (considerando el gap)
+        const availableWidth = carousel.offsetWidth - gap;
+        const visibleCards = Math.floor(availableWidth / totalCardWidth);
+        const currentPosition = Math.floor(
+          carousel.scrollLeft / totalCardWidth
+        );
+        const nextPosition = Math.min(
+          currentPosition + visibleCards,
+          testimonials.length - 1
+        );
+
+        // Scroll a la posición calculada
+        carousel.scrollTo({
+          left: nextPosition * totalCardWidth,
+          behavior: 'smooth',
+        });
       }
     }
   };
@@ -74,7 +89,7 @@ const ContactDesktop = () => {
   return (
     <div className="w-full flex flex-col space-y-4 md:flex-row md:space-x-4">
       {/* Lado izquierdo */}
-      <div className="flex flex-col space-y-4 w-full md:w-1/3 min-w-[425px]">
+      <div className="flex flex-col space-y-4 w-full md:w-1/3 md:sticky md:top-0 md:h-screen md:overflow-y-auto no-scrollbar max-w-[410px]">
         <InfoSection />
         <InfoCard
           title="Experiencia"
@@ -99,7 +114,7 @@ const ContactDesktop = () => {
       </div>
 
       {/* Lado derecho */}
-      <div className="flex flex-col space-y-4 w-full">
+      <div className="flex flex-col space-y-4 w-full md:h-screen md:overflow-y-auto no-scrollbar">
         {/* Imagen y Formulario */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-stretch">
           {/* Imagen */}
@@ -135,12 +150,12 @@ const ContactDesktop = () => {
             <div className="relative overflow-hidden">
               <div
                 ref={carouselRef}
-                className="flex overflow-x-auto no-scrollbar snap-x snap-mandatory gap-4 scroll-smooth"
+                className="flex overflow-x-auto no-scrollbar snap-x snap-mandatory space-x-4 scroll-smooth"
               >
                 {testimonials.map((testimonial, index) => (
                   <div
                     key={index}
-                    className="snap-start shrink-0 w-[90%] sm:w-[70%] md:w-[calc(100%/3-1rem)]"
+                    className="snap-center shrink-0 w-[100%] sm:w-[70%] md:basis-1/3"
                   >
                     <TestimonialCard testimonial={testimonial} />
                   </div>
