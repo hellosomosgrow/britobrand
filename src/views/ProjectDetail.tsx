@@ -10,6 +10,7 @@ import {
   InfoProjectDetails,
   InfoProjectDetailsMobile,
 } from '@/components/InfoProjects';
+import LazyImage from '@/components/LazyImage';
 // import { projectsDetailData } from '@/data/projectsDetailData';
 
 const ProjectDetail = () => {
@@ -128,7 +129,7 @@ const ProjectDetail = () => {
                     img.layout === 'full' ? 'col-span-2' : 'col-span-1'
                   }`}
                 >
-                  <img
+                  <LazyImage
                     src={img.url}
                     alt={`Imagen ${idx + 1}`}
                     className="w-full h-auto object-cover"
@@ -145,7 +146,7 @@ const ProjectDetail = () => {
       </div>
 
       {/* Mobile: todo en scroll natural */}
-      <div className="md:hidden flex flex-col w-full space-y-3">
+      <div className="md:hidden space-y-3">
         <InfoProjects project={project} />
 
         {/* Imágenes */}
@@ -158,7 +159,7 @@ const ProjectDetail = () => {
                   img.layout === 'full' ? 'col-span-2' : 'col-span-1'
                 }`}
               >
-                <img
+                <LazyImage
                   src={img.url}
                   alt={`Imagen ${idx + 1}`}
                   className="w-full h-auto object-cover"

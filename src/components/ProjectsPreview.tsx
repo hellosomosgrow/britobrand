@@ -2,6 +2,7 @@ import React from 'react';
 import ProjectPreviewCard from './ProjectPreviewCard';
 import { projectsLarge } from '@/data/projectsData';
 import { useNavigate } from 'react-router-dom';
+import LazyImage from './LazyImage';
 type ProjectsPreviewProps = {
   columnsDesktop?: number; // Por defecto 3
 };
@@ -40,10 +41,10 @@ const ProjectsPreview = ({ columnsDesktop }: ProjectsPreviewProps) => {
         {/* Cards "Se viene algo nuevo" solo si hace falta */}
         {Array.from({ length: newComingCards }).map((_, idx) => (
           <div key={`coming-soon-${idx}`} className="">
-            <img
+            <LazyImage
               src={covernuevoproyecto}
               alt="Se viene algo nuevo"
-              className=""
+              className="w-full h-auto"
             />
             <span className="font-semibold text-sm p-1">NUEVO PROYECTO</span>
           </div>
@@ -88,7 +89,7 @@ const ProjectPreviewLargeCard = ({
       className="text-[#1E1E1E] rounded-lg cursor-pointer"
       onClick={handleViewMore}
     >
-      <img
+      <LazyImage
         src={project.image}
         alt={project.title}
         className="w-full h-auto object-cover rounded-[10px]"

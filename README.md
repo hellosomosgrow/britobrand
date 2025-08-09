@@ -1,5 +1,58 @@
 # Brito Brand Web
 
+## 🎯 Optimización de Imágenes
+
+### ✨ Estrategias Implementadas
+
+La aplicación ahora incluye **optimización avanzada de imágenes** para mejorar significativamente el performance sin perder calidad:
+
+#### 🔄 **Lazy Loading Inteligente**
+
+- ✅ **Intersection Observer**: Carga imágenes solo cuando están próximas a ser visibles
+- ✅ **Pre-carga anticipada**: 50px antes de que la imagen sea visible
+- ✅ **Placeholders animados**: Skeleton loading mientras cargan las imágenes
+- ✅ **Transiciones suaves**: Opacity transitions para una experiencia fluida
+
+#### 🎨 **Componentes Optimizados**
+
+1. **LazyImage**: Componente principal para carga diferida
+2. **OptimizedImage**: Maneja WebP y fallbacks automáticamente
+3. **ImagePreloader**: Pre-carga imágenes críticas
+4. **TestimonialCard**: Optimizado para avatar loading
+5. **ProjectPreviewLargeCard**: Optimizado para grid de proyectos
+
+#### ⚡ **Performance Features**
+
+- **Carga diferida**: Solo carga imágenes cuando son necesarias
+- **Pre-carga inteligente**: Imágenes críticas se cargan inmediatamente
+- **Decodificación asíncrona**: No bloquea el render
+- **Optimización de memoria**: Cleanup automático de observers
+- **Error handling**: Fallbacks para imágenes que fallan
+
+#### 🎯 **Configuración Avanzada**
+
+```typescript
+// Configuración de lazy loading
+lazyLoading: {
+  rootMargin: '50px 0px',  // Carga 50px antes
+  threshold: 0.1,          // 10% visible
+}
+
+// Tipos de carga
+- priority: true    // Carga inmediata (banners, hero images)
+- priority: false   // Carga diferida (gallery, thumbnails)
+```
+
+#### 📊 **Beneficios de Performance**
+
+- **Reducción de carga inicial**: Solo carga imágenes visibles
+- **Mejor Core Web Vitals**: LCP, FID, CLS optimizados
+- **Menor uso de ancho de banda**: Carga progresiva
+- **Experiencia de usuario mejorada**: Transiciones suaves
+- **SEO mejorado**: Mejor performance score
+
+---
+
 ## 🎯 Navegación con Swipe (Mobile)
 
 ### ✨ Funcionalidad Implementada
@@ -57,11 +110,18 @@ Cuando cambias de página en mobile, aparece un indicador temporal en la parte i
 - Tailwind CSS
 - React Router DOM
 - Vite
+- Intersection Observer API
+- WebP Support Detection
 
 ## 🎨 Características
 
 - Diseño responsive
 - Navegación con swipe (mobile)
+- Optimización avanzada de imágenes
+- Lazy loading inteligente
+- Pre-carga de imágenes críticas
 - Interfaz moderna y elegante
 - Optimización para móviles
 - Animaciones suaves
+- Performance optimizado
+- SEO friendly

@@ -7,6 +7,7 @@ import { igimage, felixbrito } from '@/assets/images';
 import { projectsPreview, projectsLarge } from '@/data/projectsData';
 import ProjectPreviewCard from './ProjectPreviewCard';
 import { useNavigate } from 'react-router-dom';
+import LazyImage from './LazyImage';
 
 const MainLayout = () => {
   const navigate = useNavigate();
@@ -155,7 +156,7 @@ const ProjectPreviewLargeCard = ({
       className="text-[#1E1E1E] rounded-lg cursor-pointer"
       onClick={handleViewMore}
     >
-      <img
+      <LazyImage
         src={project.image}
         alt={project.title}
         className="w-full h-auto object-cover rounded-[10px]"

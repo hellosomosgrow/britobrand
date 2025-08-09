@@ -1,3 +1,6 @@
+import React from 'react';
+import LazyImage from './LazyImage';
+
 const TestimonialCard = ({
   testimonial,
 }: {
@@ -16,10 +19,10 @@ const TestimonialCard = ({
     <div className="flex items-center mt-4">
       <div className="w-16 h-16 rounded-full mr-4 overflow-hidden flex items-center justify-center border-none flex-shrink-0">
         {testimonial?.image ? (
-          <img
+          <LazyImage
             src={testimonial.image}
             alt={testimonial.name}
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover rounded-full"
           />
         ) : (
           <span className="text-xs text-gray-400">Sin foto</span>

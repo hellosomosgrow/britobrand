@@ -4,6 +4,7 @@ import bannerDesktop2 from '../assets/images/banner/bannerDesktop2.png';
 import bannerDesktop3 from '../assets/images/banner/bannerDesktop3.jpg';
 import chat from '../assets/images/social/chat.png';
 import { useLocation } from 'react-router-dom';
+import LazyImage from './LazyImage';
 
 const Banner = () => {
   const images = [bannerDesktop1, bannerDesktop2, bannerDesktop3];
@@ -29,14 +30,18 @@ const Banner = () => {
 
   return (
     <div className="relative w-full h-85vh">
-      <img
+      <LazyImage
         src={images[current]}
         alt="Banner"
         className={`w-full h-full object-cover rounded-[10px] overflow-hidden ${
           isMobile ? 'object-center' : 'object-center'
         }`}
-        style={{
-          objectPosition: isMobile ? 'center 25%' : 'center center',
+        priority={true}
+        onLoad={() => {
+          // Preload next image
+          const nextIndex = (current + 1) % images.length;
+          const nextImage = new Image();
+          nextImage.src = images[nextIndex];
         }}
       />
       <div
@@ -64,6 +69,7 @@ const Banner = () => {
           onClick={() => window.open('https://wa.me/+5491139070821', '_blank')}
           alt="Chat Icon"
           className="absolute bottom-8 right-8 w-16 h-16 p-2 bg-white rounded-full cursor-pointer z-10 hover:scale-105 transition-transform"
+          loading="eager"
         />
       )}
     </div>
