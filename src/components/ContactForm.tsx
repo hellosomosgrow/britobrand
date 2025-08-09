@@ -145,6 +145,7 @@ const ContactForm = () => {
           type="text"
           placeholder="Nombre"
           className="w-full placeholder:text-sm placeholder:text-[#1E1E1E] pl-6 pr-10 py-3 bg-white rounded-lg focus:outline-none"
+          style={{ fontSize: '16px' }}
         />
         <span className="absolute right-5 top-1/2 transform -translate-y-1/2 text-[#1E1E1E] text-xs">
           *
@@ -158,6 +159,7 @@ const ContactForm = () => {
           type="email"
           placeholder="Email"
           className="w-full pl-6 pr-10 py-3 bg-white rounded-lg focus:outline-none placeholder:text-[#1E1E1E] placeholder:text-sm"
+          style={{ fontSize: '16px' }}
         />
         <span className="absolute right-5 top-1/2 transform -translate-y-1/2 text-[#1E1E1E] text-xs">
           *
@@ -171,6 +173,7 @@ const ContactForm = () => {
           type="text"
           placeholder="Nombre de tu empresa o marca"
           className="w-full pl-6 pr-10 py-3 bg-white rounded-lg focus:outline-none placeholder:text-[#1E1E1E] placeholder:text-sm"
+          style={{ fontSize: '16px' }}
         />
         <span className="absolute right-5 top-1/2 transform -translate-y-1/2 text-[#1E1E1E] text-xs">
           *
@@ -198,6 +201,7 @@ const ContactForm = () => {
           {...register('description')}
           placeholder="Escribe aquí..."
           className="w-full p-3 bg-[#E9E9E9] rounded-md text-[#1E1E1E] placeholder:text-black placeholder:text-sm h-32 resize-none focus:outline-none"
+          style={{ fontSize: '16px' }}
         />
       </div>
 

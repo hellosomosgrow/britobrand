@@ -9,7 +9,7 @@ const TestimonialCard = ({
     image?: string;
   };
 }) => (
-  <div className="bg-black rounded-lg p-6 flex flex-col justify-between w-[400px] h-[248px]">
+  <div className="bg-black rounded-lg p-6 flex flex-col justify-between w-full max-w-[400px] h-auto min-h-[248px] md:w-[400px] md:h-[248px]">
     <p className="text-sm font-light text-white line-clamp-6 flex-1">
       {testimonial?.description}
     </p>
