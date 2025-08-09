@@ -1,7 +1,4 @@
 import { useState, useEffect } from 'react';
-import banner1 from '../assets/images/banner/banner1.webp';
-import banner2 from '../assets/images/banner/banner2.webp';
-import banner3 from '../assets/images/banner/banner3.webp';
 import bannerDesktop1 from '../assets/images/banner/bannerDesktop1.jpg';
 import bannerDesktop2 from '../assets/images/banner/bannerDesktop2.png';
 import bannerDesktop3 from '../assets/images/banner/bannerDesktop3.jpg';
@@ -9,45 +6,50 @@ import chat from '../assets/images/social/chat.png';
 import { useLocation } from 'react-router-dom';
 
 const Banner = () => {
-  const mobileImages = [banner1, banner2, banner3];
-  const desktopImages = [bannerDesktop1, bannerDesktop2, bannerDesktop3];
+  const images = [bannerDesktop1, bannerDesktop2, bannerDesktop3];
 
   const [current, setCurrent] = useState(0);
   const [isMobile, setIsMobile] = useState(window.innerWidth < 640);
   const location = useLocation();
   const isContactPage = location.pathname.includes('contacto');
+
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth < 640);
     window.addEventListener('resize', handleResize);
 
     const interval = setInterval(() => {
-      setCurrent((prev) => (prev + 1) % mobileImages.length);
+      setCurrent((prev) => (prev + 1) % images.length);
     }, 5000);
 
     return () => {
       window.removeEventListener('resize', handleResize);
       clearInterval(interval);
     };
-  }, [mobileImages.length]);
+  }, [images.length]);
 
   return (
     <div className="relative w-full h-85vh">
       <img
-        src={isMobile ? mobileImages[current] : desktopImages[current]}
+        src={images[current]}
         alt="Banner"
-        className="w-full h-full object-cover rounded-[10px] overflow-hidden"
+        className={`w-full h-full object-cover rounded-[10px] overflow-hidden ${
+          isMobile ? 'object-center' : 'object-center'
+        }`}
+        style={{
+          objectPosition: isMobile ? 'center 25%' : 'center center',
+        }}
       />
       <div
         className={`
     absolute z-10
     ${
       isMobile
-        ? 'bottom-6 left-1/2 -translate-x-1/2 flex flex-row items-center justify-center gap-[10px]'
+        ? 'left-6 top-1/2 -translate-y-1/2 flex flex-col items-center justify-center gap-[10px]'
         : 'top-1/2 left-8 -translate-y-1/2 flex flex-col items-start gap-[10px]'
     }
   `}
       >
-        {mobileImages.map((_, index) => (
+        {images.map((_, index) => (
           <div
             key={index}
             className={`w-[12px] h-[12px] rounded-full border-none transition-all duration-300 ${

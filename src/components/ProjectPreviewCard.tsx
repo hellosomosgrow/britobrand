@@ -17,19 +17,25 @@ const ProjectPreviewCard = ({
     navigate(`/proyectos/${project.title}`);
   };
 
+  const isComingSoon = project?.type === 'Se viene algo nuevo';
+
   return (
     <div
-      className="bg-[#E9E9E9] text-[#1E1E1E] rounded-lg p-3 py-5 md:row-span-2 cursor-pointer"
-      onClick={handleViewMore}
+      className={`bg-[#E9E9E9] text-[#1E1E1E] rounded-lg p-3 py-5 md:row-span-2 ${
+        isComingSoon ? '' : 'cursor-pointer'
+      }`}
+      onClick={isComingSoon ? undefined : handleViewMore}
     >
       <div className="flex justify-between space-y-5 items-start">
         <h2 className="text-[14px]">Proyectos</h2>
-        <button
-          onClick={isExpanded ? toggleExpand : handleViewMore}
-          className="text-sm font-light cursor-pointer"
-        >
-          {isExpanded ? 'Ver Menos' : 'Ver Más'}
-        </button>
+        {!isComingSoon && (
+          <button
+            onClick={isExpanded ? toggleExpand : handleViewMore}
+            className="text-sm font-light cursor-pointer"
+          >
+            {isExpanded ? 'Ver Menos' : 'Ver Más'}
+          </button>
+        )}
       </div>
       <div className="flex space-x-4">
         <img

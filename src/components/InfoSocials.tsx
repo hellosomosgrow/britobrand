@@ -25,7 +25,7 @@ const social = [
   {
     id: 4,
     icon: whatsapp,
-    url: 'https://www.wa.me/+5491139070821',
+    url: 'https://wa.me/5491139070821',
   },
   {
     id: 5,

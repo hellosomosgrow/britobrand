@@ -5,7 +5,11 @@ import {
   projectsLarge,
   type Project,
 } from '@/data/projectsData';
-import { InfoProjects, InfoProjectDetails } from '@/components/InfoProjects';
+import {
+  InfoProjects,
+  InfoProjectDetails,
+  InfoProjectDetailsMobile,
+} from '@/components/InfoProjects';
 // import { projectsDetailData } from '@/data/projectsDetailData';
 
 const ProjectDetail = () => {
@@ -141,17 +145,17 @@ const ProjectDetail = () => {
       </div>
 
       {/* Mobile: todo en scroll natural */}
-      <div className="md:hidden flex flex-col w-full space-y-4">
+      <div className="md:hidden flex flex-col w-full space-y-3">
         <InfoProjects project={project} />
 
         {/* Imágenes */}
-        <div className="grid grid-cols-1 gap-4 auto-rows-auto">
+        <div className="grid grid-cols-2 gap-4 auto-rows-auto">
           {project.images && project.images.length > 0 ? (
             project.images.map((img, idx) => (
               <div
                 key={idx}
                 className={`bg-[#E9E9E9] rounded-lg overflow-hidden ${
-                  img.layout === 'full' ? 'col-span-1' : 'col-span-1'
+                  img.layout === 'full' ? 'col-span-2' : 'col-span-1'
                 }`}
               >
                 <img
@@ -168,7 +172,7 @@ const ProjectDetail = () => {
           )}
         </div>
 
-        <InfoProjectDetails
+        <InfoProjectDetailsMobile
           projectDescription={project.description || ''}
           projectLocationDescription={project.location || ''}
           projectColaborators={project.colaborators || []}
@@ -185,7 +189,7 @@ const ProjectDetail = () => {
           </button>
           <button
             onClick={handlePrevProject}
-            className="w-full bg-[#767575] text-[15px] font-light text-white py-3 rounded-[6px] transition-transform hover:scale-[1.03]  cursor-pointer"
+            className="w-full bg-[#767575] text-[15px] font-light text-white py-3 rounded-[6px] transition-transform hover:scale-[1.03]  cursor-pointer mb-4"
           >
             Ir Atrás
           </button>

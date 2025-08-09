@@ -110,3 +110,82 @@ export const InfoProjectDetails = ({
     </div>
   );
 };
+
+// Nueva versión para mobile que no incluye InfoProjects
+export const InfoProjectDetailsMobile = ({
+  projectDescription,
+  projectLocationDescription,
+  projectColaborators,
+  projectTools,
+  project,
+}: {
+  projectDescription: string;
+  projectLocationDescription: string;
+  projectColaborators: string[];
+  projectTools: string[];
+  project: {
+    title?: string;
+    type?: string;
+  };
+}) => {
+  return (
+    <div className="bg-[#E9E9E9] rounded-[10px]">
+      {/* Sección Info */}
+      <div className="border-b text-black border-[#767575] py-4 px-4 mb-4 last:border-b-0">
+        <p className="text-[14px] font-light">Info.</p>
+        {project && (
+          <>
+            <h3 className="text-[15px] font-semibold mt-1">{project.title}</h3>
+            <p className="text-[14px] font-light">{project?.type}</p>
+          </>
+        )}
+        <p className="py-3 mt-1 pb-10 text-sm text-[#4A4949] font-light whitespace-pre-line">
+          {projectDescription}
+        </p>
+      </div>
+
+      {/* Sección Ubicación */}
+      <div className="border-b border-[#767575]  pb-5 px-4 mb-4 last:border-b-0">
+        <span className="text-sm font-light">Ubicación</span>
+        <p className="mt-2 text-sm text-black font-medium">
+          {projectLocationDescription}
+        </p>
+      </div>
+
+      {/* Sección Work Featured In */}
+      {projectColaborators.length > 0 && (
+        <div className="border-b border-[#767575] pb-5 px-4 mb-4 last:border-b-0">
+          <span className="text-sm font-light">Work Featured In</span>
+          <ul className="list-none text-sm mt-2">
+            {projectColaborators.map((colab, index) => {
+              const [name, role] = colab.split(' - ');
+              return (
+                <li key={index}>
+                  <span className="font-semibold">{name}</span>
+                  {''}
+                  <br></br>
+                  <span className="font-light">{role}</span>
+                </li>
+              );
+            })}
+          </ul>
+        </div>
+      )}
+
+      {/* Sección Herramientas */}
+      <div className="h-32 border-b border-gray-300 pb-4 px-4 last:border-b-0">
+        <span className="text-sm font-semibold">Herramientas</span>
+        <div className="flex gap-[6px] mt-3">
+          {projectTools.map((tool, index) => (
+            <img
+              key={index}
+              src={tool}
+              alt={`Tool ${index}`}
+              className="rounded-md h-16"
+            />
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+};

@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectPreviewCard from './ProjectPreviewCard';
-import { projectsPreview, projectsLarge } from '@/data/projectsData';
+import { projectsLarge } from '@/data/projectsData';
 import { useNavigate } from 'react-router-dom';
 type ProjectsPreviewProps = {
   columnsDesktop?: number; // Por defecto 3
@@ -21,11 +21,14 @@ const getColsClass = (cols: number | undefined) => {
 };
 
 const ProjectsPreview = ({ columnsDesktop }: ProjectsPreviewProps) => {
-  const largeFirst8 = projectsLarge.slice(0, 8);
   const cols = columnsDesktop ?? 3;
   const totalProjects = projectsLarge.length;
   const remainder = totalProjects % cols;
   const newComingCards = remainder === 0 ? 0 : cols - remainder;
+
+  // Para mobile: primeros 9 proyectos con ProjectPreviewLargeCard, resto con ProjectPreviewCard
+  const first9Projects = projectsLarge.slice(0, 9);
+  const remainingProjects = projectsLarge.slice(9);
 
   return (
     <div className="w-full space-y-4">
@@ -47,13 +50,23 @@ const ProjectsPreview = ({ columnsDesktop }: ProjectsPreviewProps) => {
         ))}
       </div>
 
-      <div className="md:hidden grid grid-cols-1 gap-4">
-        {largeFirst8.map((project, index) => (
-          <ProjectPreviewLargeCard key={index} project={project} />
-        ))}
-        {projectsPreview.map((project, index) => (
-          <ProjectPreviewCard key={index} project={project} />
-        ))}
+      {/* Mobile: primeros 9 proyectos con ProjectPreviewLargeCard, resto con ProjectPreviewCard */}
+      <div className="md:hidden space-y-4">
+        {/* Primeros 9 proyectos */}
+        <div className="grid grid-cols-1 gap-4">
+          {first9Projects.map((project, index) => (
+            <ProjectPreviewLargeCard key={index} project={project} />
+          ))}
+        </div>
+
+        {/* Resto de proyectos */}
+        {remainingProjects.length > 0 && (
+          <div className="grid grid-cols-1 gap-4">
+            {remainingProjects.map((project, index) => (
+              <ProjectPreviewCard key={index} project={project} />
+            ))}
+          </div>
+        )}
       </div>
     </div>
   );
