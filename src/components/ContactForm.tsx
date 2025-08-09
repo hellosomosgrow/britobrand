@@ -24,6 +24,19 @@ const CustomSelect: React.FC<CustomSelectProps> = ({
 }) => {
   const [isOpen, setIsOpen] = useState(false);
 
+  const renderOptionLabel = (label: string) => {
+    if (label.includes('(Especifica en el mensaje)')) {
+      const mainText = label.split('(Especifica en el mensaje)')[0];
+      return (
+        <>
+          {mainText}
+          <span className="text-[#767575]">(Especifica en el mensaje)</span>
+        </>
+      );
+    }
+    return label;
+  };
+
   return (
     <div className="relative w-full">
       <div
@@ -44,7 +57,7 @@ const CustomSelect: React.FC<CustomSelectProps> = ({
                 setIsOpen(false);
               }}
             >
-              {opt.label}
+              {renderOptionLabel(opt.label)}
             </div>
           ))}
         </div>
@@ -82,7 +95,7 @@ const ContactForm = () => {
         { label: 'Identidad Visual', value: 'Identidad Visual' },
         { label: 'Branding', value: 'Branding' },
         { label: 'Website', value: 'Website' },
-        { label: 'Otro', value: 'Otro' },
+        { label: 'Otro (Especifica en el mensaje)', value: 'Otro' },
       ],
     },
     {
@@ -99,9 +112,10 @@ const ContactForm = () => {
       name: 'budget' as const,
       placeholder: 'Presupuesto Estimado',
       options: [
-        { label: '$100 - $500', value: '$100 - $500' },
-        { label: '$500 - $1000', value: '$500 - $1000' },
-        { label: '$1000+', value: '$1000+' },
+        { label: 'Desde USD $500', value: '$500' },
+        { label: 'USD $1500', value: '$1500' },
+        { label: 'USD $3000 - USD $5000', value: '$3000 - $5000' },
+        { label: '+USD $5000', value: '+$5000' },
       ],
     },
     {

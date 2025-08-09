@@ -257,6 +257,8 @@ import pintalopro12 from '@/assets/images/projects-details/pintalopro/PintaloPro
 import pintalopro13 from '@/assets/images/projects-details/pintalopro/PintaloPro-13.jpg';
 import pintalopro14 from '@/assets/images/projects-details/pintalopro/PintaloPro-14.jpg';
 import pintalopro15 from '@/assets/images/projects-details/pintalopro/PintaloPro-15.jpg';
+import contactBanner from '@/assets/images/banner/contactBanner.jpg';
+
 export {
   cota,
   cyclingstore,
@@ -517,4 +519,5 @@ export {
   pintalopro14,
   pintalopro15,
   covergrow,
+  contactBanner,
 };

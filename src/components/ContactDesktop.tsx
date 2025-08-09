@@ -1,5 +1,4 @@
 import React, { useEffect, useRef } from 'react';
-import Banner from '@/components/Banner';
 import InfoSocials from './InfoSocials';
 import InfoSection from './InfoSection';
 import InfoCard from './InfoCard';
@@ -12,6 +11,8 @@ import {
   dudutestimonial,
   casanunatestimonial,
   botanicaltestimonial,
+  covergrow,
+  contactBanner,
 } from '@/assets/images';
 const ContactDesktop = () => {
   useEffect(() => {
@@ -80,9 +81,9 @@ const ContactDesktop = () => {
       description:
         '“Trabajar con Félix es un viaje de descubrimiento y creatividad. Su capacidad para entender y materializar ideas es excepcional. Su nivel de atención al detalle es admirable. Lo recomiendo sin dudar.”',
       name: 'Andreyna Navas',
-      company: 'Frontend Developer',
+      company: 'Grow',
       location: 'Guayaquil, Ecuador',
-      image: dudutestimonial,
+      image: covergrow,
     },
   ];
 
@@ -166,7 +167,13 @@ const ContactDesktop = () => {
         </div>
 
         {/* Banner */}
-        <Banner />
+        <div className="relative w-full h-85vh">
+          <img
+            src={contactBanner}
+            alt="Contact Banner"
+            className="w-full h-full object-cover rounded-[10px] overflow-hidden"
+          />
+        </div>
       </div>
     </div>
   );
