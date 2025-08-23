@@ -102,7 +102,7 @@ import {
   platz17,
   botanico1,
   botanico2,
-  botanico3,
+  //botanico3,
   botanico5,
   botanico7,
   botanico8,
@@ -230,6 +230,7 @@ import {
   pintalopro10Video,
   pintalopro12Video,
   platz15Video,
+  botanico3Video,
 } from '@/assets/images';
 
 export type Project = {
@@ -280,12 +281,12 @@ El concepto #DuduForKids sintetiza una marca pensada con atención al detalle, e
   {
     title: 'COTA',
     type: 'Identidad visual',
-    description: `Lo Interior es un estudio de arquitectura y diseño que entiende los espacios desde lo esencial. La identidad debía transmitir calma, detalle y contención. El punto de partida fue una paleta sobria liderada por un verde sage que articula el tono visual de toda la marca.
+    description: `COTA es una marca que ayuda a reformar espacios pensando en quienes los habitan. Remodelaciones, permisos y trámites técnicos, pero con una estética cercana, joven y resolutiva. Desde el naming, buscamos una palabra que hablara el lenguaje de la arquitectura sin perder claridad: COTA, una línea que marca el antes y el después.
+    
+    Diseñé toda la identidad visual: logotipo, paleta, tipografías, papelería, merch, ploteo de vehículos, redes y diseño web. El sistema parte de formas geométricas simples que reflejan orden y precisión, contrastadas con una comunicación accesible, visual y directa.
+    
+    Una marca que se ve profesional pero no fría, técnica pero no lejana. COTA transforma espacios y acompaña el proceso con diseño claro y propósito.
 
-El logotipo principal convive con su versión comprimida: LOI, un acrónimo que nace de forma natural como respuesta a la dinámica de los soportes y la manera en que las personas nombran lo que ya sienten cercano. 
-
-Este recurso permitió desarrollar un sistema más flexible, sin perder elegancia ni reconocimiento.
-Cada pieza —desde las tarjetas hasta el feed— busca replicar esa misma sensación que deja un buen espacio: equilibrio, intención y una belleza silenciosa.
 
 `,
     location: 'Miami - Estados Unidos',
@@ -457,7 +458,7 @@ El resultado es una identidad que respira verde, sabor y cercanía. Una marca qu
     images: [
       { url: botanico1, layout: 'full' },
       { url: botanico2, layout: 'full' },
-      { url: botanico3, layout: 'vertical' },
+      { url: botanico3Video, layout: 'vertical' },
       { url: botanico4Video, layout: 'vertical', isVideo: true },
       { url: botanico5, layout: 'full' },
       { url: botanico6Video, layout: 'vertical', isVideo: true },
@@ -541,8 +542,8 @@ Una marca que se construye con ritmo, habla con datos y deja claro cuál es su f
 Busqué que la nueva imagen tuviera personalidad, pero sin complicaciones. Que pudiera funcionar igual de bien en redes, etiquetas, gorras, totebags, packaging y hasta en el ploteo de vehículos. Todo con un lenguaje visual fresco, reconocible y coherente.
 
 Fue una renovación total que dejó atrás lo genérico para mostrar una marca mucho más segura de lo que ofrece: diseño, productos y servicios con propósito.
-`,
-    location: 'Montevideo - Uruguay',
+  `,
+    location: 'Santiago de Chile - Chile',
     colaborators: [],
     tools: [psLogo, aiLogo, figmaLogo],
     images: [
@@ -658,14 +659,14 @@ Quise que todo se sintiera coherente, sin exceso, con una estética tranquila pe
     title: 'MSS',
     image: mss,
     type: 'Branding',
-    description: `MMS – Mining Supplies Solutions es una empresa especializada en insumos para minería. Ya contaban con un logotipo base, y el desafío fue vectorizarlo y construir a partir de él un sistema visual sólido, técnico y profesional.
+    description: `MSS – Mining Supplies Solutions es una empresa especializada en insumos para minería. Ya contaban con un logotipo base, y el desafío fue vectorizarlo y construir a partir de él un sistema visual sólido, técnico y profesional.
 
 Diseñé toda la identidad visual: papelería, presentaciones, assets para dispositivos y piezas corporativas. Trabajé una paleta de azules profundos con acentos eléctricos, tipografía de buen rendimiento técnico y una grilla visual basada en bloques, inspirada en estructuras modulares.
 
 El resultado es una marca que transmite orden, precisión y escala. Visualmente clara, lista para operar en entornos exigentes y altamente funcionales.
 
 `,
-    location: 'Montevideo - Uruguay',
+    location: 'Orlando - Estados Unidos',
     colaborators: [],
     tools: [psLogo, aiLogo],
     images: [

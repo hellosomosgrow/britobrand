@@ -9,7 +9,7 @@ import InfoSocials from '@/components/InfoSocials';
 import InfoCard from '@/components/InfoCard';
 import ContactForm from '@/components/ContactForm';
 import TestimonialCard from '@/components/TestimonialCard';
-import { igimage } from '@/assets/optimized-images';
+// import { igimage } from '@/assets/optimized-images'; - Comentado temporalmente
 import {
   dudutestimonial,
   casanunatestimonial,
@@ -128,13 +128,14 @@ const ContactMobile = () => {
       {/* Social */}
       <InfoSocials />
 
-      {/* Instagram */}
+      {/* Instagram - Comentado temporalmente
       <InfoCard
         title="Instagram"
         subtitle="Free Wallpapers"
         content="Lorem ipsum dolor sit amet, consectetur sed do eiusmod tempor incididunt ut labore et dolore magna.."
         image={igimage}
       />
+      */}
     </div>
   );
 };

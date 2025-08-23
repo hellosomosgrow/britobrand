@@ -3,7 +3,10 @@ import InfoSection from './InfoSection';
 import ProjectsPreview from './ProjectsPreview';
 import InfoCard from './InfoCard';
 import InfoSocials from './InfoSocials';
-import { igimage, felixbrito } from '@/assets/optimized-images';
+import {
+  //igimage,
+  felixbrito,
+} from '@/assets/optimized-images';
 import { projectsPreview, projectsLarge } from '@/data/projectsData';
 import ProjectPreviewCard from './ProjectPreviewCard';
 import { useNavigate } from 'react-router-dom';
@@ -41,12 +44,14 @@ const MainLayout = () => {
         </div>
 
         <div className="md:block hidden">
+          {/* Instagram - Comentado temporalmente
           <InfoCard
             title="Instagram"
             subtitle="Free Wallpapers"
             content="Lorem ipsum dolor sit amet, consectetur sed do eiusmod tempor incididunt ut labore et dolore magna.."
             image={igimage}
           />
+          */}
         </div>
 
         {/* Render ProjectPreviewCard solo en desktop */}
@@ -131,13 +136,14 @@ Diseño logos, sistemas de marca, empaques, piezas para redes, merch y todo lo q
         {/* Social */}
         <InfoSocials />
 
-        {/* Instagram */}
+        {/* Instagram - Comentado temporalmente
         <InfoCard
           title="Instagram"
           subtitle="Free Wallpapers"
           content="Lorem ipsum dolor sit amet, consectetur sed do eiusmod tempor incididunt ut labore et dolore magna.."
           image={igimage}
         />
+        */}
       </div>
     </div>
   );

@@ -2,7 +2,7 @@ import React, { useEffect, useRef } from 'react';
 import InfoSocials from './InfoSocials';
 import InfoSection from './InfoSection';
 import InfoCard from './InfoCard';
-import { igimage } from '@/assets/optimized-images';
+// import { igimage } from '@/assets/optimized-images'; - Comentado temporalmente
 import ContactForm from '@/components/ContactForm';
 import imagecontact from '@/assets/optimized-images/info/imagecontact.webp';
 import TestimonialCard from './TestimonialCard';
@@ -105,12 +105,14 @@ const ContactDesktop = () => {
         />
         <InfoSocials />
         <div className="md:block hidden">
+          {/* Instagram - Comentado temporalmente
           <InfoCard
             title="Instagram"
             subtitle="Free Wallpapers"
             content="Lorem ipsum dolor sit amet, consectetur sed do eiusmod tempor incididunt ut labore et dolore magna."
             image={igimage}
           />
+          */}
         </div>
       </div>
 

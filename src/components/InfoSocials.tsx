@@ -1,5 +1,5 @@
 import {
-  instagram,
+  // instagram, - Comentado temporalmente
   behance,
   linkedin,
   spotify,
@@ -7,11 +7,12 @@ import {
 } from '@/assets/optimized-images';
 
 const social = [
-  {
-    id: 1,
-    icon: instagram,
-    url: 'https://www.instagram.com/',
-  },
+  // Instagram - Comentado temporalmente
+  // {
+  //   id: 1,
+  //   icon: instagram,
+  //   url: 'https://www.instagram.com/',
+  // },
   {
     id: 2,
     icon: behance,

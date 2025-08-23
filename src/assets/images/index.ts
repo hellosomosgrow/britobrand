@@ -1,4 +1,5 @@
 // Videos de proyectos - Botánico
+import botanico3Video from './projects-details/botanico/Botanico-03.mp4';
 import botanico4Video from './projects-details/botanico/Botanico-04.mp4';
 import botanico6Video from './projects-details/botanico/Botanico-06.mp4';
 import botanico12Video from './projects-details/botanico/Botanico-12.mp4';
@@ -28,6 +29,7 @@ import platz15Video from './projects-details/platz/Platz-15.mp4';
 // Exportar todos los videos
 export {
   // Botánico
+  botanico3Video,
   botanico4Video,
   botanico6Video,
   botanico12Video,
