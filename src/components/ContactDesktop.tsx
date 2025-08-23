@@ -2,9 +2,9 @@ import React, { useEffect, useRef } from 'react';
 import InfoSocials from './InfoSocials';
 import InfoSection from './InfoSection';
 import InfoCard from './InfoCard';
-import { igimage } from '@/assets/images';
+import { igimage } from '@/assets/optimized-images';
 import ContactForm from '@/components/ContactForm';
-import imagecontact from '@/assets/images/info/imagecontact.webp';
+import imagecontact from '@/assets/optimized-images/info/imagecontact.webp';
 import TestimonialCard from './TestimonialCard';
 
 import {
@@ -13,7 +13,7 @@ import {
   botanicaltestimonial,
   covergrow,
   contactBanner,
-} from '@/assets/images';
+} from '@/assets/optimized-images';
 const ContactDesktop = () => {
   useEffect(() => {
     window.scrollTo(0, 0);

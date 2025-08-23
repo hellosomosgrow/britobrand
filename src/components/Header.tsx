@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { britobrandlogo } from '@/assets/images';
+import { britobrandlogo } from '@/assets/optimized-images';
 
 export default function Header() {
   const location = useLocation();

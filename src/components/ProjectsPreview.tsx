@@ -1,12 +1,13 @@
-import React from 'react';
 import ProjectPreviewCard from './ProjectPreviewCard';
 import { projectsLarge } from '@/data/projectsData';
 import { useNavigate } from 'react-router-dom';
 import LazyImage from './LazyImage';
+import { covernuevoproyecto } from '@/assets/optimized-images';
+
 type ProjectsPreviewProps = {
   columnsDesktop?: number; // Por defecto 3
+  showComingSoon?: boolean; // Por defecto true
 };
-import { covernuevoproyecto } from '@/assets/images';
 
 const getColsClass = (cols: number | undefined) => {
   switch (cols) {
@@ -21,37 +22,51 @@ const getColsClass = (cols: number | undefined) => {
   }
 };
 
-const ProjectsPreview = ({ columnsDesktop }: ProjectsPreviewProps) => {
+const ProjectsPreview = ({
+  columnsDesktop,
+  showComingSoon = true,
+}: ProjectsPreviewProps) => {
   const cols = columnsDesktop ?? 3;
-  const totalProjects = projectsLarge.length;
+
+  // Filtrar proyectos según showComingSoon
+  const filteredProjects = showComingSoon
+    ? projectsLarge
+    : projectsLarge.filter((project) => project.type !== 'Se viene algo nuevo');
+
+  const totalProjects = filteredProjects.length;
   const remainder = totalProjects % cols;
-  const newComingCards = remainder === 0 ? 0 : cols - remainder;
+  const newComingCards = showComingSoon
+    ? remainder === 0
+      ? 0
+      : cols - remainder
+    : 0;
 
   // Para mobile: primeros 9 proyectos con ProjectPreviewLargeCard, resto con ProjectPreviewCard
-  const first9Projects = projectsLarge.slice(0, 9);
-  const remainingProjects = projectsLarge.slice(9);
+  const first9Projects = filteredProjects.slice(0, 9);
+  const remainingProjects = filteredProjects.slice(9);
 
   return (
     <div className="w-full space-y-4">
       {/* Escritorio: todos los proyectos large */}
       <div className={`hidden md:grid ${getColsClass(columnsDesktop)} gap-4`}>
-        {projectsLarge.map((project, index) => (
+        {filteredProjects.map((project, index) => (
           <ProjectPreviewLargeCard
             key={`${project.title}-${index}`}
             project={project}
           />
         ))}
-        {/* Cards "Se viene algo nuevo" solo si hace falta */}
-        {Array.from({ length: newComingCards }).map((_, idx) => (
-          <div key={`coming-soon-${idx}`} className="">
-            <LazyImage
-              src={covernuevoproyecto}
-              alt="Se viene algo nuevo"
-              className="w-full h-auto"
-            />
-            <span className="font-semibold text-sm p-1">NUEVO PROYECTO</span>
-          </div>
-        ))}
+        {/* Cards "Se viene algo nuevo" solo si hace falta y showComingSoon es true */}
+        {showComingSoon &&
+          Array.from({ length: newComingCards }).map((_, idx) => (
+            <div key={`coming-soon-${idx}`} className="">
+              <LazyImage
+                src={covernuevoproyecto}
+                alt="Se viene algo nuevo"
+                className="w-full h-auto"
+              />
+              <span className="font-semibold text-sm p-1">NUEVO PROYECTO</span>
+            </div>
+          ))}
       </div>
 
       {/* Mobile: primeros 9 proyectos con ProjectPreviewLargeCard, resto con ProjectPreviewCard */}

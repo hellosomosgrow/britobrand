@@ -4,7 +4,7 @@ import {
   linkedin,
   spotify,
   whatsapp,
-} from '@/assets/images';
+} from '@/assets/optimized-images';
 
 const social = [
   {

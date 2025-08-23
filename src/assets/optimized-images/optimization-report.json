@@ -1,0 +1,2122 @@
+[
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\banner\\banner-contact.webp",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\banner\\banner-contact.webp",
+    "originalSize": 652386,
+    "optimizedSize": 56558,
+    "compressionRatio": 91.33059262461181,
+    "format": ".webp"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\banner\\banner1.webp",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\banner\\banner1.webp",
+    "originalSize": 857076,
+    "optimizedSize": 61934,
+    "compressionRatio": 92.77380302330248,
+    "format": ".webp"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\banner\\banner2.webp",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\banner\\banner2.webp",
+    "originalSize": 1272704,
+    "optimizedSize": 137100,
+    "compressionRatio": 89.22766016292869,
+    "format": ".webp"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\banner\\banner3.webp",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\banner\\banner3.webp",
+    "originalSize": 767222,
+    "optimizedSize": 44196,
+    "compressionRatio": 94.23947697015987,
+    "format": ".webp"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\banner\\bannerDesktop1.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\banner\\bannerDesktop1.jpg",
+    "originalSize": 14634413,
+    "optimizedSize": 2095757,
+    "compressionRatio": 85.67925478117913,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\banner\\bannerDesktop2.png",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\banner\\bannerDesktop2.png",
+    "originalSize": 1260137,
+    "optimizedSize": 346883,
+    "compressionRatio": 72.47259623358413,
+    "format": ".png"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\banner\\bannerDesktop3.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\banner\\bannerDesktop3.jpg",
+    "originalSize": 10661604,
+    "optimizedSize": 1620764,
+    "compressionRatio": 84.79812230880081,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\banner\\contactBanner.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\banner\\contactBanner.jpg",
+    "originalSize": 9878536,
+    "optimizedSize": 1602480,
+    "compressionRatio": 83.77816308003534,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\info\\adobefonts.png",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\info\\adobefonts.png",
+    "originalSize": 142359,
+    "optimizedSize": 40631,
+    "compressionRatio": 71.4587767545431,
+    "format": ".png"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\info\\brito-brand-logo.png",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\info\\brito-brand-logo.png",
+    "originalSize": 5618,
+    "optimizedSize": 3016,
+    "compressionRatio": 46.31541473834105,
+    "format": ".png"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\info\\britofavicon.png",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\info\\britofavicon.png",
+    "originalSize": 536,
+    "optimizedSize": 230,
+    "compressionRatio": 57.08955223880597,
+    "format": ".png"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\info\\felixbrito.png",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\info\\felixbrito.png",
+    "originalSize": 71083,
+    "optimizedSize": 28507,
+    "compressionRatio": 59.8961777077501,
+    "format": ".png"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\info\\igimage.png",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\info\\igimage.png",
+    "originalSize": 126739,
+    "optimizedSize": 31827,
+    "compressionRatio": 74.88776146253325,
+    "format": ".png"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\info\\imagecontact.webp",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\info\\imagecontact.webp",
+    "originalSize": 767222,
+    "optimizedSize": 44196,
+    "compressionRatio": 94.23947697015987,
+    "format": ".webp"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\info\\location.png",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\info\\location.png",
+    "originalSize": 38494,
+    "optimizedSize": 11938,
+    "compressionRatio": 68.98737465579052,
+    "format": ".png"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-cover\\botanicaltestimonial.png",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-cover\\botanicaltestimonial.png",
+    "originalSize": 11902,
+    "optimizedSize": 4734,
+    "compressionRatio": 60.22517223995967,
+    "format": ".png"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-cover\\casanunatestimonial.png",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-cover\\casanunatestimonial.png",
+    "originalSize": 9577,
+    "optimizedSize": 2133,
+    "compressionRatio": 77.72788973582541,
+    "format": ".png"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-cover\\coverbotanico.webp",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-cover\\coverbotanico.webp",
+    "originalSize": 1146312,
+    "optimizedSize": 45854,
+    "compressionRatio": 95.99986740084724,
+    "format": ".webp"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-cover\\covercasanuna.webp",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-cover\\covercasanuna.webp",
+    "originalSize": 1489302,
+    "optimizedSize": 248388,
+    "compressionRatio": 83.32185144450219,
+    "format": ".webp"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-cover\\covercota.webp",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-cover\\covercota.webp",
+    "originalSize": 1287910,
+    "optimizedSize": 99328,
+    "compressionRatio": 92.2876598520083,
+    "format": ".webp"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-cover\\covercycling.webp",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-cover\\covercycling.webp",
+    "originalSize": 912684,
+    "optimizedSize": 30074,
+    "compressionRatio": 96.70488361798827,
+    "format": ".webp"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-cover\\coverdudu.webp",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-cover\\coverdudu.webp",
+    "originalSize": 835676,
+    "optimizedSize": 133034,
+    "compressionRatio": 84.08067241371057,
+    "format": ".webp"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-cover\\coveremamodels.webp",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-cover\\coveremamodels.webp",
+    "originalSize": 77562,
+    "optimizedSize": 22542,
+    "compressionRatio": 70.93679894793843,
+    "format": ".webp"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-cover\\coverespacio2024.png",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-cover\\coverespacio2024.png",
+    "originalSize": 336893,
+    "optimizedSize": 96070,
+    "compressionRatio": 71.48352741078028,
+    "format": ".png"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-cover\\coverfactor.png",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-cover\\coverfactor.png",
+    "originalSize": 11063,
+    "optimizedSize": 3547,
+    "compressionRatio": 67.93817228599838,
+    "format": ".png"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-cover\\covergrow.png",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-cover\\covergrow.png",
+    "originalSize": 16324,
+    "optimizedSize": 4089,
+    "compressionRatio": 74.9509924038226,
+    "format": ".png"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-cover\\coverideamania.png",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-cover\\coverideamania.png",
+    "originalSize": 384093,
+    "optimizedSize": 93904,
+    "compressionRatio": 75.55175439281633,
+    "format": ".png"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-cover\\coverinvolvere.webp",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-cover\\coverinvolvere.webp",
+    "originalSize": 1201946,
+    "optimizedSize": 188932,
+    "compressionRatio": 84.28115738976626,
+    "format": ".webp"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-cover\\coverlacha.png",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-cover\\coverlacha.png",
+    "originalSize": 599514,
+    "optimizedSize": 174350,
+    "compressionRatio": 70.91811033603885,
+    "format": ".png"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-cover\\coverlointerior.png",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-cover\\coverlointerior.png",
+    "originalSize": 510423,
+    "optimizedSize": 128659,
+    "compressionRatio": 74.79365153999721,
+    "format": ".png"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-cover\\coverminingSuppliesSolutions.png",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-cover\\coverminingSuppliesSolutions.png",
+    "originalSize": 247161,
+    "optimizedSize": 39862,
+    "compressionRatio": 83.87205101128414,
+    "format": ".png"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-cover\\covernuevoproyecto.png",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-cover\\covernuevoproyecto.png",
+    "originalSize": 659980,
+    "optimizedSize": 75739,
+    "compressionRatio": 88.52404618321768,
+    "format": ".png"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-cover\\coverpintaloPro.png",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-cover\\coverpintaloPro.png",
+    "originalSize": 334328,
+    "optimizedSize": 90340,
+    "compressionRatio": 72.97863176281975,
+    "format": ".png"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-cover\\coverplatz.png",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-cover\\coverplatz.png",
+    "originalSize": 428567,
+    "optimizedSize": 140410,
+    "compressionRatio": 67.23732811905722,
+    "format": ".png"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-cover\\coversantaElena.png",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-cover\\coversantaElena.png",
+    "originalSize": 395322,
+    "optimizedSize": 109167,
+    "compressionRatio": 72.38529603715452,
+    "format": ".png"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-cover\\coversedel.png",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-cover\\coversedel.png",
+    "originalSize": 322084,
+    "optimizedSize": 86199,
+    "compressionRatio": 73.23710584816384,
+    "format": ".png"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-cover\\coversierraAtlantica.png",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-cover\\coversierraAtlantica.png",
+    "originalSize": 505446,
+    "optimizedSize": 149746,
+    "compressionRatio": 70.37349192594263,
+    "format": ".png"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-cover\\dudutestimonial.png",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-cover\\dudutestimonial.png",
+    "originalSize": 10394,
+    "optimizedSize": 4678,
+    "compressionRatio": 54.99326534539157,
+    "format": ".png"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\botanico\\Botanico-01.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\botanico\\Botanico-01.jpg",
+    "originalSize": 236197,
+    "optimizedSize": 89291,
+    "compressionRatio": 62.19638691431305,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\botanico\\Botanico-02.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\botanico\\Botanico-02.jpg",
+    "originalSize": 5340029,
+    "optimizedSize": 1086227,
+    "compressionRatio": 79.65878087927987,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\botanico\\Botanico-03.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\botanico\\Botanico-03.jpg",
+    "originalSize": 143025,
+    "optimizedSize": 49287,
+    "compressionRatio": 65.5395909805978,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\botanico\\Botanico-04.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\botanico\\Botanico-04.jpg",
+    "originalSize": 1888917,
+    "optimizedSize": 370305,
+    "compressionRatio": 80.39590940205419,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\botanico\\Botanico-05.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\botanico\\Botanico-05.jpg",
+    "originalSize": 2881078,
+    "optimizedSize": 693373,
+    "compressionRatio": 75.9335568144979,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\botanico\\Botanico-06.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\botanico\\Botanico-06.jpg",
+    "originalSize": 275487,
+    "optimizedSize": 87484,
+    "compressionRatio": 68.2438735766116,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\botanico\\Botanico-07.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\botanico\\Botanico-07.jpg",
+    "originalSize": 1643359,
+    "optimizedSize": 307527,
+    "compressionRatio": 81.28668172931174,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\botanico\\Botanico-08.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\botanico\\Botanico-08.jpg",
+    "originalSize": 1062152,
+    "optimizedSize": 403787,
+    "compressionRatio": 61.98406631065987,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\botanico\\Botanico-09.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\botanico\\Botanico-09.jpg",
+    "originalSize": 257384,
+    "optimizedSize": 90812,
+    "compressionRatio": 64.71730954527088,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\botanico\\Botanico-10.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\botanico\\Botanico-10.jpg",
+    "originalSize": 3554584,
+    "optimizedSize": 956797,
+    "compressionRatio": 73.08272923076231,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\botanico\\Botanico-11.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\botanico\\Botanico-11.jpg",
+    "originalSize": 4163703,
+    "optimizedSize": 763767,
+    "compressionRatio": 81.65654466709081,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\botanico\\Botanico-12.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\botanico\\Botanico-12.jpg",
+    "originalSize": 878190,
+    "optimizedSize": 184024,
+    "compressionRatio": 79.04508136052563,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\botanico\\Botanico-13.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\botanico\\Botanico-13.jpg",
+    "originalSize": 1064712,
+    "optimizedSize": 259899,
+    "compressionRatio": 75.58973694294795,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\botanico\\Botanico-14.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\botanico\\Botanico-14.jpg",
+    "originalSize": 404156,
+    "optimizedSize": 155204,
+    "compressionRatio": 61.59799681311176,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\casanuna\\Casanuna-01.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\casanuna\\Casanuna-01.jpg",
+    "originalSize": 8826316,
+    "optimizedSize": 2331628,
+    "compressionRatio": 73.58322543629755,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\casanuna\\Casanuna-02.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\casanuna\\Casanuna-02.jpg",
+    "originalSize": 2322602,
+    "optimizedSize": 443284,
+    "compressionRatio": 80.914336593183,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\casanuna\\Casanuna-03.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\casanuna\\Casanuna-03.jpg",
+    "originalSize": 3571964,
+    "optimizedSize": 894992,
+    "compressionRatio": 74.94398039845866,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\casanuna\\Casanuna-04.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\casanuna\\Casanuna-04.jpg",
+    "originalSize": 3795779,
+    "optimizedSize": 930410,
+    "compressionRatio": 75.48829897631026,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\casanuna\\Casanuna-05.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\casanuna\\Casanuna-05.jpg",
+    "originalSize": 2813609,
+    "optimizedSize": 582189,
+    "compressionRatio": 79.30810571049496,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\casanuna\\Casanuna-06.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\casanuna\\Casanuna-06.jpg",
+    "originalSize": 5829318,
+    "optimizedSize": 1403134,
+    "compressionRatio": 75.92970567054329,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\casanuna\\Casanuna-07.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\casanuna\\Casanuna-07.jpg",
+    "originalSize": 1683101,
+    "optimizedSize": 433609,
+    "compressionRatio": 74.23749376894197,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\casanuna\\Casanuna-08.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\casanuna\\Casanuna-08.jpg",
+    "originalSize": 2405370,
+    "optimizedSize": 537273,
+    "compressionRatio": 77.6636026889834,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\casanuna\\Casanuna-09.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\casanuna\\Casanuna-09.jpg",
+    "originalSize": 7120583,
+    "optimizedSize": 1859147,
+    "compressionRatio": 73.89052272826537,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\casanuna\\Casanuna-10.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\casanuna\\Casanuna-10.jpg",
+    "originalSize": 4963063,
+    "optimizedSize": 1306309,
+    "compressionRatio": 73.67937904475522,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\casanuna\\Casanuna-11.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\casanuna\\Casanuna-11.jpg",
+    "originalSize": 4154688,
+    "optimizedSize": 1007004,
+    "compressionRatio": 75.76222330052221,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\cota\\cota-logo.png",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\cota\\cota-logo.png",
+    "originalSize": 1196,
+    "optimizedSize": 582,
+    "compressionRatio": 51.33779264214047,
+    "format": ".png"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\cota\\cota1.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\cota\\cota1.jpg",
+    "originalSize": 2072282,
+    "optimizedSize": 221575,
+    "compressionRatio": 89.30768109745682,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\cota\\cota10.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\cota\\cota10.jpg",
+    "originalSize": 305517,
+    "optimizedSize": 67153,
+    "compressionRatio": 78.01988105408209,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\cota\\cota11.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\cota\\cota11.jpg",
+    "originalSize": 1789737,
+    "optimizedSize": 270105,
+    "compressionRatio": 84.9081177849036,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\cota\\cota12.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\cota\\cota12.jpg",
+    "originalSize": 2342324,
+    "optimizedSize": 269930,
+    "compressionRatio": 88.47597514263612,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\cota\\cota13.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\cota\\cota13.jpg",
+    "originalSize": 1879101,
+    "optimizedSize": 216947,
+    "compressionRatio": 88.4547451148182,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\cota\\cota14.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\cota\\cota14.jpg",
+    "originalSize": 714187,
+    "optimizedSize": 136612,
+    "compressionRatio": 80.87167646568756,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\cota\\cota15.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\cota\\cota15.jpg",
+    "originalSize": 2472406,
+    "optimizedSize": 274374,
+    "compressionRatio": 88.90255079465103,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\cota\\cota2.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\cota\\cota2.jpg",
+    "originalSize": 103088,
+    "optimizedSize": 24928,
+    "compressionRatio": 75.81871798851468,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\cota\\cota3.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\cota\\cota3.jpg",
+    "originalSize": 1517514,
+    "optimizedSize": 235305,
+    "compressionRatio": 84.49404750137396,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\cota\\cota4.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\cota\\cota4.jpg",
+    "originalSize": 2180583,
+    "optimizedSize": 238690,
+    "compressionRatio": 89.05384477453964,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\cota\\cota5.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\cota\\cota5.jpg",
+    "originalSize": 211373,
+    "optimizedSize": 53565,
+    "compressionRatio": 74.6585420086766,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\cota\\cota6.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\cota\\cota6.jpg",
+    "originalSize": 1485830,
+    "optimizedSize": 178543,
+    "compressionRatio": 87.98361858355263,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\cota\\cota7.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\cota\\cota7.jpg",
+    "originalSize": 3930279,
+    "optimizedSize": 469934,
+    "compressionRatio": 88.04324069614397,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\cota\\cota8.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\cota\\cota8.jpg",
+    "originalSize": 473858,
+    "optimizedSize": 123984,
+    "compressionRatio": 73.83519957455609,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\cota\\cota9.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\cota\\cota9.jpg",
+    "originalSize": 1101816,
+    "optimizedSize": 156279,
+    "compressionRatio": 85.81623428957285,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\cota\\cotaprincipal.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\cota\\cotaprincipal.jpg",
+    "originalSize": 157120,
+    "optimizedSize": 37206,
+    "compressionRatio": 76.32001018329939,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\cycling\\Cycling-01.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\cycling\\Cycling-01.jpg",
+    "originalSize": 1738010,
+    "optimizedSize": 239687,
+    "compressionRatio": 86.20911272087042,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\cycling\\Cycling-02.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\cycling\\Cycling-02.jpg",
+    "originalSize": 256856,
+    "optimizedSize": 89187,
+    "compressionRatio": 65.27743171271062,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\cycling\\Cycling-03.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\cycling\\Cycling-03.jpg",
+    "originalSize": 1905290,
+    "optimizedSize": 391850,
+    "compressionRatio": 79.43357704076544,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\cycling\\Cycling-04.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\cycling\\Cycling-04.jpg",
+    "originalSize": 179455,
+    "optimizedSize": 56357,
+    "compressionRatio": 68.59546961633836,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\cycling\\Cycling-05.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\cycling\\Cycling-05.jpg",
+    "originalSize": 3129822,
+    "optimizedSize": 683156,
+    "compressionRatio": 78.17268841486832,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\cycling\\Cycling-06.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\cycling\\Cycling-06.jpg",
+    "originalSize": 769870,
+    "optimizedSize": 185736,
+    "compressionRatio": 75.87436839985972,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\cycling\\Cycling-07.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\cycling\\Cycling-07.jpg",
+    "originalSize": 1302584,
+    "optimizedSize": 313940,
+    "compressionRatio": 75.89867524858282,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\cycling\\Cycling-08.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\cycling\\Cycling-08.jpg",
+    "originalSize": 1831260,
+    "optimizedSize": 311589,
+    "compressionRatio": 82.98499393859964,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\cycling\\Cycling-09.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\cycling\\Cycling-09.jpg",
+    "originalSize": 2583530,
+    "optimizedSize": 511109,
+    "compressionRatio": 80.21664157180291,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\cycling\\Cycling-10.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\cycling\\Cycling-10.jpg",
+    "originalSize": 1318672,
+    "optimizedSize": 202703,
+    "compressionRatio": 84.62824720628026,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\cycling\\Cycling-11.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\cycling\\Cycling-11.jpg",
+    "originalSize": 320984,
+    "optimizedSize": 89862,
+    "compressionRatio": 72.00421204795255,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\cycling\\Cycling-12.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\cycling\\Cycling-12.jpg",
+    "originalSize": 1334317,
+    "optimizedSize": 386827,
+    "compressionRatio": 71.0093628425629,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\cycling\\Cycling-13.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\cycling\\Cycling-13.jpg",
+    "originalSize": 912023,
+    "optimizedSize": 297095,
+    "compressionRatio": 67.42461538798912,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\cycling\\Cycling-14.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\cycling\\Cycling-14.jpg",
+    "originalSize": 3103963,
+    "optimizedSize": 968797,
+    "compressionRatio": 68.78838439762329,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\cycling\\Cycling-15.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\cycling\\Cycling-15.jpg",
+    "originalSize": 1686537,
+    "optimizedSize": 485811,
+    "compressionRatio": 71.19476181073999,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\cycling\\cyclinglogo.png",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\cycling\\cyclinglogo.png",
+    "originalSize": 1863,
+    "optimizedSize": 709,
+    "compressionRatio": 61.943102522812666,
+    "format": ".png"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\dudu\\dudu-logo.png",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\dudu\\dudu-logo.png",
+    "originalSize": 2218,
+    "optimizedSize": 688,
+    "compressionRatio": 68.98106402164112,
+    "format": ".png"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\dudu\\dudu-principal.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\dudu\\dudu-principal.jpg",
+    "originalSize": 231621,
+    "optimizedSize": 84217,
+    "compressionRatio": 63.64017079625768,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\dudu\\dudu1.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\dudu\\dudu1.jpg",
+    "originalSize": 283774,
+    "optimizedSize": 62495,
+    "compressionRatio": 77.97719311846751,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\dudu\\dudu10.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\dudu\\dudu10.jpg",
+    "originalSize": 511897,
+    "optimizedSize": 151816,
+    "compressionRatio": 70.34247123933135,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\dudu\\dudu2.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\dudu\\dudu2.jpg",
+    "originalSize": 1895323,
+    "optimizedSize": 485020,
+    "compressionRatio": 74.40963888477057,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\dudu\\dudu3.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\dudu\\dudu3.jpg",
+    "originalSize": 873683,
+    "optimizedSize": 254297,
+    "compressionRatio": 70.89367653943135,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\dudu\\dudu4.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\dudu\\dudu4.jpg",
+    "originalSize": 3833535,
+    "optimizedSize": 932791,
+    "compressionRatio": 75.66760183486,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\dudu\\dudu5.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\dudu\\dudu5.jpg",
+    "originalSize": 472376,
+    "optimizedSize": 127128,
+    "compressionRatio": 73.08754043389165,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\dudu\\dudu6.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\dudu\\dudu6.jpg",
+    "originalSize": 500775,
+    "optimizedSize": 155364,
+    "compressionRatio": 68.97528830313014,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\dudu\\dudu7.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\dudu\\dudu7.jpg",
+    "originalSize": 368755,
+    "optimizedSize": 105759,
+    "compressionRatio": 71.3199821019376,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\dudu\\dudu8.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\dudu\\dudu8.jpg",
+    "originalSize": 2895961,
+    "optimizedSize": 610460,
+    "compressionRatio": 78.92029623327109,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\dudu\\dudu9.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\dudu\\dudu9.jpg",
+    "originalSize": 2836340,
+    "optimizedSize": 646586,
+    "compressionRatio": 77.20350874718828,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\emamodels\\EmaModels-01.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\emamodels\\EmaModels-01.jpg",
+    "originalSize": 340556,
+    "optimizedSize": 143083,
+    "compressionRatio": 57.98547081830888,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\emamodels\\EmaModels-02.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\emamodels\\EmaModels-02.jpg",
+    "originalSize": 3373444,
+    "optimizedSize": 1045115,
+    "compressionRatio": 69.01934640088882,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\emamodels\\EmaModels-03.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\emamodels\\EmaModels-03.jpg",
+    "originalSize": 161247,
+    "optimizedSize": 60480,
+    "compressionRatio": 62.492325438612816,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\emamodels\\EmaModels-04.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\emamodels\\EmaModels-04.jpg",
+    "originalSize": 2906488,
+    "optimizedSize": 508878,
+    "compressionRatio": 82.49165315666193,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\emamodels\\EmaModels-05.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\emamodels\\EmaModels-05.jpg",
+    "originalSize": 4168457,
+    "optimizedSize": 665370,
+    "compressionRatio": 84.03797856137174,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\emamodels\\EmaModels-06.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\emamodels\\EmaModels-06.jpg",
+    "originalSize": 1517360,
+    "optimizedSize": 251374,
+    "compressionRatio": 83.43346338377181,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\emamodels\\EmaModels-07.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\emamodels\\EmaModels-07.jpg",
+    "originalSize": 1970860,
+    "optimizedSize": 405383,
+    "compressionRatio": 79.4311620307886,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\emamodels\\EmaModels-08.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\emamodels\\EmaModels-08.jpg",
+    "originalSize": 3236317,
+    "optimizedSize": 560110,
+    "compressionRatio": 82.6929809409894,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\emamodels\\EmaModels-09.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\emamodels\\EmaModels-09.jpg",
+    "originalSize": 1353385,
+    "optimizedSize": 264567,
+    "compressionRatio": 80.45146059694765,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\emamodels\\EmaModels-10.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\emamodels\\EmaModels-10.jpg",
+    "originalSize": 245406,
+    "optimizedSize": 89693,
+    "compressionRatio": 63.451178862782484,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\emamodels\\EmaModels-11.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\emamodels\\EmaModels-11.jpg",
+    "originalSize": 1352790,
+    "optimizedSize": 328302,
+    "compressionRatio": 75.73148825760096,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\emamodels\\EmaModels-12.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\emamodels\\EmaModels-12.jpg",
+    "originalSize": 696946,
+    "optimizedSize": 209856,
+    "compressionRatio": 69.88920231983539,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\emamodels\\EmaModels-13.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\emamodels\\EmaModels-13.jpg",
+    "originalSize": 2140936,
+    "optimizedSize": 370378,
+    "compressionRatio": 82.70018347115467,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\emamodels\\EmaModels-14.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\emamodels\\EmaModels-14.jpg",
+    "originalSize": 3201544,
+    "optimizedSize": 695609,
+    "compressionRatio": 78.2727021712024,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\factor\\Factor-01.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\factor\\Factor-01.jpg",
+    "originalSize": 217975,
+    "optimizedSize": 83195,
+    "compressionRatio": 61.8327789884161,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\factor\\Factor-02.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\factor\\Factor-02.jpg",
+    "originalSize": 3075357,
+    "optimizedSize": 620342,
+    "compressionRatio": 79.82861827098448,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\factor\\Factor-03.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\factor\\Factor-03.jpg",
+    "originalSize": 2189117,
+    "optimizedSize": 536225,
+    "compressionRatio": 75.5049638735618,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\factor\\Factor-04.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\factor\\Factor-04.jpg",
+    "originalSize": 191914,
+    "optimizedSize": 63028,
+    "compressionRatio": 67.1582062798962,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\factor\\Factor-05.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\factor\\Factor-05.jpg",
+    "originalSize": 547655,
+    "optimizedSize": 209717,
+    "compressionRatio": 61.706366234216794,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\factor\\Factor-06.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\factor\\Factor-06.jpg",
+    "originalSize": 1647091,
+    "optimizedSize": 262178,
+    "compressionRatio": 84.08236096244835,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\factor\\Factor-07.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\factor\\Factor-07.jpg",
+    "originalSize": 2159168,
+    "optimizedSize": 367445,
+    "compressionRatio": 82.98210236535554,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\factor\\Factor-08.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\factor\\Factor-08.jpg",
+    "originalSize": 2636188,
+    "optimizedSize": 836614,
+    "compressionRatio": 68.26425125977357,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\factor\\Factor-09.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\factor\\Factor-09.jpg",
+    "originalSize": 640487,
+    "optimizedSize": 192312,
+    "compressionRatio": 69.97409783492874,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\factor\\Factor-10.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\factor\\Factor-10.jpg",
+    "originalSize": 344260,
+    "optimizedSize": 130579,
+    "compressionRatio": 62.06965665485389,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\factor\\Factor-11.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\factor\\Factor-11.jpg",
+    "originalSize": 2822907,
+    "optimizedSize": 735376,
+    "compressionRatio": 73.94969086831412,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\factor\\Factor-12.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\factor\\Factor-12.jpg",
+    "originalSize": 1201597,
+    "optimizedSize": 367357,
+    "compressionRatio": 69.42760343110045,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\factor\\Factor-13.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\factor\\Factor-13.jpg",
+    "originalSize": 1904284,
+    "optimizedSize": 457662,
+    "compressionRatio": 75.96671504880574,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\factor\\Factor-14.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\factor\\Factor-14.jpg",
+    "originalSize": 1244796,
+    "optimizedSize": 353414,
+    "compressionRatio": 71.60868126182925,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\ideamania\\Ideamania-01.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\ideamania\\Ideamania-01.jpg",
+    "originalSize": 280665,
+    "optimizedSize": 98167,
+    "compressionRatio": 65.02342650490799,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\ideamania\\Ideamania-02.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\ideamania\\Ideamania-02.jpg",
+    "originalSize": 5089933,
+    "optimizedSize": 809058,
+    "compressionRatio": 84.1047416537703,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\ideamania\\Ideamania-03.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\ideamania\\Ideamania-03.jpg",
+    "originalSize": 3297841,
+    "optimizedSize": 653586,
+    "compressionRatio": 80.18139746579656,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\ideamania\\Ideamania-04.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\ideamania\\Ideamania-04.jpg",
+    "originalSize": 5088327,
+    "optimizedSize": 1240357,
+    "compressionRatio": 75.62348095945877,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\ideamania\\Ideamania-05.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\ideamania\\Ideamania-05.jpg",
+    "originalSize": 518313,
+    "optimizedSize": 170816,
+    "compressionRatio": 67.04385188100626,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\ideamania\\Ideamania-06.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\ideamania\\Ideamania-06.jpg",
+    "originalSize": 1580167,
+    "optimizedSize": 153600,
+    "compressionRatio": 90.27950843170373,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\ideamania\\Ideamania-07.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\ideamania\\Ideamania-07.jpg",
+    "originalSize": 651714,
+    "optimizedSize": 187179,
+    "compressionRatio": 71.27896592677156,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\ideamania\\Ideamania-08.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\ideamania\\Ideamania-08.jpg",
+    "originalSize": 1613837,
+    "optimizedSize": 392293,
+    "compressionRatio": 75.69190692740345,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\ideamania\\Ideamania-09.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\ideamania\\Ideamania-09.jpg",
+    "originalSize": 317573,
+    "optimizedSize": 104927,
+    "compressionRatio": 66.95972264644664,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\ideamania\\Ideamania-10.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\ideamania\\Ideamania-10.jpg",
+    "originalSize": 3060727,
+    "optimizedSize": 431614,
+    "compressionRatio": 85.89831762192446,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\ideamania\\Ideamania-11.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\ideamania\\Ideamania-11.jpg",
+    "originalSize": 1327716,
+    "optimizedSize": 379334,
+    "compressionRatio": 71.42958283247322,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\ideamania\\Ideamania-12.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\ideamania\\Ideamania-12.jpg",
+    "originalSize": 1801055,
+    "optimizedSize": 290009,
+    "compressionRatio": 83.89782655166,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\ideamania\\Ideamania-13.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\ideamania\\Ideamania-13.jpg",
+    "originalSize": 762068,
+    "optimizedSize": 168784,
+    "compressionRatio": 77.85184524215687,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\ideamania\\Ideamania-14.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\ideamania\\Ideamania-14.jpg",
+    "originalSize": 7163602,
+    "optimizedSize": 1065744,
+    "compressionRatio": 85.12279157887332,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\ideamania\\Ideamania-15.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\ideamania\\Ideamania-15.jpg",
+    "originalSize": 1407210,
+    "optimizedSize": 395889,
+    "compressionRatio": 71.86709872726885,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\ideamania\\ideamania.png",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\ideamania\\ideamania.png",
+    "originalSize": 6997,
+    "optimizedSize": 3355,
+    "compressionRatio": 52.050878948120626,
+    "format": ".png"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\lointerior\\LoInterior-01.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\lointerior\\LoInterior-01.jpg",
+    "originalSize": 2679460,
+    "optimizedSize": 545259,
+    "compressionRatio": 79.65041463578483,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\lointerior\\LoInterior-02.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\lointerior\\LoInterior-02.jpg",
+    "originalSize": 303460,
+    "optimizedSize": 104455,
+    "compressionRatio": 65.57865946088447,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\lointerior\\LoInterior-03.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\lointerior\\LoInterior-03.jpg",
+    "originalSize": 2909935,
+    "optimizedSize": 622612,
+    "compressionRatio": 78.60392070613261,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\lointerior\\LoInterior-04.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\lointerior\\LoInterior-04.jpg",
+    "originalSize": 498867,
+    "optimizedSize": 177044,
+    "compressionRatio": 64.51078143072202,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\lointerior\\LoInterior-05.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\lointerior\\LoInterior-05.jpg",
+    "originalSize": 6880697,
+    "optimizedSize": 1912233,
+    "compressionRatio": 72.20873117941395,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\lointerior\\LoInterior-06.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\lointerior\\LoInterior-06.jpg",
+    "originalSize": 282999,
+    "optimizedSize": 113987,
+    "compressionRatio": 59.721765801292584,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\lointerior\\LoInterior-07.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\lointerior\\LoInterior-07.jpg",
+    "originalSize": 1867927,
+    "optimizedSize": 472953,
+    "compressionRatio": 74.68032744320308,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\lointerior\\LoInterior-08.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\lointerior\\LoInterior-08.jpg",
+    "originalSize": 6742709,
+    "optimizedSize": 1359133,
+    "compressionRatio": 79.8429236676238,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\lointerior\\LoInterior-09.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\lointerior\\LoInterior-09.jpg",
+    "originalSize": 1774998,
+    "optimizedSize": 275201,
+    "compressionRatio": 84.49570084022629,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\lointerior\\LoInterior-10.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\lointerior\\LoInterior-10.jpg",
+    "originalSize": 3327359,
+    "optimizedSize": 791558,
+    "compressionRatio": 76.21062229834533,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\lointerior\\LoInterior-11.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\lointerior\\LoInterior-11.jpg",
+    "originalSize": 945614,
+    "optimizedSize": 256984,
+    "compressionRatio": 72.82358340718305,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\lointerior\\LoInterior-12.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\lointerior\\LoInterior-12.jpg",
+    "originalSize": 191649,
+    "optimizedSize": 66736,
+    "compressionRatio": 65.1780077120152,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\lointerior\\LoInterior-13.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\lointerior\\LoInterior-13.jpg",
+    "originalSize": 1671230,
+    "optimizedSize": 498479,
+    "compressionRatio": 70.17292652716861,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\lointerior\\LoInterior-14.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\lointerior\\LoInterior-14.jpg",
+    "originalSize": 190706,
+    "optimizedSize": 69731,
+    "compressionRatio": 63.43534026197393,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\lointerior\\lointerior.png",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\lointerior\\lointerior.png",
+    "originalSize": 7932,
+    "optimizedSize": 2089,
+    "compressionRatio": 73.6636409480585,
+    "format": ".png"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\mss\\MMS-01.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\mss\\MMS-01.jpg",
+    "originalSize": 3174850,
+    "optimizedSize": 490911,
+    "compressionRatio": 84.53750570893112,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\mss\\MMS-02.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\mss\\MMS-02.jpg",
+    "originalSize": 1721321,
+    "optimizedSize": 424841,
+    "compressionRatio": 75.318897521148,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\mss\\MMS-03.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\mss\\MMS-03.jpg",
+    "originalSize": 2682383,
+    "optimizedSize": 357179,
+    "compressionRatio": 86.68426544606046,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\mss\\MMS-04.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\mss\\MMS-04.jpg",
+    "originalSize": 240275,
+    "optimizedSize": 77802,
+    "compressionRatio": 67.61960253875768,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\mss\\MMS-05.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\mss\\MMS-05.jpg",
+    "originalSize": 2384328,
+    "optimizedSize": 414373,
+    "compressionRatio": 82.62097328890991,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\mss\\MMS-06.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\mss\\MMS-06.jpg",
+    "originalSize": 1024939,
+    "optimizedSize": 193173,
+    "compressionRatio": 81.15273201624682,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\mss\\MMS-07.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\mss\\MMS-07.jpg",
+    "originalSize": 1431502,
+    "optimizedSize": 281810,
+    "compressionRatio": 80.3136845076011,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\mss\\MMS-08.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\mss\\MMS-08.jpg",
+    "originalSize": 1142323,
+    "optimizedSize": 173054,
+    "compressionRatio": 84.85069459338558,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\pintalopro\\PintaloPro-01.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\pintalopro\\PintaloPro-01.jpg",
+    "originalSize": 212052,
+    "optimizedSize": 80223,
+    "compressionRatio": 62.16824175202309,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\pintalopro\\PintaloPro-02.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\pintalopro\\PintaloPro-02.jpg",
+    "originalSize": 1682759,
+    "optimizedSize": 285201,
+    "compressionRatio": 83.05158373837251,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\pintalopro\\PintaloPro-03.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\pintalopro\\PintaloPro-03.jpg",
+    "originalSize": 1493420,
+    "optimizedSize": 307849,
+    "compressionRatio": 79.38630793748577,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\pintalopro\\PintaloPro-04.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\pintalopro\\PintaloPro-04.jpg",
+    "originalSize": 2886552,
+    "optimizedSize": 967173,
+    "compressionRatio": 66.49383070182002,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\pintalopro\\PintaloPro-05.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\pintalopro\\PintaloPro-05.jpg",
+    "originalSize": 267338,
+    "optimizedSize": 96927,
+    "compressionRatio": 63.743650360218155,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\pintalopro\\PintaloPro-06.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\pintalopro\\PintaloPro-06.jpg",
+    "originalSize": 2488024,
+    "optimizedSize": 437660,
+    "compressionRatio": 82.40933367202246,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\pintalopro\\PintaloPro-07.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\pintalopro\\PintaloPro-07.jpg",
+    "originalSize": 2159214,
+    "optimizedSize": 405695,
+    "compressionRatio": 81.210986960996,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\pintalopro\\PintaloPro-08.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\pintalopro\\PintaloPro-08.jpg",
+    "originalSize": 3262536,
+    "optimizedSize": 534790,
+    "compressionRatio": 83.60815022424273,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\pintalopro\\PintaloPro-09.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\pintalopro\\PintaloPro-09.jpg",
+    "originalSize": 1078587,
+    "optimizedSize": 359821,
+    "compressionRatio": 66.63959420983194,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\pintalopro\\PintaloPro-10.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\pintalopro\\PintaloPro-10.jpg",
+    "originalSize": 1153624,
+    "optimizedSize": 299504,
+    "compressionRatio": 74.03798811397822,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\pintalopro\\PintaloPro-11.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\pintalopro\\PintaloPro-11.jpg",
+    "originalSize": 1674064,
+    "optimizedSize": 352146,
+    "compressionRatio": 78.96460350380869,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\pintalopro\\PintaloPro-12.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\pintalopro\\PintaloPro-12.jpg",
+    "originalSize": 1775344,
+    "optimizedSize": 534020,
+    "compressionRatio": 69.92019574797898,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\pintalopro\\PintaloPro-13.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\pintalopro\\PintaloPro-13.jpg",
+    "originalSize": 865677,
+    "optimizedSize": 262839,
+    "compressionRatio": 69.63775172495052,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\pintalopro\\PintaloPro-14.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\pintalopro\\PintaloPro-14.jpg",
+    "originalSize": 270134,
+    "optimizedSize": 98916,
+    "compressionRatio": 63.38261751575144,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\pintalopro\\PintaloPro-15.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\pintalopro\\PintaloPro-15.jpg",
+    "originalSize": 2137115,
+    "optimizedSize": 566128,
+    "compressionRatio": 73.50970818135664,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\platz\\Platz-01.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\platz\\Platz-01.jpg",
+    "originalSize": 198468,
+    "optimizedSize": 68724,
+    "compressionRatio": 65.37275530564122,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\platz\\Platz-02.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\platz\\Platz-02.jpg",
+    "originalSize": 3237186,
+    "optimizedSize": 787184,
+    "compressionRatio": 75.68307783364935,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\platz\\Platz-03.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\platz\\Platz-03.jpg",
+    "originalSize": 211717,
+    "optimizedSize": 65827,
+    "compressionRatio": 68.90802344639306,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\platz\\Platz-04.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\platz\\Platz-04.jpg",
+    "originalSize": 1970839,
+    "optimizedSize": 434618,
+    "compressionRatio": 77.94756446366243,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\platz\\Platz-05.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\platz\\Platz-05.jpg",
+    "originalSize": 3789847,
+    "optimizedSize": 622581,
+    "compressionRatio": 83.57239751367271,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\platz\\Platz-06.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\platz\\Platz-06.jpg",
+    "originalSize": 685168,
+    "optimizedSize": 125137,
+    "compressionRatio": 81.73630408892417,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\platz\\Platz-07.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\platz\\Platz-07.jpg",
+    "originalSize": 1261482,
+    "optimizedSize": 219623,
+    "compressionRatio": 82.5900805560444,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\platz\\Platz-08.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\platz\\Platz-08.jpg",
+    "originalSize": 809129,
+    "optimizedSize": 333115,
+    "compressionRatio": 58.83042135432051,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\platz\\Platz-09.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\platz\\Platz-09.jpg",
+    "originalSize": 2120721,
+    "optimizedSize": 394953,
+    "compressionRatio": 81.37647526478024,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\platz\\Platz-10.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\platz\\Platz-10.jpg",
+    "originalSize": 1843062,
+    "optimizedSize": 324943,
+    "compressionRatio": 82.36939397589447,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\platz\\Platz-11.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\platz\\Platz-11.jpg",
+    "originalSize": 1929774,
+    "optimizedSize": 509931,
+    "compressionRatio": 73.57561040826542,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\platz\\Platz-12.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\platz\\Platz-12.jpg",
+    "originalSize": 2239410,
+    "optimizedSize": 451477,
+    "compressionRatio": 79.83946664523245,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\platz\\Platz-13.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\platz\\Platz-13.jpg",
+    "originalSize": 1531165,
+    "optimizedSize": 453518,
+    "compressionRatio": 70.38085379433308,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\platz\\Platz-14.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\platz\\Platz-14.jpg",
+    "originalSize": 1976858,
+    "optimizedSize": 491687,
+    "compressionRatio": 75.12785440330059,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\platz\\Platz-15.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\platz\\Platz-15.jpg",
+    "originalSize": 983240,
+    "optimizedSize": 234834,
+    "compressionRatio": 76.11630934461576,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\platz\\Platz-16.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\platz\\Platz-16.jpg",
+    "originalSize": 1959468,
+    "optimizedSize": 401738,
+    "compressionRatio": 79.49759832770937,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\platz\\Platz-17.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\platz\\Platz-17.jpg",
+    "originalSize": 2059010,
+    "optimizedSize": 620972,
+    "compressionRatio": 69.84123437962904,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\platz\\platzlogo.png",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\platz\\platzlogo.png",
+    "originalSize": 10614,
+    "optimizedSize": 4504,
+    "compressionRatio": 57.56547955530431,
+    "format": ".png"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\sedel\\Sedel-01.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\sedel\\Sedel-01.jpg",
+    "originalSize": 6371515,
+    "optimizedSize": 938594,
+    "compressionRatio": 85.26890386352383,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\sedel\\Sedel-02.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\sedel\\Sedel-02.jpg",
+    "originalSize": 335705,
+    "optimizedSize": 109565,
+    "compressionRatio": 67.36271428784201,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\sedel\\Sedel-03.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\sedel\\Sedel-03.jpg",
+    "originalSize": 2337529,
+    "optimizedSize": 487920,
+    "compressionRatio": 79.1266760754626,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\sedel\\Sedel-04.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\sedel\\Sedel-04.jpg",
+    "originalSize": 3281904,
+    "optimizedSize": 741714,
+    "compressionRatio": 77.39988738244628,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\sedel\\Sedel-05.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\sedel\\Sedel-05.jpg",
+    "originalSize": 249458,
+    "optimizedSize": 83363,
+    "compressionRatio": 66.58235053596196,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\sedel\\Sedel-06.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\sedel\\Sedel-06.jpg",
+    "originalSize": 1153331,
+    "optimizedSize": 191559,
+    "compressionRatio": 83.39080454787047,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\sedel\\Sedel-07.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\sedel\\Sedel-07.jpg",
+    "originalSize": 1443111,
+    "optimizedSize": 409691,
+    "compressionRatio": 71.6105691107614,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\sedel\\Sedel-08.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\sedel\\Sedel-08.jpg",
+    "originalSize": 3585375,
+    "optimizedSize": 772047,
+    "compressionRatio": 78.46677125823659,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\sedel\\Sedel-09.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\sedel\\Sedel-09.jpg",
+    "originalSize": 164678,
+    "optimizedSize": 53527,
+    "compressionRatio": 67.4959618163932,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\sedel\\Sedel-10.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\sedel\\Sedel-10.jpg",
+    "originalSize": 3357993,
+    "optimizedSize": 470264,
+    "compressionRatio": 85.99568254013631,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\sedel\\Sedel-11.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\sedel\\Sedel-11.jpg",
+    "originalSize": 1508599,
+    "optimizedSize": 450058,
+    "compressionRatio": 70.16715508892688,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\sedel\\Sedel-12.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\sedel\\Sedel-12.jpg",
+    "originalSize": 2306718,
+    "optimizedSize": 367494,
+    "compressionRatio": 84.06853373494289,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\sedel\\Sedel-13.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\sedel\\Sedel-13.jpg",
+    "originalSize": 1806136,
+    "optimizedSize": 249911,
+    "compressionRatio": 86.16322358892133,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\sedel\\Sedel-14.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\sedel\\Sedel-14.jpg",
+    "originalSize": 1536522,
+    "optimizedSize": 459350,
+    "compressionRatio": 70.10456081982555,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\sedel\\Sedel-15.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\sedel\\Sedel-15.jpg",
+    "originalSize": 3351014,
+    "optimizedSize": 520438,
+    "compressionRatio": 84.46923826638742,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\sedel\\Sedel-16.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\sedel\\Sedel-16.jpg",
+    "originalSize": 854538,
+    "optimizedSize": 178489,
+    "compressionRatio": 79.11280715427517,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\sedel\\Sedel-17.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\sedel\\Sedel-17.jpg",
+    "originalSize": 1004741,
+    "optimizedSize": 174400,
+    "compressionRatio": 82.64229288941131,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\sedel\\Sedel-18.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\sedel\\Sedel-18.jpg",
+    "originalSize": 3590131,
+    "optimizedSize": 632893,
+    "compressionRatio": 82.37131179892879,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\sierraatlantica\\SA-01.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\sierraatlantica\\SA-01.jpg",
+    "originalSize": 256747,
+    "optimizedSize": 91856,
+    "compressionRatio": 64.22314574269612,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\sierraatlantica\\SA-02.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\sierraatlantica\\SA-02.jpg",
+    "originalSize": 2463914,
+    "optimizedSize": 524585,
+    "compressionRatio": 78.70928124926438,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\sierraatlantica\\SA-03.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\sierraatlantica\\SA-03.jpg",
+    "originalSize": 2314767,
+    "optimizedSize": 631252,
+    "compressionRatio": 72.72935029745975,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\sierraatlantica\\SA-04.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\sierraatlantica\\SA-04.jpg",
+    "originalSize": 2678918,
+    "optimizedSize": 597884,
+    "compressionRatio": 77.6818849998395,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\sierraatlantica\\SA-05.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\sierraatlantica\\SA-05.jpg",
+    "originalSize": 425746,
+    "optimizedSize": 127619,
+    "compressionRatio": 70.02461561588365,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\sierraatlantica\\SA-06.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\sierraatlantica\\SA-06.jpg",
+    "originalSize": 5220733,
+    "optimizedSize": 1287023,
+    "compressionRatio": 75.34784866416267,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\sierraatlantica\\SA-07.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\sierraatlantica\\SA-07.jpg",
+    "originalSize": 4873462,
+    "optimizedSize": 1161900,
+    "compressionRatio": 76.1586322002716,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\sierraatlantica\\SA-08.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\sierraatlantica\\SA-08.jpg",
+    "originalSize": 3750985,
+    "optimizedSize": 511280,
+    "compressionRatio": 86.36944695859887,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\sierraatlantica\\SA-09.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\sierraatlantica\\SA-09.jpg",
+    "originalSize": 712190,
+    "optimizedSize": 186519,
+    "compressionRatio": 73.8105000070206,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\sierraatlantica\\SA-10.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\sierraatlantica\\SA-10.jpg",
+    "originalSize": 1973191,
+    "optimizedSize": 397378,
+    "compressionRatio": 79.86114876866964,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\sierraatlantica\\SA-11.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\sierraatlantica\\SA-11.jpg",
+    "originalSize": 922433,
+    "optimizedSize": 196002,
+    "compressionRatio": 78.7516274894762,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-details\\sierraatlantica\\SA-12.jpg",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-details\\sierraatlantica\\SA-12.jpg",
+    "originalSize": 9438293,
+    "optimizedSize": 2046803,
+    "compressionRatio": 78.3138434036748,
+    "format": ".jpg"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-min\\botanico.webp",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-min\\botanico.webp",
+    "originalSize": 211174,
+    "optimizedSize": 15930,
+    "compressionRatio": 92.45645770786176,
+    "format": ".webp"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-min\\casanuna.webp",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-min\\casanuna.webp",
+    "originalSize": 574070,
+    "optimizedSize": 104406,
+    "compressionRatio": 81.81301931820161,
+    "format": ".webp"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-min\\cota.webp",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-min\\cota.webp",
+    "originalSize": 4980,
+    "optimizedSize": 2910,
+    "compressionRatio": 41.566265060240966,
+    "format": ".webp"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-min\\cyclingstore.webp",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-min\\cyclingstore.webp",
+    "originalSize": 6298,
+    "optimizedSize": 7032,
+    "compressionRatio": -11.654493489996824,
+    "format": ".webp"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-min\\delidonas.png",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-min\\delidonas.png",
+    "originalSize": 272871,
+    "optimizedSize": 72404,
+    "compressionRatio": 73.46585016363044,
+    "format": ".png"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-min\\dudu.webp",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-min\\dudu.webp",
+    "originalSize": 5180,
+    "optimizedSize": 4274,
+    "compressionRatio": 17.490347490347492,
+    "format": ".webp"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-min\\emamodels.webp",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-min\\emamodels.webp",
+    "originalSize": 26766,
+    "optimizedSize": 7512,
+    "compressionRatio": 71.93454382425465,
+    "format": ".webp"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-min\\espacio2040.webp",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-min\\espacio2040.webp",
+    "originalSize": 311606,
+    "optimizedSize": 21406,
+    "compressionRatio": 93.13042752706944,
+    "format": ".webp"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-min\\factor.webp",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-min\\factor.webp",
+    "originalSize": 5384,
+    "optimizedSize": 4306,
+    "compressionRatio": 20.0222882615156,
+    "format": ".webp"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-min\\involvere.webp",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-min\\involvere.webp",
+    "originalSize": 442714,
+    "optimizedSize": 51788,
+    "compressionRatio": 88.30215443830555,
+    "format": ".webp"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-min\\labsantaelena.webp",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-min\\labsantaelena.webp",
+    "originalSize": 360636,
+    "optimizedSize": 38648,
+    "compressionRatio": 89.28337714482193,
+    "format": ".webp"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-min\\lachacra.webp",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-min\\lachacra.webp",
+    "originalSize": 556834,
+    "optimizedSize": 113264,
+    "compressionRatio": 79.65928804634774,
+    "format": ".webp"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-min\\lasecretacafe.png",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-min\\lasecretacafe.png",
+    "originalSize": 324867,
+    "optimizedSize": 99411,
+    "compressionRatio": 69.39947732456667,
+    "format": ".png"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-min\\mss.webp",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-min\\mss.webp",
+    "originalSize": 196672,
+    "optimizedSize": 12474,
+    "compressionRatio": 93.65746013667426,
+    "format": ".webp"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-min\\pintalopro.webp",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-min\\pintalopro.webp",
+    "originalSize": 159304,
+    "optimizedSize": 5842,
+    "compressionRatio": 96.33279766986391,
+    "format": ".webp"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-min\\sedel.webp",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-min\\sedel.webp",
+    "originalSize": 295390,
+    "optimizedSize": 23164,
+    "compressionRatio": 92.1581637834727,
+    "format": ".webp"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\projects-min\\sierraatlantica.webp",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\projects-min\\sierraatlantica.webp",
+    "originalSize": 12658,
+    "optimizedSize": 14778,
+    "compressionRatio": -16.748301469426448,
+    "format": ".webp"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\social\\behance.webp",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\social\\behance.webp",
+    "originalSize": 18686,
+    "optimizedSize": 5410,
+    "compressionRatio": 71.04784330514823,
+    "format": ".webp"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\social\\chat.png",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\social\\chat.png",
+    "originalSize": 3500,
+    "optimizedSize": 1303,
+    "compressionRatio": 62.771428571428565,
+    "format": ".png"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\social\\instagram.webp",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\social\\instagram.webp",
+    "originalSize": 19640,
+    "optimizedSize": 6756,
+    "compressionRatio": 65.60081466395113,
+    "format": ".webp"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\social\\linkedin.webp",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\social\\linkedin.webp",
+    "originalSize": 17240,
+    "optimizedSize": 3566,
+    "compressionRatio": 79.3155452436195,
+    "format": ".webp"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\social\\spotify.webp",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\social\\spotify.webp",
+    "originalSize": 19494,
+    "optimizedSize": 6688,
+    "compressionRatio": 65.69200779727096,
+    "format": ".webp"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\social\\tiktok.webp",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\social\\tiktok.webp",
+    "originalSize": 17742,
+    "optimizedSize": 4100,
+    "compressionRatio": 76.89099312366136,
+    "format": ".webp"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\social\\whatsapp.webp",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\social\\whatsapp.webp",
+    "originalSize": 20326,
+    "optimizedSize": 7370,
+    "compressionRatio": 63.741021351963,
+    "format": ".webp"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\tools\\aiLogo.webp",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\tools\\aiLogo.webp",
+    "originalSize": 18578,
+    "optimizedSize": 6170,
+    "compressionRatio": 66.78867477661751,
+    "format": ".webp"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\tools\\figmalogo.webp",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\tools\\figmalogo.webp",
+    "originalSize": 19128,
+    "optimizedSize": 6116,
+    "compressionRatio": 68.02593057298202,
+    "format": ".webp"
+  },
+  {
+    "originalPath": "C:\\Users\\famil\\brito-brand-web\\src\\assets\\images\\tools\\psLogo.webp",
+    "optimizedPath": "C:\\Users\\famil\\brito-brand-web\\optimized-images\\tools\\psLogo.webp",
+    "originalSize": 18320,
+    "optimizedSize": 6056,
+    "compressionRatio": 66.94323144104803,
+    "format": ".webp"
+  }
+]

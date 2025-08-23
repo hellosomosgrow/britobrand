@@ -2,20 +2,20 @@ import React, { useEffect } from 'react';
 //import { useForm, SubmitHandler } from 'react-hook-form';
 //import { BsDot } from 'react-icons/bs';
 //import { MdArrowDropDown } from 'react-icons/md';
-import banner3 from '../assets/images/banner/banner3.webp';
-import chat from '../assets/images/social/chat.png';
+import banner3 from '../assets/optimized-images/banner/banner3.webp';
+import chat from '../assets/optimized-images/social/chat.webp';
 
 import InfoSocials from '@/components/InfoSocials';
 import InfoCard from '@/components/InfoCard';
 import ContactForm from '@/components/ContactForm';
 import TestimonialCard from '@/components/TestimonialCard';
-import { igimage } from '@/assets/images';
+import { igimage } from '@/assets/optimized-images';
 import {
   dudutestimonial,
   casanunatestimonial,
   botanicaltestimonial,
   covergrow,
-} from '@/assets/images';
+} from '@/assets/optimized-images';
 
 const ContactMobile = () => {
   useEffect(() => {

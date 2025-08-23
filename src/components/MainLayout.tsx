@@ -3,7 +3,7 @@ import InfoSection from './InfoSection';
 import ProjectsPreview from './ProjectsPreview';
 import InfoCard from './InfoCard';
 import InfoSocials from './InfoSocials';
-import { igimage, felixbrito } from '@/assets/images';
+import { igimage, felixbrito } from '@/assets/optimized-images';
 import { projectsPreview, projectsLarge } from '@/data/projectsData';
 import ProjectPreviewCard from './ProjectPreviewCard';
 import { useNavigate } from 'react-router-dom';
@@ -61,7 +61,7 @@ const MainLayout = () => {
       <div className="md:w-2/3 md:h-screen md:overflow-y-auto no-scrollbar">
         {/* ProjectsPreview: Solo visible en desktop */}
         <div className="hidden md:block">
-          <ProjectsPreview columnsDesktop={3} />
+          <ProjectsPreview columnsDesktop={3} showComingSoon={false} />
         </div>
       </div>
 
@@ -72,7 +72,7 @@ const MainLayout = () => {
           <InfoCard
             title="About"
             subtitle="Acerca de mí"
-            content="¡Hola! Soy diseñador gráfico y director creativo, especializado en identidad visual. Creo marcas que se ven bien, funcionan mejor y, sobre todo, resisten el paso del tiempo. Me enfoco en los detalles, la coherencia visual y ese 'algo' que hace que una marca se sienta auténtica.
+            content="¡Hola! Soy diseñador gráfico y director de arte, especializado en identidad visual. Creo marcas que se ven bien, funcionan mejor y, sobre todo, resisten el paso del tiempo. Me enfoco en los detalles, la coherencia visual y ese 'algo' que hace que una marca se sienta auténtica.
 
 He trabajado con estudios, emprendedores y empresas de distintos rubros: gastronomía, arquitectura, moda, salud, tecnología y más. No sigo fórmulas ni tendencias vacías—cada proyecto tiene su propia historia y merece una solución visual pensada a medida.
 

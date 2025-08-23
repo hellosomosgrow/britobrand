@@ -1,8 +1,8 @@
 import { useState, useEffect, useMemo } from 'react';
-import bannerDesktop1 from '../assets/images/banner/bannerDesktop1.jpg';
-import bannerDesktop2 from '../assets/images/banner/bannerDesktop2.png';
-import bannerDesktop3 from '../assets/images/banner/bannerDesktop3.jpg';
-import chat from '../assets/images/social/chat.png';
+import bannerDesktop1 from '../assets/optimized-images/banner/bannerDesktop1.webp';
+import bannerDesktop2 from '../assets/optimized-images/banner/bannerDesktop2.webp';
+import bannerDesktop3 from '../assets/optimized-images/banner/bannerDesktop3.webp';
+import chat from '../assets/optimized-images/social/chat.webp';
 import { useLocation } from 'react-router-dom';
 
 const Banner = () => {
@@ -15,6 +15,11 @@ const Banner = () => {
   const [isMobile, setIsMobile] = useState(window.innerWidth < 640);
   const location = useLocation();
   const isContactPage = location.pathname.includes('contacto');
+
+  // Función para cambiar imagen manualmente
+  const handleDotClick = (index: number) => {
+    setCurrent(index);
+  };
 
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth < 640);
@@ -65,7 +70,8 @@ const Banner = () => {
         {images.map((_, index) => (
           <div
             key={index}
-            className={`w-[12px] h-[12px] rounded-full border-none transition-all duration-300 ${
+            onClick={() => handleDotClick(index)}
+            className={`w-[12px] h-[12px] rounded-full border-none transition-all duration-300 cursor-pointer hover:scale-110 ${
               current === index ? 'bg-white' : 'bg-[#767575]'
             }`}
           />
