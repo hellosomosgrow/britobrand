@@ -23,27 +23,66 @@ const LazyImage: React.FC<LazyImageProps> = ({
   const [hasError, setHasError] = useState(false);
   const imgRef = useRef<HTMLImageElement>(null);
 
-  // Reset state when src changes
   useEffect(() => {
+    if (!src) return;
+
+    // Reset state when src changes
     setIsLoaded(false);
     setHasError(false);
-  }, [src]);
 
-  const handleLoad = () => {
-    setIsLoaded(true);
-    onLoad?.();
-  };
+    // Create a new image to preload
+    const img = new Image();
 
-  const handleError = () => {
-    setHasError(true);
-    onError?.();
-  };
+    img.onload = () => {
+      setIsLoaded(true);
+      onLoad?.();
+    };
+
+    img.onerror = () => {
+      setHasError(true);
+      onError?.();
+    };
+
+    // Start loading immediately for priority images
+    if (priority) {
+      img.src = src;
+    } else {
+      // For non-priority images, use Intersection Observer
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              img.src = src;
+              observer.disconnect();
+            }
+          });
+        },
+        { rootMargin: '50px' }
+      );
+
+      if (imgRef.current) {
+        observer.observe(imgRef.current);
+      }
+
+      return () => observer.disconnect();
+    }
+  }, [src, priority, onLoad, onError]);
 
   return (
     <div className={`relative overflow-hidden ${className}`}>
       {/* Placeholder/Skeleton */}
       {!isLoaded && !hasError && (
         <div className="absolute inset-0 bg-gray-200 animate-pulse" />
+      )}
+
+      {/* Error placeholder */}
+      {hasError && (
+        <div className="absolute inset-0 bg-gray-100 flex items-center justify-center">
+          <div className="text-gray-500 text-xs text-center">
+            <div>⚠️</div>
+            <div>Error al cargar</div>
+          </div>
+        </div>
       )}
 
       {/* Image */}
@@ -54,8 +93,8 @@ const LazyImage: React.FC<LazyImageProps> = ({
         className={`w-full h-full object-cover transition-opacity duration-300 ${
           isLoaded ? 'opacity-100' : 'opacity-0'
         } ${className}`}
-        onLoad={handleLoad}
-        onError={handleError}
+        onLoad={() => setIsLoaded(true)}
+        onError={() => setHasError(true)}
         loading={priority ? 'eager' : 'lazy'}
         decoding="async"
         sizes={sizes}
