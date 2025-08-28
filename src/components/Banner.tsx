@@ -2,12 +2,20 @@ import { useState, useEffect, useMemo, useCallback } from 'react';
 import bannerDesktop1 from '../assets/optimized-images/banner/bannerDesktop1.webp';
 import bannerDesktop2 from '../assets/optimized-images/banner/bannerDesktop2.webp';
 import bannerDesktop3 from '../assets/optimized-images/banner/bannerDesktop3.webp';
+import bannerMobile1 from '../assets/optimized-images/banner/banner1mobile.jpg';
+import bannerMobile2 from '../assets/optimized-images/banner/banner1.webp';
+import bannerMobile3 from '../assets/optimized-images/banner/banner3mobile.jpg';
 import chat from '../assets/optimized-images/social/chat.webp';
 import { useLocation } from 'react-router-dom';
 
 const Banner = () => {
-  const images = useMemo(
+  const desktopImages = useMemo(
     () => [bannerDesktop1, bannerDesktop2, bannerDesktop3],
+    []
+  );
+
+  const mobileImages = useMemo(
+    () => [bannerMobile1, bannerMobile2, bannerMobile3],
     []
   );
 
@@ -17,6 +25,9 @@ const Banner = () => {
   const [isTransitioning, setIsTransitioning] = useState(false);
   const location = useLocation();
   const isContactPage = location.pathname.includes('contacto');
+
+  // Seleccionar el array de imágenes según el dispositivo
+  const images = isMobile ? mobileImages : desktopImages;
 
   // Función para cambiar imagen manualmente
   const handleDotClick = (index: number) => {
@@ -40,7 +51,13 @@ const Banner = () => {
   );
 
   useEffect(() => {
-    const handleResize = () => setIsMobile(window.innerWidth < 640);
+    const handleResize = () => {
+      const newIsMobile = window.innerWidth < 640;
+      if (newIsMobile !== isMobile) {
+        setIsMobile(newIsMobile);
+        setCurrent(0); // Resetear al índice 0 cuando cambie el dispositivo
+      }
+    };
     window.addEventListener('resize', handleResize);
 
     const interval = setInterval(() => {
@@ -52,7 +69,7 @@ const Banner = () => {
       window.removeEventListener('resize', handleResize);
       clearInterval(interval);
     };
-  }, [current, images.length, changeImage]);
+  }, [current, images.length, changeImage, isMobile]);
 
   // Pre-cargar todas las imágenes del banner
   useEffect(() => {

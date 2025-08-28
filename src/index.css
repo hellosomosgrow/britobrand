@@ -59,3 +59,57 @@ select.custom-select option:hover {
   border-radius: 10px;
   background-color: #f9f9f9;
 }
+
+/* Prevenir layout shift del banner */
+.banner-container {
+  contain: layout size;
+  min-height: 85vh;
+  min-height: 400px;
+}
+
+/* Skeleton del banner con dimensiones exactas */
+.banner-skeleton {
+  width: 100%;
+  height: 85vh;
+  min-height: 400px;
+  background: linear-gradient(135deg, #f3f4f6 0%, #e5e7eb 100%);
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Animación del skeleton más suave */
+@keyframes skeleton-pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.banner-skeleton::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(255, 255, 255, 0.4),
+    transparent
+  );
+  animation: skeleton-shimmer 2s infinite;
+}
+
+@keyframes skeleton-shimmer {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
