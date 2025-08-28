@@ -89,8 +89,9 @@ const ProjectDetail = () => {
       <div className="w-full hidden md:flex h-screen overflow-hidden gap-4">
         {/* Columna izquierda con scroll independiente */}
         <div
-          className="w-1/3 max-w-[420px] h-full overflow-y-auto no-scrollbar flex flex-col gap-4"
+          className="w-[410px] h-full overflow-y-auto no-scrollbar flex flex-col gap-4 flex-shrink-0"
           ref={leftColRef}
+          style={{ minWidth: '410px', width: '410px' }}
         >
           {/* <InfoProjects project={project} /> */}
           <InfoProjectDetails

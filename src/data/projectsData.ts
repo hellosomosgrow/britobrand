@@ -458,7 +458,7 @@ El resultado es una identidad que respira verde, sabor y cercanía. Una marca qu
     images: [
       { url: botanico1, layout: 'full' },
       { url: botanico2, layout: 'full' },
-      { url: botanico3Video, layout: 'vertical' },
+      { url: botanico3Video, layout: 'vertical', isVideo: true },
       { url: botanico4Video, layout: 'vertical', isVideo: true },
       { url: botanico5, layout: 'full' },
       { url: botanico6Video, layout: 'vertical', isVideo: true },

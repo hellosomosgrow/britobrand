@@ -18,7 +18,10 @@ const MainLayout = () => {
   return (
     <div className="w-full flex flex-col md:flex-row md:gap-4">
       {/* Columna de la izquierda: Para escritorio */}
-      <div className="flex flex-col gap-4 md:w-1/3 md:sticky md:h-screen md:overflow-y-auto no-scrollbar">
+      <div
+        className="flex flex-col gap-4 md:w-[410px] md:sticky md:h-screen md:overflow-y-auto no-scrollbar flex-shrink-0"
+        style={{ minWidth: '410px', width: '410px' }}
+      >
         {/* InfoSection: Solo visible en desktop */}
         <div className="hidden md:block">
           <InfoSection />
@@ -63,7 +66,7 @@ const MainLayout = () => {
       </div>
 
       {/* Columna de la derecha: Para escritorio */}
-      <div className="md:w-2/3 md:h-screen md:overflow-y-auto no-scrollbar">
+      <div className="md:flex-1 md:h-screen md:overflow-y-auto no-scrollbar">
         {/* ProjectsPreview: Solo visible en desktop */}
         <div className="hidden md:block">
           <ProjectsPreview columnsDesktop={3} showComingSoon={false} />

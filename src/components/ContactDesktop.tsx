@@ -90,7 +90,10 @@ const ContactDesktop = () => {
   return (
     <div className="w-full flex flex-col space-y-4 md:flex-row md:space-x-4">
       {/* Lado izquierdo */}
-      <div className="flex flex-col space-y-4 w-full md:w-1/3 md:sticky md:top-0 md:h-screen md:overflow-y-auto no-scrollbar max-w-[410px]">
+      <div
+        className="flex flex-col space-y-4 w-full md:w-[410px] md:sticky md:top-0 md:h-screen md:overflow-y-auto no-scrollbar flex-shrink-0"
+        style={{ minWidth: '410px', width: '410px' }}
+      >
         <InfoSection />
         <InfoCard
           title="Experiencia"
@@ -117,7 +120,7 @@ const ContactDesktop = () => {
       </div>
 
       {/* Lado derecho */}
-      <div className="flex flex-col space-y-4 w-full md:h-screen md:overflow-y-auto no-scrollbar">
+      <div className="flex flex-col space-y-4 w-full md:h-screen md:overflow-y-auto no-scrollbar flex-1">
         {/* Imagen y Formulario */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-stretch">
           {/* Imagen */}
@@ -126,6 +129,7 @@ const ContactDesktop = () => {
               src={imagecontact}
               alt="Contacto"
               className="w-full h-full object-cover rounded-[10px]"
+              style={{ width: '701px', height: '856px' }}
             />
           </div>
 
