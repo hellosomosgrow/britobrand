@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import { useForm, SubmitHandler } from 'react-hook-form';
 import { MdArrowDropDown } from 'react-icons/md';
-import { RECAPTCHA_CONFIG } from '@/config/recaptcha';
+import { RECAPTCHA_CONFIG, getRecaptchaScriptUrl } from '@/config/recaptcha';
+import { EMAILJS_CONFIG, EmailTemplateParams } from '@/config/emailjs';
+import emailjs from '@emailjs/browser';
 
 // Tipos para reCAPTCHA v3
 declare global {
@@ -113,19 +115,51 @@ const ContactForm = () => {
   // Observar todos los campos para validar el botón
   const watchedFields = watch();
 
-  // Verificar si reCAPTCHA está listo
+  // Cargar reCAPTCHA dinámicamente
   useEffect(() => {
-    const checkRecaptcha = () => {
+    const loadRecaptcha = () => {
+      // Verificar si ya está cargado
       if (typeof window.grecaptcha !== 'undefined') {
         setIsRecaptchaReady(true);
+        return;
+      }
+
+      // Crear el script si no existe
+      const existingScript = document.querySelector('script[src*="recaptcha"]');
+      if (!existingScript) {
+        const script = document.createElement('script');
+        script.src = getRecaptchaScriptUrl(RECAPTCHA_CONFIG.SITE_KEY);
+        script.async = true;
+        script.defer = true;
+
+        script.onload = () => {
+          // Esperar un poco más para que grecaptcha esté disponible
+          setTimeout(() => {
+            if (typeof window.grecaptcha !== 'undefined') {
+              setIsRecaptchaReady(true);
+            }
+          }, 1000);
+        };
+
+        script.onerror = () => {
+          console.error('Error cargando reCAPTCHA');
+        };
+
+        document.head.appendChild(script);
       } else {
-        // Reintentar después de un breve retraso
-        setTimeout(checkRecaptcha, 100);
+        // Si el script ya existe, verificar si grecaptcha está disponible
+        const checkRecaptcha = () => {
+          if (typeof window.grecaptcha !== 'undefined') {
+            setIsRecaptchaReady(true);
+          } else {
+            setTimeout(checkRecaptcha, 100);
+          }
+        };
+        checkRecaptcha();
       }
     };
 
-    // Esperar un poco antes de verificar para dar tiempo a que se cargue
-    setTimeout(checkRecaptcha, 500);
+    loadRecaptcha();
   }, []);
 
   // Verificar si todos los campos requeridos están llenos
@@ -140,10 +174,18 @@ const ContactForm = () => {
       'source',
       'description',
     ];
-    return requiredFields.every((field) => {
+
+    const isValid = requiredFields.every((field) => {
       const value = watchedFields[field];
       return typeof value === 'string' && value.trim() !== '';
     });
+
+    // Validación adicional para el email
+    const emailValid =
+      watchedFields.email &&
+      /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i.test(watchedFields.email);
+
+    return isValid && emailValid;
   };
 
   // Función para ejecutar reCAPTCHA v3
@@ -193,27 +235,40 @@ const ContactForm = () => {
       // Ejecutar reCAPTCHA v3
       const recaptchaToken = await executeRecaptcha();
 
-      // Aquí puedes enviar el token de reCAPTCHA junto con los datos del formulario
-      const formDataWithRecaptcha = {
-        ...data,
-        recaptchaToken,
+      // Preparar datos para el email
+      const templateParams: EmailTemplateParams = {
+        to_email: EMAILJS_CONFIG.TO_EMAIL,
+        subject: `Nuevo formulario de contacto - ${data.name}`,
+        from_name: data.name,
+        from_email: data.email,
+        company: data.company,
+        service: data.service,
+        estimated_time: data.estimatedTime,
+        budget: data.budget,
+        source: data.source,
+        description: data.description,
+        marketing_consent: data.marketingConsent ? 'Sí' : 'No',
+        recaptcha_token: recaptchaToken,
+        timestamp: new Date().toISOString(),
       };
 
-      console.log('Datos del formulario con reCAPTCHA:', formDataWithRecaptcha);
-
-      // Simular envío (reemplaza con tu lógica real de envío)
-      await new Promise((resolve) => setTimeout(resolve, 1000));
-
+      // Enviar email usando EmailJS
+      await emailjs.send(
+        EMAILJS_CONFIG.SERVICE_ID,
+        EMAILJS_CONFIG.TEMPLATE_ID,
+        templateParams as unknown as Record<string, unknown>,
+        EMAILJS_CONFIG.PUBLIC_KEY
+      );
       setSubmitStatus('success');
       reset();
-
-      // Resetear el estado después de 3 segundos
       setTimeout(() => setSubmitStatus('idle'), 3000);
     } catch (error) {
       console.error('Error al enviar el formulario:', error);
+      console.error('Detalles del error:', {
+        message: error instanceof Error ? error.message : 'Error desconocido',
+        stack: error instanceof Error ? error.stack : undefined,
+      });
       setSubmitStatus('error');
-
-      // Resetear el estado después de 3 segundos
       setTimeout(() => setSubmitStatus('idle'), 3000);
     } finally {
       setIsSubmitting(false);
@@ -351,6 +406,12 @@ const ContactForm = () => {
             value={watch(name) || ''}
             onChange={handleSelectChange}
           />
+          {/* Campo oculto para react-hook-form */}
+          <input
+            {...register(name, { required: 'Este campo es requerido' })}
+            type="hidden"
+            value={watch(name) || ''}
+          />
           {errors[name] && (
             <span className="text-red-500 text-xs mt-1 block">
               Este campo es requerido
@@ -407,7 +468,14 @@ const ContactForm = () => {
 
       {submitStatus === 'error' && (
         <div className="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded">
-          Hubo un error al enviar el mensaje. Por favor, inténtalo de nuevo.
+          <p className="font-bold">Error al enviar el mensaje</p>
+          <p>
+            Por favor, inténtalo de nuevo. Si el problema persiste, verifica tu
+            conexión a internet o contacta al soporte.
+          </p>
+          <p className="text-xs mt-2">
+            Revisa la consola del navegador para más detalles del error.
+          </p>
         </div>
       )}
 
