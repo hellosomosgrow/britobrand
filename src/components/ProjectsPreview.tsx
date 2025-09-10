@@ -108,10 +108,13 @@ const ProjectPreviewLargeCard = ({
     navigate(`/proyectos/${project.title}`);
   };
 
+  const isComingSoon =
+    project.type === 'Se viene algo nuevo' || project.title === 'GROW';
+
   return (
     <div
-      className="text-[#1E1E1E] rounded-lg cursor-pointer"
-      onClick={handleViewMore}
+      className={`text-[#1E1E1E] rounded-lg ${isComingSoon ? '' : 'cursor-pointer'}`}
+      onClick={isComingSoon ? undefined : handleViewMore}
     >
       <LazyImage
         src={project.image}

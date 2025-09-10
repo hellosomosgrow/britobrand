@@ -46,16 +46,17 @@ const MainLayout = () => {
           <InfoSocials />
         </div>
 
+        {/* Instagram - Comentado temporalmente
         <div className="md:block hidden">
-          {/* Instagram - Comentado temporalmente
+          
           <InfoCard
             title="Instagram"
             subtitle="Free Wallpapers"
             content="Lorem ipsum dolor sit amet, consectetur sed do eiusmod tempor incididunt ut labore et dolore magna.."
             image={igimage}
           />
-          */}
-        </div>
+          
+        </div> */}
 
         {/* Render ProjectPreviewCard solo en desktop */}
         <div className="md:block hidden space-y-4">
@@ -163,10 +164,13 @@ const ProjectPreviewLargeCard = ({
     navigate(`/proyectos/${project.title}`);
   };
 
+  const isComingSoon =
+    project.type === 'Se viene algo nuevo' || project.title === 'GROW';
+
   return (
     <div
-      className="text-[#1E1E1E] rounded-lg cursor-pointer"
-      onClick={handleViewMore}
+      className={`text-[#1E1E1E] rounded-lg ${isComingSoon ? '' : 'cursor-pointer'}`}
+      onClick={isComingSoon ? undefined : handleViewMore}
     >
       <LazyImage
         src={project.image}

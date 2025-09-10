@@ -688,9 +688,15 @@ export const projectsLarge = [
   { title: 'CYCLING', image: covercycling, type: 'Identidad Visual' },
   { title: 'EMA MODELS', image: coveremamodels, type: 'Identidad Visual' },
   { title: 'PLATZ', image: coverplatz, type: 'Identidad Visual' },
-  { title: 'PINTALO PRO', image: coverpintaloPro, type: 'Identidad Visual' },
-  { title: 'BOTÁNICO', image: coverbotanico, type: 'Identidad Visual' },
   { title: 'LO INTERIOR', image: coverlointerior, type: 'Identidad Visual' },
+
+  { title: 'BOTÁNICO', image: coverbotanico, type: 'Identidad Visual' },
+  { title: 'PINTALO PRO', image: coverpintaloPro, type: 'Identidad Visual' },
+  {
+    title: 'GROW',
+    image: covergrow,
+    type: 'Identidad Visual',
+  },
 
   { title: 'FACTOR', image: coverfactor, type: 'Identidad Visual' },
 
@@ -711,11 +717,7 @@ export const projectsLarge = [
     image: coverminingSuppliesSolutions,
     type: 'Identidad Visual',
   },
-  {
-    title: 'GROW',
-    image: covergrow,
-    type: 'Identidad Visual',
-  },
+
   {
     title: 'PUMPA',
     image: covernuevoproyecto,

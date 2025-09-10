@@ -113,3 +113,21 @@ select.custom-select option:hover {
     left: 100%;
   }
 }
+
+/* Ocultar el badge de reCAPTCHA */
+.grecaptcha-badge {
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+/* Evitar subrayado automático de emails y teléfonos */
+.no-underline {
+  text-decoration: none !important;
+}
+
+/* Estilo específico para contenido de contacto */
+.contact-content {
+  text-decoration: none !important;
+  color: inherit !important;
+}

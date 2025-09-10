@@ -45,7 +45,7 @@ export const InfoCard = ({
           </button>
         ) : title === 'Experiencia' ? (
           <a
-            href="/cv.pdf"
+            href="/cv_felix_brito.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="text-sm font-light"
@@ -63,7 +63,7 @@ export const InfoCard = ({
       </div>
       {subtitle && <h3 className="font-medium text-[15px] mb-1">{subtitle}</h3>}
       <p
-        className={`text-[15px] font-light whitespace-pre-line ${
+        className={`text-[15px] font-light whitespace-pre-line no-underline contact-content ${
           !isExpanded ? 'line-clamp-2' : ''
         }`}
       >

@@ -17,7 +17,8 @@ const ProjectPreviewCard = ({
     navigate(`/proyectos/${project.title}`);
   };
 
-  const isComingSoon = project?.type === 'Se viene algo nuevo';
+  const isComingSoon =
+    project?.type === 'Se viene algo nuevo' || project?.title === 'GROW';
 
   return (
     <div
@@ -41,7 +42,7 @@ const ProjectPreviewCard = ({
         <img
           src={project.image}
           alt={project.title}
-          className="w-16 h-auto object-cover rounded-[10px]"
+          className="w-16 h-16 object-cover rounded-[10px]"
         />
         <div className="mb-2">
           <h3 className="text-[15px] font-semibold">{project.title}</h3>

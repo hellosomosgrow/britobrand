@@ -102,18 +102,23 @@ const ProjectDetail = () => {
             project={project}
           />
           <div className="flex flex-col space-y-2">
-            <button
-              onClick={handleNextProject}
-              className="w-full bg-black text-white text-[15px] font-light py-3  transition-transform hover:scale-[1.03] cursor-pointer"
-            >
-              Ver Siguiente Proyecto
-            </button>
-            <button
-              onClick={handlePrevProject}
-              className="w-full bg-[#767575] text-[15px] font-light text-white py-3 transition-transform hover:scale-[1.03] cursor-pointer"
-            >
-              Ir Atrás
-            </button>
+            <div className="rounded-[6px] overflow-hidden inline-block">
+              <button
+                onClick={handleNextProject}
+                className="w-full bg-black text-white text-[15px] font-light py-3 transition-transform duration-200 ease-in-out hover:scale-105"
+              >
+                Ver Siguiente Proyecto
+              </button>
+            </div>
+
+            <div className="rounded-[6px] overflow-hidden inline-block mt-2">
+              <button
+                onClick={handlePrevProject}
+                className="w-full bg-[#767575] text-[15px] font-light text-white py-3 transition-transform duration-200 ease-in-out hover:scale-105"
+              >
+                Ir Atrás
+              </button>
+            </div>
           </div>
         </div>
 
@@ -202,13 +207,13 @@ const ProjectDetail = () => {
         <div className="flex flex-col space-y-2">
           <button
             onClick={handleNextProject}
-            className="w-full bg-black text-white text-[15px] font-light py-3 transition-transform hover:scale-[1.03] duration-200  cursor-pointer"
+            className="w-full bg-black text-white text-[15px] rounded-[6px] font-light py-3 transition-transform duration-200 cursor-pointer hover-scale-preserve-radius"
           >
             Ver Siguiente Proyecto
           </button>
           <button
             onClick={handlePrevProject}
-            className="w-full bg-[#767575] text-[15px] font-light text-white py-3 transition-transform hover:scale-[1.03]  cursor-pointer mb-4"
+            className="w-full bg-[#767575] text-[15px] font-light rounded-[6px] text-white py-3 transition-transform cursor-pointer mb-4 hover-scale-preserve-radius"
           >
             Ir Atrás
           </button>

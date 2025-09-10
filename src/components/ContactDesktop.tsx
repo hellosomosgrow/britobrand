@@ -124,12 +124,11 @@ const ContactDesktop = () => {
         {/* Imagen y Formulario */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 items-stretch">
           {/* Imagen */}
-          <div className="w-full h-full">
+          <div className="w-full flex">
             <img
               src={imagecontact}
               alt="Contacto"
               className="w-full h-full object-cover rounded-[10px]"
-              style={{ width: '701px', height: '856px' }}
             />
           </div>
 

@@ -17,7 +17,7 @@ export interface EmailTemplateParams {
   budget: string;
   source: string;
   description: string;
-  marketing_consent: string;
+  marketing_consent?: string;
   recaptcha_token: string;
   timestamp: string;
 }
