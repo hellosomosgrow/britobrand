@@ -16,7 +16,7 @@ export const InfoProjects = ({
           <img
             src={project?.image}
             alt={project?.title}
-            className="w-16 h-auto object-cover rounded-[10px] text-[15px]"
+            className="w-16 h-16 object-cover rounded-[10px] text-[15px]"
           />
           <div className="mb-2">
             <h3 className="text-[15px] font-semibold">{project.title}</h3>

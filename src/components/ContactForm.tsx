@@ -91,7 +91,7 @@ interface FormData {
   budget: string;
   source: string;
   description: string;
-  marketingConsent: boolean;
+  // marketingConsent: boolean;
 }
 
 const ContactForm = () => {
@@ -247,7 +247,7 @@ const ContactForm = () => {
         budget: data.budget,
         source: data.source,
         description: data.description,
-        marketing_consent: data.marketingConsent ? 'Sí' : 'No',
+        // marketing_consent: data.marketingConsent ? 'Sí' : 'No',
         recaptcha_token: recaptchaToken,
         timestamp: new Date().toISOString(),
       };
@@ -278,7 +278,7 @@ const ContactForm = () => {
   const customSelects = [
     {
       name: 'service' as const,
-      placeholder: '¿Qué servicios buscas? *',
+      placeholder: '¿Qué servicios buscas?',
       options: [
         { label: 'Diseño de Logo', value: 'Diseño de Logo' },
         { label: 'Identidad Visual', value: 'Identidad Visual' },
@@ -289,7 +289,7 @@ const ContactForm = () => {
     },
     {
       name: 'estimatedTime' as const,
-      placeholder: 'Tiempo Estimado *',
+      placeholder: 'Tiempo Estimado',
       options: [
         { label: 'Para Ayer', value: 'Para Ayer' },
         { label: '1 mes', value: '1 mes' },
@@ -299,7 +299,7 @@ const ContactForm = () => {
     },
     {
       name: 'budget' as const,
-      placeholder: 'Presupuesto Estimado *',
+      placeholder: 'Presupuesto Estimado',
       options: [
         { label: 'Desde USD $500', value: '$500' },
         { label: 'USD $1500', value: '$1500' },
@@ -309,7 +309,7 @@ const ContactForm = () => {
     },
     {
       name: 'source' as const,
-      placeholder: '¿Cómo me encontraste? *',
+      placeholder: '¿Cómo me encontraste?',
       options: [
         { label: 'Instagram', value: 'Instagram' },
         { label: 'Recomendación', value: 'Recomendación' },
@@ -333,13 +333,13 @@ const ContactForm = () => {
         <input
           {...register('name', { required: 'El nombre es requerido' })}
           type="text"
-          placeholder="Nombre *"
+          placeholder="Nombre"
           className="w-full placeholder:text-sm placeholder:text-[#1E1E1E] pl-6 pr-10 py-3 !bg-white rounded-lg focus:outline-none"
           style={{ fontSize: '16px' }}
           autoComplete="off"
         />
-        <span className="absolute right-5 top-1/2 transform -translate-y-1/2 text-[#1E1E1E] text-xs">
-          *
+        <span className="absolute right-5 top-1/2 transform -translate-y-1/2 text-[#1E1E1E] text-xs font-bold">
+          •
         </span>
         {errors.name && (
           <span className="text-red-500 text-xs mt-1 block">
@@ -359,13 +359,13 @@ const ContactForm = () => {
             },
           })}
           type="email"
-          placeholder="Email *"
+          placeholder="Email"
           className="w-full pl-6 pr-10 py-3 !bg-white rounded-lg focus:outline-none placeholder:text-[#1E1E1E] placeholder:text-sm"
           style={{ fontSize: '16px' }}
           autoComplete="off"
         />
-        <span className="absolute right-5 top-1/2 transform -translate-y-1/2 text-[#1E1E1E] text-xs">
-          *
+        <span className="absolute right-5 top-1/2 transform -translate-y-1/2 text-[#1E1E1E] text-xs font-bold">
+          •
         </span>
         {errors.email && (
           <span className="text-red-500 text-xs mt-1 block">
@@ -381,13 +381,13 @@ const ContactForm = () => {
             required: 'El nombre de la empresa es requerido',
           })}
           type="text"
-          placeholder="Nombre de tu empresa o marca *"
+          placeholder="Nombre de tu empresa o marca"
           className="w-full pl-6 pr-10 py-3 !bg-white rounded-lg focus:outline-none placeholder:text-[#1E1E1E] placeholder:text-sm"
           style={{ fontSize: '16px' }}
           autoComplete="off"
         />
-        <span className="absolute right-5 top-1/2 transform -translate-y-1/2 text-[#1E1E1E] text-xs">
-          *
+        <span className="absolute right-5 top-1/2 transform -translate-y-1/2 text-[#1E1E1E] text-xs font-bold">
+          •
         </span>
         {errors.company && (
           <span className="text-red-500 text-xs mt-1 block">
@@ -423,13 +423,13 @@ const ContactForm = () => {
       {/* Describe tu proyecto */}
       <div className="bg-white rounded-lg p-3">
         <label className="block mb-2 text-sm text-[#1E1E1E]">
-          Describe tu proyecto *
+          Describe tu proyecto
         </label>
         <textarea
           {...register('description', {
             required: 'La descripción del proyecto es requerida',
           })}
-          placeholder="Escribe aquí... *"
+          placeholder="Escribe aquí..."
           className="w-full p-3 !bg-[#E9E9E9] rounded-md text-[#1E1E1E] placeholder:text-black placeholder:text-sm h-32 resize-none focus:outline-none"
           style={{ fontSize: '16px' }}
         />
@@ -441,7 +441,7 @@ const ContactForm = () => {
       </div>
 
       {/* Checkbox de consentimiento */}
-      <div className="flex items-start space-x-3 bg-white rounded-lg p-4">
+      {/* <div className="flex items-start space-x-3 bg-white rounded-lg p-4">
         <input
           {...register('marketingConsent')}
           type="checkbox"
@@ -457,7 +457,7 @@ const ContactForm = () => {
             proyectos, ofertas especiales y actualizaciones de Brito Brand.
           </span>
         </label>
-      </div>
+      </div> */}
 
       {/* Mensajes de estado */}
       {submitStatus === 'success' && (
@@ -492,29 +492,6 @@ const ContactForm = () => {
         >
           {isSubmitting ? 'Enviando...' : 'Enviar'}
         </button>
-      </div>
-
-      {/* Nota sobre reCAPTCHA */}
-      <div className="text-xs text-gray-500 text-center">
-        Este sitio está protegido por reCAPTCHA y se aplican la{' '}
-        <a
-          href="https://policies.google.com/privacy"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="underline hover:text-gray-700"
-        >
-          Política de Privacidad
-        </a>{' '}
-        y los{' '}
-        <a
-          href="https://policies.google.com/terms"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="underline hover:text-gray-700"
-        >
-          Términos de Servicio
-        </a>{' '}
-        de Google.
       </div>
     </form>
   );
