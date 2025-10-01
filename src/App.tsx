@@ -6,6 +6,7 @@ import {
   useLocation,
   useNavigate,
 } from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async';
 import './App.css';
 import Home from './views/Home';
 import Projects from './views/Projects';
@@ -162,19 +163,21 @@ const SwipeNavigationWrapper = ({
 
 function App() {
   return (
-    <Router>
-      <SwipeNavigationWrapper>
-        <div className="my-4 space-y-3 flex flex-col flex-grow px-3">
-          <Header />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/proyectos" element={<Projects />} />
-            <Route path="/proyectos/:projectId" element={<ProjectDetail />} />
-            <Route path="/contacto" element={<Contact />} />
-          </Routes>
-        </div>
-      </SwipeNavigationWrapper>
-    </Router>
+    <HelmetProvider>
+      <Router>
+        <SwipeNavigationWrapper>
+          <div className="my-4 space-y-3 flex flex-col flex-grow px-3">
+            <Header />
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/proyectos" element={<Projects />} />
+              <Route path="/proyectos/:projectId" element={<ProjectDetail />} />
+              <Route path="/contacto" element={<Contact />} />
+            </Routes>
+          </div>
+        </SwipeNavigationWrapper>
+      </Router>
+    </HelmetProvider>
   );
 }
 

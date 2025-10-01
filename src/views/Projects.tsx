@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 import ProjectsPreview from '../components/ProjectsPreview';
 
 const Projects = () => {
@@ -32,6 +33,21 @@ const Projects = () => {
 
   return (
     <div className="w-full mx-auto">
+      <Helmet>
+        <title>Portafolio de Branding e Identidad Visual</title>
+        <meta
+          name="description"
+          content="Proyectos de diseño gráfico, branding e identidad visual desarrollados para marcas en distintos sectores y mercados."
+        />
+        <meta
+          name="keywords"
+          content="portafolio, proyectos, branding, identidad visual, diseño gráfico, marcas, Félix Brito"
+        />
+      </Helmet>
+
+      {/* H1 oculto para SEO */}
+      <h1 className="sr-only">Proyectos de Branding y Dirección de Arte</h1>
+
       <ProjectsPreview columnsDesktop={4} />
     </div>
   );
